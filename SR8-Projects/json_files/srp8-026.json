@@ -1,0 +1,9 @@
+{
+  "project_id": "SRP8-026",
+  "project_name": "Pedals",
+  "primary_department": "Interior",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-31"
+  ]
+}

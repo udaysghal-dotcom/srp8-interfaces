@@ -1,0 +1,55 @@
+
+Project Assembly 
+
+Peripheral Assembly 
+
+Purpose 
+
+Battery Pack 
+
+BMS 
+
+Auxiliary Battery (SRP-017) 
+
+LV battery operating 48V will power LV devices primarily the BMS and IMD.  
+
+HV battery will charge LV battery via DC-DC converter 
+
+Battery Pack 
+
+DC-DC  
+
+Enables bi-directional charging between HV and LV battery 
+
+ 
+
+Battery Pack 
+
+Electronic Control System (SRP-018) 
+
+Responsible for safely distributing power to the vehicle  
+
+Houses HV protection circuitry such contactors, relays, HVIL and main BMU 
+
+Battery Pack  
+
+Thermal Management (SRP-094) 
+
+Responsible for cooling the battery to operate within safe temperatures 
+
+Uses ribbon cooling and coolant pumps 
+
+Battery Pack 
+
+Charging (SRP-021) 
+
+Enable direct charging to HV battery  
+
+BMS 
+
+Embedded Systems  
+
+Uploads BMS data to external UI 
+
+Connected to driver controls 
+

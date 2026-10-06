@@ -1,0 +1,55 @@
+
+Project  
+
+Description  
+
+Department  
+
+Exterior surfaces SRP-006 
+
+Door handles must be flush with exterior surfaces 
+
+CNB 
+
+Doors SRP-001 
+
+The door handle must fit on the door and will act as the user interface. 
+
+CNB 
+
+Occupant Cell SRP-065  
+
+Striker latch is located on the occupant cell. The door latches onto it.   
+
+CNB 
+
+Auxiliary Systems Logic SRP-092 
+
+Connections for latching, door ajar sensor and locking.  
+
+EMB 
+
+Body Panels SRP-122 
+
+The exterior door handles must match body panels  
+
+CNB 
+
+Central Locking SRP-111 
+
+Door locking should be implemented mechanically and electrically as part of the CLS. 
+
+EMB 
+
+Sunswift Phone App SRP-102 
+
+Control aspects of the doors like locking and unlatching remotely from an app. 
+
+TSS 
+
+Packaging SRP9-087 
+
+A full assembly of the car which includes all components that are going to be installed on the car.  
+
+CNB 
+

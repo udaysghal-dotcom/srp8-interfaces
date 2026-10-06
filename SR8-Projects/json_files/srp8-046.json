@@ -1,0 +1,10 @@
+{
+  "project_id": "SRP8-046",
+  "project_name": "Rear Brakes",
+  "primary_department": "Vehicle Dynamics",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-31",
+    "ADR-42"
+  ]
+}

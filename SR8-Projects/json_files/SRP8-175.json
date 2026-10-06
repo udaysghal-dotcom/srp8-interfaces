@@ -1,0 +1,14 @@
+{
+  "project_id": "SRP8-175",
+  "project_name": "Vehicle States Project",
+  "primary_department": "Embedded Systems",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-42",
+    "ADR-14",
+    "ADR-14",
+    "ADR-14",
+    "ADR-90",
+    "ADR-90"
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "project_id": "SRP8-132",
+  "project_name": "Infotainment",
+  "source_file": "SRP8-132-text.txt",
+  "text_sha256": "bc76cf5612456b4a2319fb628913b306c828a3adcbe6c387ab47302efc0c241e",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-061",
+      "code": "SRP8-061",
+      "text_before": "",
+      "text_after": "Telemetry / Embedded (vehicle feed",
+      "corrected_to": null,
+      "final": "SRP8-061"
+    },
+    {
+      "written": "SRP8-028",
+      "code": "SRP8-028",
+      "text_before": "",
+      "text_after": "Central Display panel (Interior",
+      "corrected_to": null,
+      "final": "SRP8-028"
+    },
+    {
+      "written": "SRP8-029",
+      "code": "SRP8-029",
+      "text_before": "",
+      "text_after": "Driver Display panel (Interior",
+      "corrected_to": null,
+      "final": "SRP8-029"
+    },
+    {
+      "written": "SRP8-055",
+      "code": "SRP8-055",
+      "text_before": "",
+      "text_after": "Sensors",
+      "corrected_to": "SRP8-059",
+      "final": "SRP8-059"
+    },
+    {
+      "written": "SRP8-175",
+      "code": "SRP8-175",
+      "text_before": "",
+      "text_after": "Vehicle States",
+      "corrected_to": null,
+      "final": "SRP8-175"
+    },
+    {
+      "written": "SRP8-101",
+      "code": "SRP8-101",
+      "text_before": "",
+      "text_after": "Trip Energy Prediction",
+      "corrected_to": null,
+      "final": "SRP8-101"
+    },
+    {
+      "written": "SRP8-011",
+      "code": "SRP8-011",
+      "text_before": "",
+      "text_after": "Lamps",
+      "corrected_to": null,
+      "final": "SRP8-011"
+    },
+    {
+      "written": "SRP8-011 / 012",
+      "code": "SRP8-012",
+      "text_before": "",
+      "text_after": "Lamps",
+      "corrected_to": null,
+      "final": "SRP8-012"
+    },
+    {
+      "written": "SRP8-011 / 012 / 013",
+      "code": "SRP8-013",
+      "text_before": "",
+      "text_after": "Lamps",
+      "corrected_to": null,
+      "final": "SRP8-013"
+    },
+    {
+      "written": "SRP8-022",
+      "code": "SRP8-022",
+      "text_before": "",
+      "text_after": "Steering Wheel PCB",
+      "corrected_to": null,
+      "final": "SRP8-022"
+    },
+    {
+      "written": "SRP8-034",
+      "code": "SRP8-034",
+      "text_before": "",
+      "text_after": "Front Seatbelts",
+      "corrected_to": null,
+      "final": "SRP8-034"
+    },
+    {
+      "written": "SRP8-039",
+      "code": "SRP8-039",
+      "text_before": "",
+      "text_after": "AVAS",
+      "corrected_to": null,
+      "final": "SRP8-039"
+    },
+    {
+      "written": "SRP8-024",
+      "code": "SRP8-024",
+      "text_before": "",
+      "text_after": "Cameras",
+      "corrected_to": null,
+      "final": "SRP8-024"
+    },
+    {
+      "written": "SRP8-024 / 025",
+      "code": "SRP8-025",
+      "text_before": "",
+      "text_after": "Cameras",
+      "corrected_to": null,
+      "final": "SRP8-025"
+    }
+  ],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-061",
+        "evidence": "SRP8-061 Telemetry / Embedded (vehicle feed)"
+      },
+      {
+        "code": "SRP8-028",
+        "evidence": "SRP8-028 Central Display panel (Interior)"
+      },
+      {
+        "code": "SRP8-029",
+        "evidence": "SRP8-029 Driver Display panel (Interior)"
+      },
+      {
+        "code": "SRP8-055",
+        "evidence": "SRP8-055 Sensors"
+      },
+      {
+        "code": "SRP8-175",
+        "evidence": "SRP8-175 Vehicle States"
+      },
+      {
+        "code": "SRP8-101",
+        "evidence": "SRP8-101 Trip Energy Prediction"
+      },
+      {
+        "code": "SRP8-011",
+        "evidence": "SRP8-011 / 012 / 013 Lamps"
+      },
+      {
+        "code": "SRP8-012",
+        "evidence": "SRP8-011 / 012 / 013 Lamps"
+      },
+      {
+        "code": "SRP8-013",
+        "evidence": "SRP8-011 / 012 / 013 Lamps"
+      },
+      {
+        "code": "SRP8-022",
+        "evidence": "SRP8-022 Steering Wheel PCB"
+      },
+      {
+        "code": "SRP8-034",
+        "evidence": "SRP8-034 Front Seatbelts"
+      },
+      {
+        "code": "SRP8-039",
+        "evidence": "SRP8-039 AVAS"
+      },
+      {
+        "code": "SRP8-024",
+        "evidence": "SRP8-024 / 025 Cameras"
+      },
+      {
+        "code": "SRP8-025",
+        "evidence": "SRP8-024 / 025 Cameras"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-011",
+      "via": "regex",
+      "evidence": "SRP8-011 / 012 / 013 Lamps"
+    },
+    {
+      "code": "SRP8-012",
+      "via": "regex",
+      "evidence": "SRP8-011 / 012 / 013 Lamps"
+    },
+    {
+      "code": "SRP8-013",
+      "via": "regex",
+      "evidence": "SRP8-011 / 012 / 013 Lamps"
+    },
+    {
+      "code": "SRP8-022",
+      "via": "regex",
+      "evidence": "SRP8-022 Steering Wheel PCB"
+    },
+    {
+      "code": "SRP8-024",
+      "via": "regex",
+      "evidence": "SRP8-024 / 025 Cameras"
+    },
+    {
+      "code": "SRP8-025",
+      "via": "regex",
+      "evidence": "SRP8-024 / 025 Cameras"
+    },
+    {
+      "code": "SRP8-028",
+      "via": "regex",
+      "evidence": "SRP8-028 Central Display panel (Interior)"
+    },
+    {
+      "code": "SRP8-029",
+      "via": "regex",
+      "evidence": "SRP8-029 Driver Display panel (Interior)"
+    },
+    {
+      "code": "SRP8-034",
+      "via": "regex",
+      "evidence": "SRP8-034 Front Seatbelts"
+    },
+    {
+      "code": "SRP8-039",
+      "via": "regex",
+      "evidence": "SRP8-039 AVAS"
+    },
+    {
+      "code": "SRP8-055",
+      "via": "name",
+      "evidence": "SRP8-055 Sensors"
+    },
+    {
+      "code": "SRP8-061",
+      "via": "regex",
+      "evidence": "SRP8-061 Telemetry / Embedded (vehicle feed)"
+    },
+    {
+      "code": "SRP8-101",
+      "via": "regex",
+      "evidence": "SRP8-101 Trip Energy Prediction"
+    },
+    {
+      "code": "SRP8-175",
+      "via": "regex",
+      "evidence": "SRP8-175 Vehicle States"
+    }
+  ],
+  "rejected_regex": [
+    "SRP8-059"
+  ],
+  "rejected_gemma": [],
+  "seconds": 65.9
+}

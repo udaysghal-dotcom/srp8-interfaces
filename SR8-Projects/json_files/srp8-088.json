@@ -1,0 +1,9 @@
+{
+  "project_id": "SRP8-088",
+  "project_name": "Front Uprights",
+  "primary_department": "Vehicle Dynamics",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-90"
+  ]
+}

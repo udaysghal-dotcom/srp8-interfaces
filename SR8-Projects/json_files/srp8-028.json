@@ -1,0 +1,10 @@
+{
+  "project_id": "SRP8-028",
+  "project_name": "Central Display",
+  "primary_department": "Interior",
+  "secondary_department": "Chassis & Bodywork",
+  "adrs": [
+    "ADR-42",
+    "ADR-21"
+  ]
+}

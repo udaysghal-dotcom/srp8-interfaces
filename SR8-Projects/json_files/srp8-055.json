@@ -1,0 +1,11 @@
+{
+  "project_id": "SRP8-055",
+  "project_name": "Unified Embedded Node",
+  "primary_department": "Embedded Systems",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-42",
+    "ADR-45",
+    "ADR-90"
+  ]
+}

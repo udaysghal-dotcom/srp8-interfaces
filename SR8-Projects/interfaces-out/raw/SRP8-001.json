@@ -1,0 +1,167 @@
+{
+  "project_id": "SRP8-001",
+  "project_name": "Doors",
+  "source_file": "srp8-001-text.txt",
+  "text_sha256": "18c592ce898275a3319ac04b2a95353042473e2b49f02a1d1107a330bc7cda18",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP-006",
+      "code": "SRP8-006",
+      "text_before": "Exterior surfaces",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-006"
+    },
+    {
+      "written": "SRP-002",
+      "code": "SRP8-002",
+      "text_before": "Door Handles",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-002"
+    },
+    {
+      "written": "SRP-065",
+      "code": "SRP8-065",
+      "text_before": "Occupant Cell",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-065"
+    },
+    {
+      "written": "SRP-092",
+      "code": "SRP8-092",
+      "text_before": "Auxillary Systems Logic",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-092"
+    },
+    {
+      "written": "SRP-112",
+      "code": "SRP8-112",
+      "text_before": "Electric Windows",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-112"
+    },
+    {
+      "written": "SRP-122",
+      "code": "SRP8-122",
+      "text_before": "Body Panels",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-122"
+    },
+    {
+      "written": "SRP-085",
+      "code": "SRP8-085",
+      "text_before": "Noise Vibration and Harshness",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-085"
+    },
+    {
+      "written": "SRP-111",
+      "code": "SRP8-111",
+      "text_before": "Central Locking",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-111"
+    },
+    {
+      "written": "SRP-102",
+      "code": "SRP8-102",
+      "text_before": "Sunswift Phone App",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-102"
+    },
+    {
+      "written": "SRP-084",
+      "code": "SRP8-084",
+      "text_before": "Audio",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-084"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-006",
+    "SRP8-102",
+    "SRP8-122"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-002",
+        "evidence": "Door Handles SRP-002"
+      },
+      {
+        "code": "SRP8-065",
+        "evidence": "Occupant Cell SRP-065"
+      },
+      {
+        "code": "SRP8-092",
+        "evidence": "Auxillary Systems Logic SRP-092"
+      },
+      {
+        "code": "SRP8-112",
+        "evidence": "Electric Windows SRP-112"
+      },
+      {
+        "code": "SRP8-085",
+        "evidence": "Noise Vibration and Harshness SRP-085"
+      },
+      {
+        "code": "SRP8-111",
+        "evidence": "Central Locking SRP-111"
+      },
+      {
+        "code": "SRP8-084",
+        "evidence": "Audio SRP-084"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-002",
+      "via": "regex",
+      "evidence": "Door Handles SRP-002"
+    },
+    {
+      "code": "SRP8-065",
+      "via": "regex",
+      "evidence": "Occupant Cell SRP-065"
+    },
+    {
+      "code": "SRP8-084",
+      "via": "regex",
+      "evidence": "Audio SRP-084"
+    },
+    {
+      "code": "SRP8-085",
+      "via": "regex",
+      "evidence": "Noise Vibration and Harshness SRP-085"
+    },
+    {
+      "code": "SRP8-092",
+      "via": "regex",
+      "evidence": "Auxillary Systems Logic SRP-092"
+    },
+    {
+      "code": "SRP8-111",
+      "via": "regex",
+      "evidence": "Central Locking SRP-111"
+    },
+    {
+      "code": "SRP8-112",
+      "via": "regex",
+      "evidence": "Electric Windows SRP-112"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 45.0
+}

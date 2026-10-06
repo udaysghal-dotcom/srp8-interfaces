@@ -1,0 +1,11 @@
+{
+  "project_id": "SRP8-112",
+  "project_name": "Electric Windows",
+  "primary_department": "Chassis & Bodywork",
+  "secondary_department": "Embedded Systems",
+  "adrs": [
+    "ADR-42",
+    "ADR-08",
+    "ADR-21"
+  ]
+}

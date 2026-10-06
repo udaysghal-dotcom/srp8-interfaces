@@ -1,0 +1,51 @@
+
+Assembly 
+
+Requirement 
+
+Type 
+
+BATTERY MODULES  
+
+1 - 9 
+
+Main battery voltage is routed through the rest of SR8 through the ECS, and we rely on the BMS selection and battery design parameters to design the ECS. 
+
+8 
+
+MPPTs 
+
+We are dependent upon MPPT parameters in designing the protections, number of inputs, and distribution of power from the MPPTs. 
+
+Input 
+
+Hydrogen 
+
+We are dependent upon Hydrogen's electrical parameters for the design of the protections and distribution of power from Hydrogen. 
+
+Input 
+
+UEN 
+
+We are dependent upon the design of the UEN as it may be either modified or used as the main microcontroller that controls switching and logic within the ECS and hence controls power distribution in conjunction with the BMS. 
+
+Control 
+
+AUX Battery 
+
+The aux battery will power the LV systems of SR8 through the ECS. We depend on Aux parameters in order to determine protection, control, and the need for a pre-charge on this input. 
+
+Input 
+
+Charging 
+
+Charging will be routed through the ECS and controlled by contactors which may be controlled by the UEN and through communications with the chargers and the BMS. 
+
+Input 
+
+Vehicle States 
+
+ECS is dependent on vehicle states project as it determines our switching logic and control sequences. 
+
+Control 
+

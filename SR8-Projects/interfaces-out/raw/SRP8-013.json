@@ -1,0 +1,81 @@
+{
+  "project_id": "SRP8-013",
+  "project_name": "Indicators",
+  "source_file": "srp8-013-text.txt",
+  "text_sha256": "061dae90d1c396ca0f74c5d613e780413cd403c6d66be0bcab1799760f70865f",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-011",
+      "code": "SRP8-011",
+      "text_before": "",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-011"
+    },
+    {
+      "written": "SRP8-012",
+      "code": "SRP8-012",
+      "text_before": "",
+      "text_after": "PCB’s shared with side indicators (one per side of both headlights and taillight",
+      "corrected_to": null,
+      "final": "SRP8-012"
+    },
+    {
+      "written": "SRP8-022",
+      "code": "SRP8-022",
+      "text_before": "",
+      "text_after": "Steering wheel size to determine where the indicators can go",
+      "corrected_to": null,
+      "final": "SRP8-022"
+    },
+    {
+      "written": "SRP8-006",
+      "code": "SRP8-006",
+      "text_before": "",
+      "text_after": "SRP8",
+      "corrected_to": null,
+      "final": "SRP8-006"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-006"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-011",
+        "evidence": "Headlights and Taillights"
+      },
+      {
+        "code": "SRP8-012",
+        "evidence": "Headlights and Taillights"
+      },
+      {
+        "code": "SRP8-022",
+        "evidence": "Steering wheel"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-011",
+      "via": "regex",
+      "evidence": "Headlights and Taillights"
+    },
+    {
+      "code": "SRP8-012",
+      "via": "regex",
+      "evidence": "Headlights and Taillights"
+    },
+    {
+      "code": "SRP8-022",
+      "via": "regex",
+      "evidence": "Steering wheel"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 22.0
+}

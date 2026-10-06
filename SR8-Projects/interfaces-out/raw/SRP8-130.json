@@ -1,0 +1,664 @@
+{
+  "project_id": "SRP8-130",
+  "project_name": "Embedded High Level Software Archictecture",
+  "source_file": "SRP8-130-text.txt",
+  "text_sha256": "8c31ff909bf39d128b1eb8a0e5ffa8731e47e49d3ffe701fa1bcc3c458c4fe6a",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-177",
+      "code": "SRP8-177",
+      "text_before": "",
+      "text_after": "Active Suspension Control",
+      "corrected_to": null,
+      "final": "SRP8-177"
+    },
+    {
+      "written": "SRP8-124",
+      "code": "SRP8-124",
+      "text_before": "",
+      "text_after": "Hydrogen Energy System",
+      "corrected_to": null,
+      "final": "SRP8-124"
+    },
+    {
+      "written": "SRP8-179",
+      "code": "SRP8-179",
+      "text_before": "",
+      "text_after": " Airflow and Venting",
+      "corrected_to": null,
+      "final": "SRP8-179"
+    },
+    {
+      "written": "SRP8-083",
+      "code": "SRP8-083",
+      "text_before": "",
+      "text_after": "Active Aero",
+      "corrected_to": null,
+      "final": "SRP8-083"
+    },
+    {
+      "written": "SRP8-002",
+      "code": "SRP8-002",
+      "text_before": "",
+      "text_after": "Door Handles",
+      "corrected_to": null,
+      "final": "SRP8-002"
+    },
+    {
+      "written": "SRP8-004",
+      "code": "SRP8-004",
+      "text_before": "",
+      "text_after": "Boot",
+      "corrected_to": null,
+      "final": "SRP8-004"
+    },
+    {
+      "written": "SRP8-005",
+      "code": "SRP8-005",
+      "text_before": "",
+      "text_after": "Bonnet",
+      "corrected_to": null,
+      "final": "SRP8-005"
+    },
+    {
+      "written": "SRP8-012",
+      "code": "SRP8-012",
+      "text_before": "",
+      "text_after": "Headlights",
+      "corrected_to": null,
+      "final": "SRP8-012"
+    },
+    {
+      "written": "SRP8-011",
+      "code": "SRP8-011",
+      "text_before": "",
+      "text_after": "Taillights",
+      "corrected_to": null,
+      "final": "SRP8-011"
+    },
+    {
+      "written": "SRP8-013",
+      "code": "SRP8-013",
+      "text_before": "",
+      "text_after": "Indicators",
+      "corrected_to": null,
+      "final": "SRP8-013"
+    },
+    {
+      "written": "SRP8-001",
+      "code": "SRP8-001",
+      "text_before": "",
+      "text_after": "Doors",
+      "corrected_to": null,
+      "final": "SRP8-001"
+    },
+    {
+      "written": "SRP8-014",
+      "code": "SRP8-014",
+      "text_before": "",
+      "text_after": "Regen Braking",
+      "corrected_to": null,
+      "final": "SRP8-014"
+    },
+    {
+      "written": "SRP8-015",
+      "code": "SRP8-015",
+      "text_before": "",
+      "text_after": "Cruise Control",
+      "corrected_to": null,
+      "final": "SRP8-015"
+    },
+    {
+      "written": "SRP8-022",
+      "code": "SRP8-022",
+      "text_before": "",
+      "text_after": "Steering Wheel",
+      "corrected_to": null,
+      "final": "SRP8-022"
+    },
+    {
+      "written": "SRP8-026",
+      "code": "SRP8-026",
+      "text_before": "",
+      "text_after": "Pedals",
+      "corrected_to": null,
+      "final": "SRP8-026"
+    },
+    {
+      "written": "SRP8-025",
+      "code": "SRP8-025",
+      "text_before": "",
+      "text_after": "Interior Lights",
+      "corrected_to": "SRP8-023",
+      "final": "SRP8-023"
+    },
+    {
+      "written": "SRP8-024",
+      "code": "SRP8-024",
+      "text_before": "",
+      "text_after": "Rear Vision System",
+      "corrected_to": null,
+      "final": "SRP8-024"
+    },
+    {
+      "written": "SRP8-025",
+      "code": "SRP8-025",
+      "text_before": "",
+      "text_after": "Side Vision System",
+      "corrected_to": null,
+      "final": "SRP8-025"
+    },
+    {
+      "written": "SRP8-038",
+      "code": "SRP8-038",
+      "text_before": "",
+      "text_after": "Motors",
+      "corrected_to": null,
+      "final": "SRP8-038"
+    },
+    {
+      "written": "SRP8-058",
+      "code": "SRP8-058",
+      "text_before": "",
+      "text_after": "Drive Control Systems",
+      "corrected_to": null,
+      "final": "SRP8-058"
+    },
+    {
+      "written": "SRP8-055",
+      "code": "SRP8-055",
+      "text_before": "",
+      "text_after": "Internal Embedded Network",
+      "corrected_to": null,
+      "final": "SRP8-055"
+    },
+    {
+      "written": "SRP8-060",
+      "code": "SRP8-060",
+      "text_before": "",
+      "text_after": "FMS",
+      "corrected_to": null,
+      "final": "SRP8-060"
+    },
+    {
+      "written": "SRP8-061",
+      "code": "SRP8-061",
+      "text_before": "",
+      "text_after": "Telemetry",
+      "corrected_to": null,
+      "final": "SRP8-061"
+    },
+    {
+      "written": "SRP8-059",
+      "code": "SRP8-059",
+      "text_before": "",
+      "text_after": "Sensors",
+      "corrected_to": null,
+      "final": "SRP8-059"
+    },
+    {
+      "written": "SRP8-084",
+      "code": "SRP8-084",
+      "text_before": "",
+      "text_after": "Audio",
+      "corrected_to": null,
+      "final": "SRP8-084"
+    },
+    {
+      "written": "SRP8-099",
+      "code": "SRP8-099",
+      "text_before": "",
+      "text_after": "Traction Control",
+      "corrected_to": null,
+      "final": "SRP8-099"
+    },
+    {
+      "written": "SRP8-111",
+      "code": "SRP8-111",
+      "text_before": "",
+      "text_after": "Central Locking",
+      "corrected_to": null,
+      "final": "SRP8-111"
+    },
+    {
+      "written": "SRP8-112",
+      "code": "SRP8-112",
+      "text_before": "",
+      "text_after": "Electric Windows",
+      "corrected_to": null,
+      "final": "SRP8-112"
+    },
+    {
+      "written": "SRP8-115",
+      "code": "SRP8-115",
+      "text_before": "",
+      "text_after": "Tyre Pressure Monitoring",
+      "corrected_to": null,
+      "final": "SRP8-115"
+    },
+    {
+      "written": "SRP8-128",
+      "code": "SRP8-128",
+      "text_before": "",
+      "text_after": "ABS Brakes",
+      "corrected_to": null,
+      "final": "SRP8-128"
+    },
+    {
+      "written": "SRP8-132",
+      "code": "SRP8-132",
+      "text_before": "",
+      "text_after": "Infotainment",
+      "corrected_to": null,
+      "final": "SRP8-132"
+    },
+    {
+      "written": "SRP8-095",
+      "code": "SRP8-095",
+      "text_before": "",
+      "text_after": "Blind Spot Monitoring",
+      "corrected_to": null,
+      "final": "SRP8-095"
+    },
+    {
+      "written": "SRP8-096",
+      "code": "SRP8-096",
+      "text_before": "",
+      "text_after": "Park Assist",
+      "corrected_to": null,
+      "final": "SRP8-096"
+    },
+    {
+      "written": "SRP8-102",
+      "code": "SRP8-102",
+      "text_before": "",
+      "text_after": "Phone App",
+      "corrected_to": null,
+      "final": "SRP8-102"
+    },
+    {
+      "written": "SRP8-155",
+      "code": "SRP8-155",
+      "text_before": "",
+      "text_after": "Autonomous Driving",
+      "corrected_to": null,
+      "final": "SRP8-155"
+    },
+    {
+      "written": "SRP8-062",
+      "code": "SRP8-062",
+      "text_before": "",
+      "text_after": "ADAS",
+      "corrected_to": null,
+      "final": "SRP8-062"
+    },
+    {
+      "written": "SRP8-140",
+      "code": "SRP8-140",
+      "text_before": "",
+      "text_after": "Lane Keep",
+      "corrected_to": null,
+      "final": "SRP8-140"
+    },
+    {
+      "written": "SRP8-018",
+      "code": "SRP8-018",
+      "text_before": "",
+      "text_after": "Energy Control System",
+      "corrected_to": null,
+      "final": "SRP8-018"
+    },
+    {
+      "written": "SRP8-019",
+      "code": "SRP8-019",
+      "text_before": "",
+      "text_after": "MPPT",
+      "corrected_to": null,
+      "final": "SRP8-019"
+    },
+    {
+      "written": "SRP8-047",
+      "code": "SRP8-047",
+      "text_before": "",
+      "text_after": "Handbrake",
+      "corrected_to": null,
+      "final": "SRP8-047"
+    },
+    {
+      "written": "SRP8-029",
+      "code": "SRP8-029",
+      "text_before": "",
+      "text_after": "Driver Display",
+      "corrected_to": null,
+      "final": "SRP8-029"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-015",
+    "SRP8-060",
+    "SRP8-062",
+    "SRP8-095",
+    "SRP8-096",
+    "SRP8-102",
+    "SRP8-140",
+    "SRP8-155",
+    "SRP8-177"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-124",
+        "evidence": "SRP8-124 Hydrogen Energy System"
+      },
+      {
+        "code": "SRP8-179",
+        "evidence": "SRP8-179 Airflow and Venting"
+      },
+      {
+        "code": "SRP8-083",
+        "evidence": "SRP8-083 Active Aero"
+      },
+      {
+        "code": "SRP8-094",
+        "evidence": "Thermal Management System"
+      },
+      {
+        "code": "SRP8-093",
+        "evidence": "Thermal Management System"
+      },
+      {
+        "code": "SRP8-002",
+        "evidence": "SRP8-002 Door Handles"
+      },
+      {
+        "code": "SRP8-004",
+        "evidence": "SRP8-004 Boot"
+      },
+      {
+        "code": "SRP8-005",
+        "evidence": "SRP8-005 Bonnet"
+      },
+      {
+        "code": "SRP8-012",
+        "evidence": "SRP8-012 Headlights"
+      },
+      {
+        "code": "SRP8-011",
+        "evidence": "SRP8-011 Taillights"
+      },
+      {
+        "code": "SRP8-013",
+        "evidence": "SRP8-013 Indicators"
+      },
+      {
+        "code": "SRP8-001",
+        "evidence": "SRP8-001 Doors"
+      },
+      {
+        "code": "SRP8-014",
+        "evidence": "SRP8-014 Regen Braking"
+      },
+      {
+        "code": "SRP8-022",
+        "evidence": "SRP8-022 Steering Wheel"
+      },
+      {
+        "code": "SRP8-026",
+        "evidence": "SRP8-026 Pedals"
+      },
+      {
+        "code": "SRP8-023",
+        "evidence": "SRP8-025 Interior Lights"
+      },
+      {
+        "code": "SRP8-024",
+        "evidence": "SRP8-024 Rear Vision System"
+      },
+      {
+        "code": "SRP8-025",
+        "evidence": "SRP8-025 Side Vision System"
+      },
+      {
+        "code": "SRP8-038",
+        "evidence": "SRP8-038 Motors"
+      },
+      {
+        "code": "SRP8-058",
+        "evidence": "SRP8-058 Drive Control Systems"
+      },
+      {
+        "code": "SRP8-055",
+        "evidence": "SRP8-055 Internal Embedded Network"
+      },
+      {
+        "code": "SRP8-061",
+        "evidence": "SRP8-061 Telemetry"
+      },
+      {
+        "code": "SRP8-059",
+        "evidence": "SRP8-059 Sensors"
+      },
+      {
+        "code": "SRP8-084",
+        "evidence": "SRP8-084 Audio"
+      },
+      {
+        "code": "SRP8-099",
+        "evidence": "SRP8-099 Traction Control"
+      },
+      {
+        "code": "SRP8-111",
+        "evidence": "SRP8-111 Central Locking"
+      },
+      {
+        "code": "SRP8-112",
+        "evidence": "SRP8-112 Electric Windows"
+      },
+      {
+        "code": "SRP8-115",
+        "evidence": "SRP8-115 Tyre Pressure Monitoring"
+      },
+      {
+        "code": "SRP8-128",
+        "evidence": "SRP8-128 ABS Brakes"
+      },
+      {
+        "code": "SRP8-132",
+        "evidence": "SRP8-132 Infotainment"
+      },
+      {
+        "code": "SRP8-018",
+        "evidence": "SRP8-018 Energy Control System"
+      },
+      {
+        "code": "SRP8-019",
+        "evidence": "SRP8-019 MPPT"
+      },
+      {
+        "code": "SRP8-047",
+        "evidence": "SRP8-047 Handbrake"
+      },
+      {
+        "code": "SRP8-029",
+        "evidence": "SRP8-029 Driver Display"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-001",
+      "via": "regex",
+      "evidence": "SRP8-001 Doors"
+    },
+    {
+      "code": "SRP8-002",
+      "via": "regex",
+      "evidence": "SRP8-002 Door Handles"
+    },
+    {
+      "code": "SRP8-004",
+      "via": "regex",
+      "evidence": "SRP8-004 Boot"
+    },
+    {
+      "code": "SRP8-005",
+      "via": "regex",
+      "evidence": "SRP8-005 Bonnet"
+    },
+    {
+      "code": "SRP8-011",
+      "via": "regex",
+      "evidence": "SRP8-011 Taillights"
+    },
+    {
+      "code": "SRP8-012",
+      "via": "regex",
+      "evidence": "SRP8-012 Headlights"
+    },
+    {
+      "code": "SRP8-013",
+      "via": "regex",
+      "evidence": "SRP8-013 Indicators"
+    },
+    {
+      "code": "SRP8-014",
+      "via": "regex",
+      "evidence": "SRP8-014 Regen Braking"
+    },
+    {
+      "code": "SRP8-018",
+      "via": "regex",
+      "evidence": "SRP8-018 Energy Control System"
+    },
+    {
+      "code": "SRP8-019",
+      "via": "regex",
+      "evidence": "SRP8-019 MPPT"
+    },
+    {
+      "code": "SRP8-022",
+      "via": "regex",
+      "evidence": "SRP8-022 Steering Wheel"
+    },
+    {
+      "code": "SRP8-023",
+      "via": "regex",
+      "evidence": "SRP8-025 Interior Lights"
+    },
+    {
+      "code": "SRP8-024",
+      "via": "regex",
+      "evidence": "SRP8-024 Rear Vision System"
+    },
+    {
+      "code": "SRP8-025",
+      "via": "regex",
+      "evidence": "SRP8-025 Side Vision System"
+    },
+    {
+      "code": "SRP8-026",
+      "via": "regex",
+      "evidence": "SRP8-026 Pedals"
+    },
+    {
+      "code": "SRP8-029",
+      "via": "regex",
+      "evidence": "SRP8-029 Driver Display"
+    },
+    {
+      "code": "SRP8-038",
+      "via": "regex",
+      "evidence": "SRP8-038 Motors"
+    },
+    {
+      "code": "SRP8-047",
+      "via": "regex",
+      "evidence": "SRP8-047 Handbrake"
+    },
+    {
+      "code": "SRP8-055",
+      "via": "regex",
+      "evidence": "SRP8-055 Internal Embedded Network"
+    },
+    {
+      "code": "SRP8-058",
+      "via": "regex",
+      "evidence": "SRP8-058 Drive Control Systems"
+    },
+    {
+      "code": "SRP8-059",
+      "via": "regex",
+      "evidence": "SRP8-059 Sensors"
+    },
+    {
+      "code": "SRP8-061",
+      "via": "regex",
+      "evidence": "SRP8-061 Telemetry"
+    },
+    {
+      "code": "SRP8-083",
+      "via": "regex",
+      "evidence": "SRP8-083 Active Aero"
+    },
+    {
+      "code": "SRP8-084",
+      "via": "regex",
+      "evidence": "SRP8-084 Audio"
+    },
+    {
+      "code": "SRP8-093",
+      "via": "name",
+      "evidence": "Thermal Management System"
+    },
+    {
+      "code": "SRP8-094",
+      "via": "name",
+      "evidence": "Thermal Management System"
+    },
+    {
+      "code": "SRP8-099",
+      "via": "regex",
+      "evidence": "SRP8-099 Traction Control"
+    },
+    {
+      "code": "SRP8-111",
+      "via": "regex",
+      "evidence": "SRP8-111 Central Locking"
+    },
+    {
+      "code": "SRP8-112",
+      "via": "regex",
+      "evidence": "SRP8-112 Electric Windows"
+    },
+    {
+      "code": "SRP8-115",
+      "via": "regex",
+      "evidence": "SRP8-115 Tyre Pressure Monitoring"
+    },
+    {
+      "code": "SRP8-124",
+      "via": "regex",
+      "evidence": "SRP8-124 Hydrogen Energy System"
+    },
+    {
+      "code": "SRP8-128",
+      "via": "regex",
+      "evidence": "SRP8-128 ABS Brakes"
+    },
+    {
+      "code": "SRP8-132",
+      "via": "regex",
+      "evidence": "SRP8-132 Infotainment"
+    },
+    {
+      "code": "SRP8-179",
+      "via": "regex",
+      "evidence": "SRP8-179 Airflow and Venting"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 128.5
+}

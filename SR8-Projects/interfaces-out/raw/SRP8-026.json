@@ -1,0 +1,156 @@
+{
+  "project_id": "SRP8-026",
+  "project_name": "Pedals",
+  "source_file": "srp8-026-text.txt",
+  "text_sha256": "30d7ad7c5afb4f7274a1685b2bd84b322322174e0fc38f2f03a0571aab72e397",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-011",
+      "code": "SRP8-011",
+      "text_before": "",
+      "text_after": "Taillights",
+      "corrected_to": null,
+      "final": "SRP8-011"
+    },
+    {
+      "written": "SRP8-014",
+      "code": "SRP8-014",
+      "text_before": "",
+      "text_after": "Regen Braking",
+      "corrected_to": null,
+      "final": "SRP8-014"
+    },
+    {
+      "written": "SRP8-017",
+      "code": "SRP8-017",
+      "text_before": "",
+      "text_after": "Auxiliary Battery",
+      "corrected_to": null,
+      "final": "SRP8-017"
+    },
+    {
+      "written": "SRP8-032",
+      "code": "SRP8-032",
+      "text_before": "",
+      "text_after": "Front Seats",
+      "corrected_to": null,
+      "final": "SRP8-032"
+    },
+    {
+      "written": "SRP8-038",
+      "code": "SRP8-038",
+      "text_before": "",
+      "text_after": "Motors",
+      "corrected_to": null,
+      "final": "SRP8-038"
+    },
+    {
+      "written": "SRP8-045",
+      "code": "SRP8-045",
+      "text_before": "",
+      "text_after": "Front Brakes",
+      "corrected_to": null,
+      "final": "SRP8-045"
+    },
+    {
+      "written": "SRP8-046",
+      "code": "SRP8-046",
+      "text_before": "",
+      "text_after": "Rear Brakes",
+      "corrected_to": null,
+      "final": "SRP8-046"
+    },
+    {
+      "written": "SRP8-065",
+      "code": "SRP8-065",
+      "text_before": "",
+      "text_after": "Occupant Cell",
+      "corrected_to": null,
+      "final": "SRP8-065"
+    }
+  ],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-011",
+        "evidence": "Brake lights must activate when BP is depressed"
+      },
+      {
+        "code": "SRP8-014",
+        "evidence": "Regen braking may be engaged when BP is depressed"
+      },
+      {
+        "code": "SRP8-017",
+        "evidence": "Pedal DAQ and TPPS draw power from auxiliary battery"
+      },
+      {
+        "code": "SRP8-032",
+        "evidence": "Seat position affects drivers’ pedal reach"
+      },
+      {
+        "code": "SRP8-038",
+        "evidence": "A depressed TP drives motor output via driver-by-wire"
+      },
+      {
+        "code": "SRP8-045",
+        "evidence": "A depressed BP engages the front brakes via MC"
+      },
+      {
+        "code": "SRP8-046",
+        "evidence": "A depressed BP engages the rear brakes via MC"
+      },
+      {
+        "code": "SRP8-065",
+        "evidence": "The pedals need to be mounted securely in the footwell"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-011",
+      "via": "regex",
+      "evidence": "Brake lights must activate when BP is depressed"
+    },
+    {
+      "code": "SRP8-014",
+      "via": "regex",
+      "evidence": "Regen braking may be engaged when BP is depressed"
+    },
+    {
+      "code": "SRP8-017",
+      "via": "regex",
+      "evidence": "Pedal DAQ and TPPS draw power from auxiliary battery"
+    },
+    {
+      "code": "SRP8-032",
+      "via": "regex",
+      "evidence": "Seat position affects drivers’ pedal reach"
+    },
+    {
+      "code": "SRP8-038",
+      "via": "regex",
+      "evidence": "A depressed TP drives motor output via driver-by-wire"
+    },
+    {
+      "code": "SRP8-045",
+      "via": "regex",
+      "evidence": "A depressed BP engages the front brakes via MC"
+    },
+    {
+      "code": "SRP8-046",
+      "via": "regex",
+      "evidence": "A depressed BP engages the rear brakes via MC"
+    },
+    {
+      "code": "SRP8-065",
+      "via": "regex",
+      "evidence": "The pedals need to be mounted securely in the footwell"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 39.1
+}

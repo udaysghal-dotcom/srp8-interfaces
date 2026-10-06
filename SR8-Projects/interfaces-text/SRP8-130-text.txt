@@ -1,0 +1,262 @@
+
+Project Number/Name 
+
+DEPT. 
+
+Requirements 
+
+ 
+
+SRP8-177 - Active Suspension Control 
+
+EMB 
+
+The high-level codebase shall be in charge of running the control logic and algorithms for the active suspension dampers. It will be in charge of calculating the required forces in each corner of the car based on sensor values and then providing this information to each damper.  
+
+SRP8-124 Hydrogen Energy System 
+
+AE 
+
+The high-level codebase shall receive and interpret data from sensors within the hydrogen system for maintaining operation condition of fuel cell (flow rate of gas and coolant) and display condition of fuel cell to occupants. 
+
+SRP8-179 Airflow and Venting  
+
+AE 
+
+The high-level codebase shall receive data from hydrogen sensors around the cabin and compartment to be able to give warning when hydrogen level exceeds safety limits (4%) 
+
+SRP8-083 Active Aero 
+
+C&B 
+
+Motor controller + closed loop control CAN node implementation 
+
+Thermal Management System 
+
+C&B 
+
+Controller for thermal management and air conditioning. High level codebase (main computer) will send temperature targets for air conditioning, while also forwarding diagnostic data to telemetry.   
+
+ 
+
+SRP8-002 Door Handles	 
+
+C&B 
+
+Sensors/Microcontroller for detecting lock/unlock with gesture. Main computer will be connected to door locks as well  
+
+SRP8-004 Boot 
+
+C&B 
+
+High level codebase will relay to appropriate systems whether the bonnet or the boot is open 
+
+SRP8-005 Bonnet 
+
+C&B 
+
+High level codebase will relay to appropriate systems whether the bonnet or the boot is open 
+
+SRP8-012 Headlights 
+
+C&B 
+
+High level codebase shall receive inputs from the steering wheel or appropriate sensors, and control the function of headlamps (high beams, low beam, DRL) 
+
+SRP8-011 Taillights 
+
+C&B 
+
+High level codebase shall receive inputs from the steering wheel or appropriate sensors, and control the function of tail lamps (brake light and night light) 
+
+SRP8-013 Indicators 
+
+C&B 
+
+High level codebase shall receive inputs from steering wheel and control the function of indicators (run control logic such as timer for indicators, etc). 
+
+SRP8-001 Doors 
+
+C&B 
+
+High level codebase be able to control the locking and unlocking of locks, and window 
+
+SRP8-014 Regen Braking 
+
+EMB 
+
+The high-level codebase will fully house and implement the regenerative braking control system, receiving inputs to enable/disable the system from the steering wheel paddles, and be able to send negative torque requests to the motors 
+
+SRP8-015 Cruise Control 
+
+EMB 
+
+The high-level codebase will fully house and implement the cruise control logic, receiving inputs from the steering wheel on whether to enable/disable this system. 
+
+SRP8-022 Steering Wheel 
+
+INT 
+
+The high-level codebase shall receive inputs from the steering wheel and relay these inputs to activate other control systems found in the high-level embedded control system. The high-level codebase shall also implement logic for power steering if necessary  
+
+SRP8-026 Pedals 
+
+INT 
+
+The high-level codebase shall receive inputs from the accelerator and brake pedal sensors found within the pedal box and drive the motors/stop the car. The high-level codebase shall also house the control logic for utilising the IBSE9 brake boosters during braking.  
+
+SRP8-025 Interior Lights 
+
+INT 
+
+The high-level codebase shall be able to send commands to the interior lights/toggle PCBs when the doors are opened, or when specified as necessary. The high-level codebase shall control the logic for ambient lighting, while ADR necessary interior lights shall be controlled by the board itself for redundancy purposes.  
+
+SRP8-024 Rear Vision System 
+
+INT 
+
+The high-level codebase shall filter and process raw video feed coming from the rear vision system and forward this to a display found on the car 
+
+SRP8-025 Side Vision System 
+
+INT 
+
+The high-level codebase shall filter and process raw video feed coming from the side vision system and forward this to a display found on the car 
+
+SRP8-038 Motors 
+
+PWT 
+
+High level codebase shall interface with the motor controller unit, translating pedal input to actionable torque request that is to be sent to the motors.  
+
+SRP8-058 Drive Control Systems 
+
+EMB 
+
+High level codebase shall fully implement all drive control systems, including previously mentioned motor drivers, stability control, torque vectoring, and traction control.  
+
+SRP8-055 Internal Embedded Network 
+
+EMB 
+
+High level codebase shall send actionable signals via CAN to appropriate controllers via Internal Embedded Network Wiring. 
+
+SRP8-060 FMS 
+
+EMB 
+
+High level codebase shall implement FMS control loop, utilising facial recognition methods to determine driver awareness.  
+
+SRP8-061 Telemetry 
+
+TSS 
+
+High level codebase shall forward all possible sensor data to telemetry via IoTCore or other IoT bridge library for the telemetry stack. 
+
+SRP8-059 Sensors 
+
+EMB 
+
+High level codebase shall receive sensor data, process this sensor data, and then forward it to required control systems to function properly.  
+
+SRP8-084 Audio 
+
+EMB 
+
+High level codebase shall conduct DSP and output this filtered signal through to speakers found throughout the car 
+
+SRP8-099 Traction Control 
+
+EMB 
+
+High level codebase shall implement traction control, by taking IMU data found in the rear two wheels to measure wheel slip and cut power to a hub motor where applicable to maintain tyre traction at all times on the vehicle.  
+
+SRP8-111 Central Locking 
+
+EMB 
+
+High level codebase shall implement central locking, by unifying the door control boards in a slave-master architecture  
+
+SRP8-112 Electric Windows 
+
+C&B  
+
+High level codebase shall be able to implement centralised window regulation, while also being able to operate the window regulator on the door control module.  
+
+SRP8-115 Tyre Pressure Monitoring 
+
+VD 
+
+High level codebase shall be able to receive data from the type of pressure monitoring sensors, relay data to telemetry and be able to disable/enable certain systems in response to signals sent via the tyre pressure monitoring system.  
+
+SRP8-128 ABS Brakes 
+
+EMB 
+
+High level codebase shall control the main control logic for ABS brakes via the IBSE9 brake booster, sending a brake signal which in turn will activate ABS if necessary.  
+
+SRP8-132 Infotainment 
+
+TSS 
+
+High level embedded network shall provide processing power for the infotainment via the main computer and be able to send necessary sensor data to the front end if needed. 
+
+SRP8-095 Blind Spot Monitoring 
+
+EMB 
+
+High level embedded network shall implement the blind spot monitoring system, taking sensor data and using a computer vision model to determine if an object is in the car’s blind spot, and send a resulting warning to the driver. 
+
+SRP8-096 Park Assist 
+
+EMB 
+
+High level embedded network shall implement the park assist system, fusing rear view parking camera data with rear ultrasonic sensors to provide an accurate estimate of distance the car’s rear is from an object.  
+
+SRP8-102 Phone App 
+
+TSS 
+
+High level embedded network shall be able to receive signals from the phone app and act accordingly, such as sending signals to precondition the main battery, preheat the cabin, etc.  
+
+SRP8-155 Autonomous Driving 
+
+EMB 
+
+High level network shall implement the autonomous driving suite, being able to reach level 4 of ADAS.   
+
+SRP8-062 ADAS 
+
+EMB 
+
+High level network shall implement all subcomponents of the ADAS system, creating an initial level 2 SAE autonomous vehicle system within SR8.  
+
+SRP8-140 Lane Keep 
+
+EMB 
+
+The high-level network shall fully implement the lane keep system, being able to steer the vehicle to the curvature of the road when the car is in adaptive cruise control mode, while being able to receive data from LiDAR, Radar, Ultrasonic and Depth Cameras found throughout the car.  
+
+SRP8-018 Energy Control System 
+
+ENS 
+
+High level network shall be able to receive ECS data and forward it SR8’s telemetry suite.  
+
+SRP8-019 MPPT 
+
+ENS 
+
+High Level network shall be able to receive MPPT data and forward it to SR8’s telemetry suite. 
+
+SRP8-047 Handbrake 
+
+VD 
+
+High level network will forward handbrake sensor signal to driver display 
+
+SRP8-029 Driver Display 
+
+INT 
+
+High level network will send processed data such as motor RPMs, vehicle speed, and other required data to driver display 

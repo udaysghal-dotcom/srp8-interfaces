@@ -1,0 +1,7 @@
+SRP8-001 – Doors: the electric window mechanism must interface with the door card and door shell for regulator mounting, electronic control, and packaging purposes.  
+
+SRP8-002 – Door Handles: the door handles will occupy space inside the door alongside the electric window mechanism. 
+
+SRP8-006 – Exterior Design: the design of the windows must align with the exterior design of the car, which has been finalised at the time of writing. 
+
+SRP8-107 – Interior Layout: wiring routing to the interior window button is not technically within the scope of this project, as the wiring would go to the door control unit, but it’s included here anyway.  

@@ -1,0 +1,12 @@
+{
+  "project_id": "SRP8-001",
+  "project_name": "Doors",
+  "primary_department": "Chassis & Bodywork",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-02",
+    "ADR-29",
+    "ADR-93",
+    "ADR-92"
+  ]
+}

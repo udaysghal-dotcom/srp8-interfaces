@@ -1,0 +1,64 @@
+{
+  "project_id": "SRP8-093",
+  "project_name": "Air Conditioning",
+  "source_file": "srp8-093-text.txt",
+  "text_sha256": "cc6b9d63fb17d470319ab96cceba1dcbcf4c141a22618f6d39b2de47c7eb39b5",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-094",
+        "evidence": "Thermal management"
+      },
+      {
+        "code": "SRP8-037",
+        "evidence": "Dashboard"
+      },
+      {
+        "code": "SRP8-010",
+        "evidence": "Ventilation"
+      },
+      {
+        "code": "SRP8-059",
+        "evidence": "Sensors – Main Loop"
+      },
+      {
+        "code": "SRP8-065",
+        "evidence": "Occupant Cell"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-010",
+      "via": "name",
+      "evidence": "Ventilation"
+    },
+    {
+      "code": "SRP8-037",
+      "via": "name",
+      "evidence": "Dashboard"
+    },
+    {
+      "code": "SRP8-059",
+      "via": "name",
+      "evidence": "Sensors – Main Loop"
+    },
+    {
+      "code": "SRP8-065",
+      "via": "name",
+      "evidence": "Occupant Cell"
+    },
+    {
+      "code": "SRP8-094",
+      "via": "name",
+      "evidence": "Thermal management"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 26.5
+}

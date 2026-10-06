@@ -1,0 +1,178 @@
+
+Interface number 
+
+Project code 
+
+Project name / description 
+
+Description of interface  
+
+Project lead 
+
+Systems liaison 
+
+Requirements (be specific, provide quantitative information) 
+
+1 
+
+SRP8-037 
+
+Dashboard 
+
+The driver display may be attached or integrated into the dashboard. 
+
+Yaheng Li 
+
+Chris Winkle 
+
+Effectively positioned on dashboard for optimal driver accessibility and use. 
+
+2 
+
+SRP-028 
+
+Central Display 
+
+The information on the driver display will be relayed from the central display. 
+
+Haojie Wang 
+
+Manan Rathi 
+
+Effectively integrated with central display to share and show the same data. 
+
+3 
+
+SRP-060 
+
+FMS 
+
+FMS will need to be connected to driver display to display real time alerts and warnings for fatigue. 
+
+Hank Liu 
+
+Vaishnavi Nanda Kumar 
+
+Accurately display real time data regarding driver fatigue. 
+
+Display required warnings if driver fatigue is detected.  
+
+4 
+
+SRP8-062 
+
+ 
+
+ADAS 
+ 
+
+Driver display will show status or alerts from the driver assistance systems. 
+
+Hank Liu 
+
+Vaishnavi Nanda Kumar 
+
+Accurately display real time data, status and alerts regarding ADAS systems. 
+
+Ability to control ADAS? 
+
+5 
+
+SRP8-059 
+
+Sensors 
+
+Sensor data will be displayed on driver display for vehicle systems data and alerts. 
+
+Hank Liu 
+
+Vaishnavi Nanda Kumar 
+
+Accurately integrate and display real time data or alerts from relevant sensors. 
+
+6 
+
+SRP8-095 
+
+Blind Spot Monitoring 
+
+Alerts on driver display if vehicle is in blind spot. 
+
+Hank Liu 
+
+Vaishnavi Nanda Kumar 
+
+Accurately displays real time alerts or lights for vehicles in blind spot. 
+
+7 
+
+SRP8-015 
+
+Cruise Control 
+
+Cruise control settings and status to be displayed on driver display. 
+
+Callum Berry 
+
+Manan 
+Rathi 
+
+Accurately displays real time data, status and alerts for cruise control. 
+
+Allows driver to control the cruise control system? 
+
+8 
+
+SRP8-108 
+
+HMI 
+
+Interface for interacting with the driver display system. 
+
+Jeremy Traini 
+
+Shourya Saklecha 
+
+ 
+
+9 
+
+SRP8-055 
+
+Internal Embedded Network 
+
+Facilitates communication between various vehicle systems to show information on the driver display. 
+
+Alex KV, Tanmeet Sachdeva 
+
+Vaishnavi Nanda Kumar 
+
+ 
+
+ 
+
+11 
+
+SRP8-016 
+
+Battery 
+
+Driver display could show battery charge status and range estimates. 
+
+Wilson Lee 
+
+Shourya Saklecha 
+
+Accurately displays real time data and alerts for battery systems. 
+
+12 
+
+SRP8-121 
+
+Cybersecurity 
+
+Protects the driver display system and associated data from unauthorized access and tampering. 
+
+TBC 
+
+Manan Rathi 

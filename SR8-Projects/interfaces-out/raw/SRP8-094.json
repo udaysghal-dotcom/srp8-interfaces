@@ -1,0 +1,132 @@
+{
+  "project_id": "SRP8-094",
+  "project_name": "Thermal management",
+  "source_file": "srp8-094-text.txt",
+  "text_sha256": "6ed168ad11d3a7d8f385b579db80f979b7b5912803a0784cd5232b89d22b1e7d",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP-083",
+      "code": "SRP8-083",
+      "text_before": "",
+      "text_after": "Active Aerodynamics",
+      "corrected_to": null,
+      "final": "SRP8-083"
+    },
+    {
+      "written": "SRP-065",
+      "code": "SRP8-065",
+      "text_before": "",
+      "text_after": "Occupant Cell",
+      "corrected_to": null,
+      "final": "SRP8-065"
+    },
+    {
+      "written": "SRP-038",
+      "code": "SRP8-038",
+      "text_before": "",
+      "text_after": "Motors",
+      "corrected_to": null,
+      "final": "SRP8-038"
+    },
+    {
+      "written": "SRP-016",
+      "code": "SRP8-016",
+      "text_before": "",
+      "text_after": "Battery",
+      "corrected_to": null,
+      "final": "SRP8-016"
+    },
+    {
+      "written": "SRP-039",
+      "code": "SRP8-039",
+      "text_before": "",
+      "text_after": "Powertrain Electronics",
+      "corrected_to": null,
+      "final": "SRP8-039"
+    },
+    {
+      "written": "SRP-010",
+      "code": "SRP8-010",
+      "text_before": "",
+      "text_after": "Ventilation",
+      "corrected_to": null,
+      "final": "SRP8-010"
+    },
+    {
+      "written": "SRP-006",
+      "code": "SRP8-006",
+      "text_before": "",
+      "text_after": "Exterior Design",
+      "corrected_to": null,
+      "final": "SRP8-006"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-006"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-083",
+        "evidence": "SRP-083 – Active Aerodynamics"
+      },
+      {
+        "code": "SRP8-065",
+        "evidence": "SRP-065 – Occupant Cell"
+      },
+      {
+        "code": "SRP8-038",
+        "evidence": "SRP-038 – Motors"
+      },
+      {
+        "code": "SRP8-016",
+        "evidence": "SRP-016 – Battery"
+      },
+      {
+        "code": "SRP8-039",
+        "evidence": "SRP-039 – Powertrain Electronics"
+      },
+      {
+        "code": "SRP8-010",
+        "evidence": "SRP-010 – Ventilation"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-010",
+      "via": "regex",
+      "evidence": "SRP-010 – Ventilation"
+    },
+    {
+      "code": "SRP8-016",
+      "via": "regex",
+      "evidence": "SRP-016 – Battery"
+    },
+    {
+      "code": "SRP8-038",
+      "via": "regex",
+      "evidence": "SRP-038 – Motors"
+    },
+    {
+      "code": "SRP8-039",
+      "via": "regex",
+      "evidence": "SRP-039 – Powertrain Electronics"
+    },
+    {
+      "code": "SRP8-065",
+      "via": "regex",
+      "evidence": "SRP-065 – Occupant Cell"
+    },
+    {
+      "code": "SRP8-083",
+      "via": "regex",
+      "evidence": "SRP-083 – Active Aerodynamics"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 32.6
+}

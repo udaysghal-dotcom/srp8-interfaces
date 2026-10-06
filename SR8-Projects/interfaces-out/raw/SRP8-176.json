@@ -1,0 +1,14 @@
+{
+  "project_id": "SRP8-176",
+  "project_name": "Rear Crash Structures",
+  "source_file": "SRP8-176-text.txt",
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "prompt_version": "1",
+  "model": null,
+  "candidates": [],
+  "unknown_dropped": [],
+  "gemma_raw": null,
+  "accepted": [],
+  "rejected_regex": [],
+  "rejected_gemma": []
+}

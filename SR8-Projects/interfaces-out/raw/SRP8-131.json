@@ -1,0 +1,45 @@
+{
+  "project_id": "SRP8-131",
+  "project_name": "Hydrogen Pressure Vessel",
+  "source_file": "SRP8-131-text.txt",
+  "text_sha256": "95dd0db9758aa367f24f20e73b7e19981175b304c82f78f71f3bb9cd5ed82f05",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-124",
+      "code": "SRP8-124",
+      "text_before": "",
+      "text_after": "Hydrogen System",
+      "corrected_to": null,
+      "final": "SRP8-124"
+    },
+    {
+      "written": "SRP8-124",
+      "code": "SRP8-124",
+      "text_before": "nks as well as the pipping designs should match exactly to the requirement of in",
+      "text_after": "Hydrogen System. More information can be found on the ALT Master Interface Requi",
+      "corrected_to": null,
+      "final": "SRP8-124"
+    }
+  ],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-124",
+        "evidence": "requirement of in SRP8-124 Hydrogen System"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-124",
+      "via": "regex",
+      "evidence": "requirement of in SRP8-124 Hydrogen System"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 16.6
+}

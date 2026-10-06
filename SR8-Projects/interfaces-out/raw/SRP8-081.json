@@ -1,0 +1,14 @@
+{
+  "project_id": "SRP8-081",
+  "project_name": "Subframes",
+  "source_file": "srp8-081-text.txt",
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "prompt_version": "1",
+  "model": null,
+  "candidates": [],
+  "unknown_dropped": [],
+  "gemma_raw": null,
+  "accepted": [],
+  "rejected_regex": [],
+  "rejected_gemma": []
+}

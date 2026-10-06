@@ -1,0 +1,37 @@
+{
+  "project_id": "SRP8-179",
+  "project_name": "Hydrogen Airflow and Venting",
+  "source_file": "SRP8-179-text.txt",
+  "text_sha256": "715129e692bcfe8156abd66bd8d8dfa585d731e7397367a32a54cf9e71b55ac0",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-124",
+      "code": "SRP8-124",
+      "text_before": "",
+      "text_after": "Hydrogen System",
+      "corrected_to": null,
+      "final": "SRP8-124"
+    }
+  ],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-124",
+        "evidence": "SRP8-124 Hydrogen System"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-124",
+      "via": "regex",
+      "evidence": "SRP8-124 Hydrogen System"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 14.9
+}

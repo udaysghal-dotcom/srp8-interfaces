@@ -1,0 +1,12 @@
+{
+  "project_id": "SRP8-032",
+  "project_name": "Front Seats",
+  "primary_department": "Interior",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-03",
+    "ADR-21",
+    "ADR-42",
+    "ADR-42"
+  ]
+}

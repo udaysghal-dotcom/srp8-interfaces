@@ -1,0 +1,12 @@
+{
+  "project_id": "SRP8-011",
+  "project_name": "Tailights",
+  "primary_department": "Embedded Systems",
+  "secondary_department": "Chassis & Bodywork",
+  "adrs": [
+    "ADR-13",
+    "ADR-01",
+    "ADR-49",
+    "ADR-48"
+  ]
+}

@@ -1,0 +1,9 @@
+2.3.1 Project/System Interfaces 
+
+Project interfaces are with SRP8-065 Occupant Cell for mounting of the hinge .  
+
+The Bonnet Solar Panel (SRP8-020) that is bonded to the bonnet where there needs to be a bond surface, holes for the junction box and the solar sensor. These are also seen in 2.1.1 Normal Operation.  
+
+There needs to be space in the front support structure (SRP8-067 Front Clam Shell, SRP8-066 Front Crash Structures) to mount the physical latch where the striker is on the bonnet, which will be directly under the striker.  
+
+Sealing to the front support structure, this is again not a problem as there is a large surface around the bonnet that allows for this to occur. 

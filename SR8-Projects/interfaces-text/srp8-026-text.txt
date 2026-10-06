@@ -1,0 +1,55 @@
+2.3.1 Project/System Interfaces 
+
+Project ID 
+
+Project Name 
+
+Description 
+
+SRP8-011 
+
+Taillights 
+
+Brake lights must activate when BP is depressed 
+
+SRP8-014 
+
+Regen Braking 
+
+Regen braking may be engaged when BP is depressed 
+
+SRP8-017 
+
+Auxiliary Battery 
+
+Pedal DAQ and TPPS draw power from auxiliary battery 
+
+SRP8-032 
+
+Front Seats 
+
+Seat position affects drivers’ pedal reach 
+
+SRP8-038 
+
+Motors 
+
+A depressed TP drives motor output via driver-by-wire 
+
+SRP8-045 
+
+Front Brakes 
+
+A depressed BP engages the front brakes via MC 
+
+SRP8-046 
+
+Rear Brakes 
+
+A depressed BP engages the rear brakes via MC 
+
+SRP8-065 
+
+Occupant Cell 
+
+The pedals need to be mounted securely in the footwell 

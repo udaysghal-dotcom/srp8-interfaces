@@ -1,0 +1,91 @@
+{
+  "project_id": "SRP8-032",
+  "project_name": "Front Seats",
+  "source_file": "srp8-032-text.txt",
+  "text_sha256": "ce0ee2c910108a203c8f9bffcc1b53d7ee9412babe00988db65cbe923f0cd76a",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-036",
+      "code": "SRP8-036",
+      "text_before": "is connection. A more detailed overview of this mounting is to be covered in the",
+      "text_after": "detailed design report",
+      "corrected_to": null,
+      "final": "SRP8-036"
+    }
+  ],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-036",
+        "evidence": "covered in the SRP8-036 detailed design report."
+      },
+      {
+        "code": "SRP8-034",
+        "evidence": "While the seatbelts do not directly interface with the seats"
+      },
+      {
+        "code": "SRP8-026",
+        "evidence": "This is covered in the pedals and seat mount"
+      },
+      {
+        "code": "SRP8-022",
+        "evidence": "The driver side seat indirectly interfaces with the steering wheel."
+      },
+      {
+        "code": "SRP8-190",
+        "evidence": "placed on the dashboard and centre console."
+      },
+      {
+        "code": "SRP8-037",
+        "evidence": "placed on the dashboard and centre console."
+      },
+      {
+        "code": "SRP8-002",
+        "evidence": "occupants can access their respective door card controls."
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-002",
+      "via": "name",
+      "evidence": "occupants can access their respective door card controls."
+    },
+    {
+      "code": "SRP8-022",
+      "via": "name",
+      "evidence": "The driver side seat indirectly interfaces with the steering wheel."
+    },
+    {
+      "code": "SRP8-026",
+      "via": "name",
+      "evidence": "This is covered in the pedals and seat mount"
+    },
+    {
+      "code": "SRP8-034",
+      "via": "name",
+      "evidence": "While the seatbelts do not directly interface with the seats"
+    },
+    {
+      "code": "SRP8-036",
+      "via": "regex",
+      "evidence": "covered in the SRP8-036 detailed design report."
+    },
+    {
+      "code": "SRP8-037",
+      "via": "name",
+      "evidence": "placed on the dashboard and centre console."
+    },
+    {
+      "code": "SRP8-190",
+      "via": "name",
+      "evidence": "placed on the dashboard and centre console."
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 34.0
+}

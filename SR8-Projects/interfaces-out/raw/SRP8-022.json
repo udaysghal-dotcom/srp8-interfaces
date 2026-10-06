@@ -1,0 +1,286 @@
+{
+  "project_id": "SRP8-022",
+  "project_name": "Steering Wheel",
+  "source_file": "srp8-022-text.txt",
+  "text_sha256": "d3d99e55b91221792931d28a5921c5299d124d0f6179ee13899feafe92a3c912",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-011",
+      "code": "SRP8-011",
+      "text_before": "",
+      "text_after": "Tailights",
+      "corrected_to": null,
+      "final": "SRP8-011"
+    },
+    {
+      "written": "SRP8-012",
+      "code": "SRP8-012",
+      "text_before": "",
+      "text_after": "Headlights",
+      "corrected_to": null,
+      "final": "SRP8-012"
+    },
+    {
+      "written": "SRP8-013",
+      "code": "SRP8-013",
+      "text_before": "",
+      "text_after": "Indicators",
+      "corrected_to": null,
+      "final": "SRP8-013"
+    },
+    {
+      "written": "SRP8-014",
+      "code": "SRP8-014",
+      "text_before": "",
+      "text_after": "Regen Braking",
+      "corrected_to": null,
+      "final": "SRP8-014"
+    },
+    {
+      "written": "SRP8-015",
+      "code": "SRP8-015",
+      "text_before": "",
+      "text_after": "Cruise Control",
+      "corrected_to": null,
+      "final": "SRP8-015"
+    },
+    {
+      "written": "SRP8-017",
+      "code": "SRP8-017",
+      "text_before": "",
+      "text_after": "Auxillary Power Distribution",
+      "corrected_to": null,
+      "final": "SRP8-017"
+    },
+    {
+      "written": "SRP8-026",
+      "code": "SRP8-026",
+      "text_before": "",
+      "text_after": "Pedals",
+      "corrected_to": null,
+      "final": "SRP8-026"
+    },
+    {
+      "written": "SRP8-029",
+      "code": "SRP8-029",
+      "text_before": "",
+      "text_after": "Driver Display",
+      "corrected_to": null,
+      "final": "SRP8-029"
+    },
+    {
+      "written": "SRP8-032",
+      "code": "SRP8-032",
+      "text_before": "",
+      "text_after": "Front Seats",
+      "corrected_to": null,
+      "final": "SRP8-032"
+    },
+    {
+      "written": "SRP8-037",
+      "code": "SRP8-037",
+      "text_before": "",
+      "text_after": "Dashboard",
+      "corrected_to": null,
+      "final": "SRP8-037"
+    },
+    {
+      "written": "SRP8-048",
+      "code": "SRP8-048",
+      "text_before": "",
+      "text_after": "Steering Column",
+      "corrected_to": null,
+      "final": "SRP8-048"
+    },
+    {
+      "written": "SRP8-049",
+      "code": "SRP8-049",
+      "text_before": "",
+      "text_after": "Steering Rack",
+      "corrected_to": null,
+      "final": "SRP8-049"
+    },
+    {
+      "written": "SRP8-057",
+      "code": "SRP8-057",
+      "text_before": "",
+      "text_after": "Horn",
+      "corrected_to": null,
+      "final": "SRP8-057"
+    },
+    {
+      "written": "SRP8-082",
+      "code": "SRP8-082",
+      "text_before": "",
+      "text_after": "Windscreen Wipers",
+      "corrected_to": null,
+      "final": "SRP8-082"
+    },
+    {
+      "written": "SRP8-084",
+      "code": "SRP8-084",
+      "text_before": "",
+      "text_after": "Audio",
+      "corrected_to": null,
+      "final": "SRP8-084"
+    },
+    {
+      "written": "SRP8-098",
+      "code": "SRP8-098",
+      "text_before": "",
+      "text_after": "Automated Parking",
+      "corrected_to": null,
+      "final": "SRP8-098"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-015",
+    "SRP8-098"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-011",
+        "evidence": "SRP8-011\n\nTailights"
+      },
+      {
+        "code": "SRP8-012",
+        "evidence": "SRP8-012\n\nHeadlights"
+      },
+      {
+        "code": "SRP8-013",
+        "evidence": "SRP8-013\n\nIndicators"
+      },
+      {
+        "code": "SRP8-014",
+        "evidence": "SRP8-014\n\nRegen Braking"
+      },
+      {
+        "code": "SRP8-017",
+        "evidence": "SRP8-017\n\nAuxillary Power Distribution"
+      },
+      {
+        "code": "SRP8-026",
+        "evidence": "SRP8-026\n\nPedals"
+      },
+      {
+        "code": "SRP8-029",
+        "evidence": "SRP8-029\n\nDriver Display"
+      },
+      {
+        "code": "SRP8-032",
+        "evidence": "SRP8-032\n\nFront Seats"
+      },
+      {
+        "code": "SRP8-037",
+        "evidence": "SRP8-037\n\nDashboard"
+      },
+      {
+        "code": "SRP8-048",
+        "evidence": "SRP8-048\n\nSteering Column"
+      },
+      {
+        "code": "SRP8-049",
+        "evidence": "SRP8-049\n\nSteering Rack"
+      },
+      {
+        "code": "SRP8-057",
+        "evidence": "SRP8-057\n\nHorn"
+      },
+      {
+        "code": "SRP8-082",
+        "evidence": "SRP8-082\n\nWindscreen Wipers"
+      },
+      {
+        "code": "SRP8-084",
+        "evidence": "SRP8-084\n\nAudio"
+      },
+      {
+        "code": "SRP8-065",
+        "evidence": "065\n\nOccupant cell"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-011",
+      "via": "regex",
+      "evidence": "SRP8-011\n\nTailights"
+    },
+    {
+      "code": "SRP8-012",
+      "via": "regex",
+      "evidence": "SRP8-012\n\nHeadlights"
+    },
+    {
+      "code": "SRP8-013",
+      "via": "regex",
+      "evidence": "SRP8-013\n\nIndicators"
+    },
+    {
+      "code": "SRP8-014",
+      "via": "regex",
+      "evidence": "SRP8-014\n\nRegen Braking"
+    },
+    {
+      "code": "SRP8-017",
+      "via": "regex",
+      "evidence": "SRP8-017\n\nAuxillary Power Distribution"
+    },
+    {
+      "code": "SRP8-026",
+      "via": "regex",
+      "evidence": "SRP8-026\n\nPedals"
+    },
+    {
+      "code": "SRP8-029",
+      "via": "regex",
+      "evidence": "SRP8-029\n\nDriver Display"
+    },
+    {
+      "code": "SRP8-032",
+      "via": "regex",
+      "evidence": "SRP8-032\n\nFront Seats"
+    },
+    {
+      "code": "SRP8-037",
+      "via": "regex",
+      "evidence": "SRP8-037\n\nDashboard"
+    },
+    {
+      "code": "SRP8-048",
+      "via": "regex",
+      "evidence": "SRP8-048\n\nSteering Column"
+    },
+    {
+      "code": "SRP8-049",
+      "via": "regex",
+      "evidence": "SRP8-049\n\nSteering Rack"
+    },
+    {
+      "code": "SRP8-057",
+      "via": "regex",
+      "evidence": "SRP8-057\n\nHorn"
+    },
+    {
+      "code": "SRP8-065",
+      "via": "name",
+      "evidence": "065\n\nOccupant cell"
+    },
+    {
+      "code": "SRP8-082",
+      "via": "regex",
+      "evidence": "SRP8-082\n\nWindscreen Wipers"
+    },
+    {
+      "code": "SRP8-084",
+      "via": "regex",
+      "evidence": "SRP8-084\n\nAudio"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 69.7
+}

@@ -1,0 +1,64 @@
+{
+  "project_id": "SRP8-003",
+  "project_name": "Windscreen",
+  "source_file": "srp8-003-text.txt",
+  "text_sha256": "d6dc43b7a640e35a833030a7e85f13ae61ca37c24eb906aeb446b14fef9e5259",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP-065",
+      "code": "SRP8-065",
+      "text_before": "",
+      "text_after": "Occupant Cell",
+      "corrected_to": null,
+      "final": "SRP8-065"
+    },
+    {
+      "written": "SRP-082",
+      "code": "SRP8-082",
+      "text_before": "",
+      "text_after": "Windscreen Wipers",
+      "corrected_to": null,
+      "final": "SRP8-082"
+    },
+    {
+      "written": "SRP-122",
+      "code": "SRP8-122",
+      "text_before": "",
+      "text_after": "Body Panels",
+      "corrected_to": null,
+      "final": "SRP8-122"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-122"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-065",
+        "evidence": "SRP-065 Occupant Cell,"
+      },
+      {
+        "code": "SRP8-082",
+        "evidence": "SRP-082 Windscreen Wipers,"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-065",
+      "via": "regex",
+      "evidence": "SRP-065 Occupant Cell,"
+    },
+    {
+      "code": "SRP8-082",
+      "via": "regex",
+      "evidence": "SRP-082 Windscreen Wipers,"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 29.0
+}

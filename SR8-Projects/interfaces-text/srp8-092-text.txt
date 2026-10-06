@@ -1,0 +1,337 @@
+
+Interface number 
+
+Project code 
+
+Project name 
+
+Description 
+
+Project lead 
+
+Systems liaison 
+
+Requirements (be specific, provide quantitative information) 
+
+1 
+
+SRP8-111 
+
+Door Locking 
+
+Control locking of doors with push of a button or with keys. 
+
+Aditya Bansal 
+
+Indiana Brown 
+
+When a signal is received from the interior button or from the receiver for the keys, all four doors will lock/unlock, and the headlights will flash.  
+
+ 
+
+This meets the technical requirement of operation of locks from within and outside the vehicle. 
+
+2 
+
+SRP8-011 
+
+Taillights  
+
+Control taillights to turn on automatically. 
+
+ 
+
+Vinson Cai, Lachie Mackenzie 
+
+Manan Rathi 
+
+To meet the technical requirements of turning on automatically, when the ambient light sensor reads a value below the threshold of 50 Lux, the taillights will be turned on.  
+
+ 
+
+This threshold value is not outlined by the ADR’s but is an example of a typical industry standard. 
+
+3 
+
+SRP8-012 
+
+Headlights 
+
+Control headlights to turn on automatically. 
+
+ 
+
+Lachie Mackenzie, Hamish Hunter 
+
+Manan Rathi 
+
+To meet the technical requirements of turning on automatically, when the ambient light sensor reads a value below the threshold of 50 Lux, the taillights will be turned on.  
+
+ 
+
+This threshold value is not outlined by the ADR’s but is an example of a typical industry standard. 
+
+4 
+
+SRP8-013 
+
+Indicators  
+
+Control left, right or both indicators to turn on upon instruction from driver. 
+
+ 
+
+Trisha Chari, Lachie Mackenzie 
+
+Manan Rathi 
+
+Relevant indicator/s must turn on upon instruction from driver. 
+
+ 
+
+According to ADR 13/00, the following requirements must also be met: 
+
+Flashing frequency between 60 and 120 times per minute 
+
+Synchronized with all indicators on relevant side of car 
+
+5 
+
+SRP8-014 
+
+Regen Braking  
+
+Control operation of regen braking. 
+
+James Wainwright 
+
+Shourya Saklecha 
+
+When instructed by the driver, regenerative braking is turned on and off. 
+
+ 
+
+No relevant ADRs for software. 
+
+6 
+
+SRP8-015 
+
+Cruise Control 
+
+Control operation of cruise control. 
+
+ 
+
+Callum Berry, Jacob Rawung 
+
+Manan Rathi 
+
+When instructed from the driver, cruise control is turned on and off. 
+
+ 
+
+No relevant ADRs for software. 
+
+7 
+
+SRP8-024 
+
+Rear Vision System  
+
+Feed visual data from the camera to the display. 
+
+ 
+
+Martina Antonia Casagrande 
+
+Shourya Saklecha 
+
+Feed must be always displayed to the driver.  
+
+8 
+
+SRP8-025 
+
+Side Vision System 
+
+Feed visual data from the camera to the display. 
+
+ 
+
+Martina Antonia Casagrande 
+
+Shourya Saklecha 
+
+Feed must be always displayed to the driver. 
+
+ 
+
+9 
+
+SRP8-028 
+
+Central Display  
+
+TBC 
+
+ 
+
+TBC 
+
+Manan Rathi 
+
+TBC 
+
+10 
+
+SRP8-029 
+
+Driver Display 
+
+TBC 
+
+TBC 
+
+Manan Rathi 
+
+TBC 
+
+11 
+
+SRP8-057 
+
+Horn 
+
+Control operation of horn. 
+
+ 
+
+Sebastian Moore 
+
+Vaishnavi Nanda Kumar 
+
+When instructed by the driver, the horn is on.  
+
+ 
+
+Security requirements from ADR 42/04 and 42/05 indicate that when the security system is alerted of unauthorized access, the horn is to be activated. 
+
+12 
+
+SRP8-060 
+
+Fatigue Monitoring System 
+
+Control the operations of the system, providing alerts to the driver when excessive fatigue is detected. 
+
+Hank Liu 
+
+Vaishnavi Nanda Kumar 
+
+The system shall relay data from its sensors on the CAN Bus to the central computer. It will then process this data and detect early signs of fatigue before warning the driver. 
+
+ 
+
+ There are no relevant ADRs. 
+
+14 
+
+SRP8-063 
+
+In Car Radio 
+
+Control operation of radio. 
+
+ 
+
+TBC 
+
+Manan Rathi 
+
+When instructed by the driver, the radio is turned on and off. In addition, volume and frequency control is available. 
+
+ 
+
+No relevant ADRs for software. 
+
+15 
+
+SRP8-093 
+
+Air Conditioning 
+
+Control operation of air conditioning. 
+
+ 
+
+Ayush Joshi 
+
+Diresh Roshan 
+
+When instructed by the driver, air conditioner is turned on and off.  
+
+The temperature and rate of air can also be increased and decreased. 
+
+ 
+
+No relevant ADRs for software. 
+
+16 
+
+SRP8-084 
+
+Audio 
+
+Control operation of audio. 
+
+Sebastian Williams 
+
+Naveen Thayyil 
+
+Volume of audio to be controlled by driver. 
+
+ 
+
+Driver to be able to give instructions verbally.  
+
+17 
+
+SRP8-095 
+
+Blind Spot Monitoring 
+
+Control operation of blind spot monitoring sensors. 
+
+ 
+
+Hank Liu 
+
+Vaishnavi Nanda Kumar 
+
+To meet the technical requirement of this project, when a vehicle is detected in the blind spot, the relevant blind spot indicator light will alert the driver. 
+
+18 
+
+SRP8-082 
+
+Windscreen Wipers 
+
+Control operation of windscreen wipers. 
+
+ 
+
+TBC 
+
+Indiana Brown 
+
+When set by driver, frequency of windscreen wipers is set. 
+
+ 
+
+Also, when set to automatic mode, frequency is automatically set based on reading from rain sensor. 
+
+ 
+
+No relevant ADRs for software. 
+

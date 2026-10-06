@@ -1,0 +1,10 @@
+{
+  "project_id": "SRP8-039",
+  "project_name": "Powertrain Electronics",
+  "primary_department": "Powertrain",
+  "secondary_department": "Energy Systems",
+  "adrs": [
+    "ADR-113",
+    "ADR-109"
+  ]
+}

@@ -1,0 +1,30 @@
+
+Project to interface with 
+
+Project ID 
+
+Information required 
+
+Headlights and Taillights  
+
+SRP8-011, SRP8-012 
+
+PCB’s shared with side indicators (one per side of both headlights and taillights) 
+
+Steering wheel 
+
+SRP8-022 
+
+Steering wheel size to determine where the indicators can go 
+
+PCB that determines the steering wheel position which will help determine the automatic switch-off of indicators when tilt of wheel is restored to default position 
+
+Where indicator user input is located on the wheel (button or joystick control) 
+
+Chassis 
+
+SRP8-006, SRP8 
+
+Casing of LEDs of indicator on the chassis of the car 
+
+Fitting alongside the headlights and taillights 

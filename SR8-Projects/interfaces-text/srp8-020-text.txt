@@ -1,0 +1,61 @@
+
+Project 
+
+Description 
+
+Department 
+
+Boot SRP-004 
+
+Surface area of boot determines maximum boot array size.  
+
+CNB 
+
+Bonnet SRP-005 
+
+Bonnet surface area determines maximum bonnet array area.  
+
+CNB 
+
+Exterior Design SRP-006 
+
+Roof surface areas determine maximum array area for each region.  
+
+CNB 
+
+MPPTs SRP-019 
+
+Number of cells in each array will determine the input voltages for MPPTs, and cell type determines current rating of components particularly the inductor. 
+
+ENS 
+
+Ceiling SRP-027 
+
+The accessibility of string level power electronics and roof module wiring routing need to be considered in roof lining design. 
+
+INT 
+
+Antenna 
+
+The antenna must be situated above carbon body structure and under glass to be able to transmit and receive data. The sizing and number of antennas impacts the roof solar array layout. 
+
+EMB 
+
+Occupant Cell 
+
+The top surface of the OC is impacted by the accessibility of string level power electronics housing and both solar wiring routing and antenna routing. 
+
+CNB 
+
+ECS SRP-017 
+
+The ECS fuses and contactors for the solar array are dictated by cell operating current and module voltage. 
+
+ENS 
+
+AUXBAT SRP-018 
+
+The AUXBAT capacity sizing must be decided based on expected power output of solar array for safe charging rates.  
+
+ENS 
+

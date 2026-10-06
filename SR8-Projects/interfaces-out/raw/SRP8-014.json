@@ -1,0 +1,88 @@
+{
+  "project_id": "SRP8-014",
+  "project_name": "Regen Braking",
+  "source_file": "srp8-014-text.txt",
+  "text_sha256": "02fb5473fe6450894f3097a66192beb458e48764fed84cda9ca769b1e706b859",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP-016",
+      "code": "SRP8-016",
+      "text_before": "",
+      "text_after": "Battery",
+      "corrected_to": null,
+      "final": "SRP8-016"
+    },
+    {
+      "written": "SRP-038",
+      "code": "SRP8-038",
+      "text_before": "",
+      "text_after": "Motors",
+      "corrected_to": null,
+      "final": "SRP8-038"
+    },
+    {
+      "written": "SRP-039",
+      "code": "SRP8-039",
+      "text_before": "",
+      "text_after": "Powertrain Electronics",
+      "corrected_to": null,
+      "final": "SRP8-039"
+    },
+    {
+      "written": "SRP-058",
+      "code": "SRP8-058",
+      "text_before": "",
+      "text_after": "Drive Control Systems",
+      "corrected_to": null,
+      "final": "SRP8-058"
+    }
+  ],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-016",
+        "evidence": "SRP-016 - Battery"
+      },
+      {
+        "code": "SRP8-038",
+        "evidence": "SRP-038 – Motors"
+      },
+      {
+        "code": "SRP8-039",
+        "evidence": "SRP-039 – Powertrain Electronics"
+      },
+      {
+        "code": "SRP8-058",
+        "evidence": "SRP-058 – Drive Control Systems"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-016",
+      "via": "regex",
+      "evidence": "SRP-016 - Battery"
+    },
+    {
+      "code": "SRP8-038",
+      "via": "regex",
+      "evidence": "SRP-038 – Motors"
+    },
+    {
+      "code": "SRP8-039",
+      "via": "regex",
+      "evidence": "SRP-039 – Powertrain Electronics"
+    },
+    {
+      "code": "SRP8-058",
+      "via": "regex",
+      "evidence": "SRP-058 – Drive Control Systems"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 24.6
+}

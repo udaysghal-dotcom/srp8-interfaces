@@ -1,0 +1,11 @@
+{
+  "project_id": "SRP8-077",
+  "project_name": "Central Stop Lamp",
+  "primary_department": "Embedded Systems",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-13",
+    "ADR-60",
+    "ADR-49"
+  ]
+}

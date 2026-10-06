@@ -1,0 +1,71 @@
+{
+  "project_id": "SRP8-039",
+  "project_name": "Powertrain Electronics",
+  "source_file": "srp8-039-text.txt",
+  "text_sha256": "24e0a4d4eb1adc8b16edf21a6c4a4adb497f50c012dc07bca872bddb87cbeb0d",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8 – 016",
+      "code": "SRP8-016",
+      "text_before": "",
+      "text_after": "Battery",
+      "corrected_to": null,
+      "final": "SRP8-016"
+    },
+    {
+      "written": "SRP8 – 038",
+      "code": "SRP8-038",
+      "text_before": "",
+      "text_after": "Motors",
+      "corrected_to": null,
+      "final": "SRP8-038"
+    },
+    {
+      "written": "SRP8 – 058",
+      "code": "SRP8-058",
+      "text_before": "",
+      "text_after": "Drive Control Systems",
+      "corrected_to": null,
+      "final": "SRP8-058"
+    }
+  ],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-016",
+        "evidence": "SRP8 – 016 (Battery)"
+      },
+      {
+        "code": "SRP8-038",
+        "evidence": "SRP8 – 038 (Motors)"
+      },
+      {
+        "code": "SRP8-058",
+        "evidence": "SRP8 – 058 (Drive Control Systems)"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-016",
+      "via": "regex",
+      "evidence": "SRP8 – 016 (Battery)"
+    },
+    {
+      "code": "SRP8-038",
+      "via": "regex",
+      "evidence": "SRP8 – 038 (Motors)"
+    },
+    {
+      "code": "SRP8-058",
+      "via": "regex",
+      "evidence": "SRP8 – 058 (Drive Control Systems)"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 20.8
+}

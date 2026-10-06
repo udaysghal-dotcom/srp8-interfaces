@@ -1,0 +1,11 @@
+{
+  "project_id": "SRP8-003",
+  "project_name": "Windscreen",
+  "primary_department": "Chassis & Bodywork",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-08",
+    "ADR-93",
+    "ADR-92"
+  ]
+}

@@ -1,0 +1,55 @@
+
+Project 
+
+Description 
+
+Department 
+
+Thermal management 
+
+The air conditioning thermal loop is a subsystem of the thermal management system. There are refrigerant lines interfacing between the systems that allows air condition to operate. Most of the components will be located in the thermal box. 
+
+C&B 
+
+Dashboard 
+
+The mixing unit is situated in the dashboard. The recirculation inlet and all the outlet vents are integrated into the dashboard. 
+
+Interior 
+
+Console 
+
+Temperature, airflow and direction controls. 
+
+Interior 
+
+Ventilation  
+
+Cabin air enters through cutout in ventilation assembly. Air Cooled Condenser mounted in stack along with the radiator, sharing the vent assembly. 
+
+C&B 
+
+Sensors – Main Loop 
+
+All the system’s operational sensors. 
+
+Embedded 
+
+Sensors – Mixing Unit 
+
+Integrated temperature sensors in the mixing unit. Might also have a general cabin temp sensor somewhere in the cabin 
+
+Embedded 
+
+Sensors – Air Quality 
+
+Might have an air quality sensor somewhere in the cabin that can tell the system to turn on recirc.  
+
+Embedded 
+
+Occupant Cell 
+
+There is a cutout in the front bulkhead to allow airflow to enter the HVAC mixing unit that sits inside the dashboard. There are also two refrigerant lines going for the cabin evap and cabin condenser. 
+
+C&B 
+

@@ -1,0 +1,136 @@
+
+Project ID 
+
+Related Project 
+
+Primary Department 
+
+Interface Description 
+
+SRP8-005 
+
+Bonnet 
+
+C&B 
+
+Bonnet overlaps or aligns with fenders for aerodynamics 
+
+SRP8-012 
+
+Headlights 
+
+EMB 
+
+Headlights mount onto or align with the fenders 
+
+SRP8-013 
+
+Indicators  
+
+EMB 
+
+Indicators positioned on or near fenders for visibility 
+
+SRP8-043 
+
+Front Suspension 
+
+VD 
+
+Suspension components pass near or within fender openings 
+
+SRP8-045 
+
+Front Brakes  
+
+VD 
+
+Front brakes positioned near fender openings, influencing design 
+
+SRP8-049 
+
+Steering Rack  
+
+VD 
+
+Front wheels directly interface with fender openings 
+
+SRP8-065 
+
+Occupant Cell 
+
+C&B 
+
+Occupant cell structure dictates fender mounting points 
+
+SRP8-066 
+
+Crash Structures 
+
+C&B 
+
+Crash structures integrate with fender areas for safety 
+
+SRP8-083 
+
+Active Aero 
+
+C&B 
+
+Active aero components impact fender design for airflow control 
+
+SRP8-001 
+
+Doors 
+
+C&B  
+
+Body panels must match 
+
+SRP8-003 
+
+Windscreen  
+
+C&B 
+
+Windscreen must be attached onto body panels 
+
+SRP8-004 
+
+Boot 
+
+C&B 
+
+Must match and attach securely 
+
+SRP8 – 006 
+
+Exterior Surfaces 
+
+C&B 
+
+Body panels must all have the same exterior surface 
+
+SRP8-010 
+
+Ventilation 
+
+C&B 
+
+Body panels must account for ventilation holes 
+
+SRP8-020 
+
+Solar Array 
+
+ENS 
+
+Body panel must account for solar array 
+
+SRP8-021 
+
+Charging 
+
+ENS 
+
+Body panel (fenders) must house charging flap and assembly 

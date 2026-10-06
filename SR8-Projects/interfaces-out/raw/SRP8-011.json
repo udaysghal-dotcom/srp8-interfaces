@@ -1,0 +1,123 @@
+{
+  "project_id": "SRP8-011",
+  "project_name": "Tailights",
+  "source_file": "srp8-011-text.txt",
+  "text_sha256": "d26e595856fe5dd67aaf377cef0504b50fdaa18dcf810900df5746a4b50f848b",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-014",
+      "code": "SRP8-014",
+      "text_before": "",
+      "text_after": "Regen Braking",
+      "corrected_to": null,
+      "final": "SRP8-014"
+    },
+    {
+      "written": "SRP8-017",
+      "code": "SRP8-017",
+      "text_before": "",
+      "text_after": "Auxiliary Power Distribution",
+      "corrected_to": null,
+      "final": "SRP8-017"
+    },
+    {
+      "written": "SRP8-026",
+      "code": "SRP8-026",
+      "text_before": "",
+      "text_after": "Pedals",
+      "corrected_to": null,
+      "final": "SRP8-026"
+    },
+    {
+      "written": "SRP8-099",
+      "code": "SRP8-099",
+      "text_before": "",
+      "text_after": "Traction Control",
+      "corrected_to": null,
+      "final": "SRP8-099"
+    },
+    {
+      "written": "SRP8-006",
+      "code": "SRP8-006",
+      "text_before": "",
+      "text_after": "Exterior Surfaces",
+      "corrected_to": null,
+      "final": "SRP8-006"
+    },
+    {
+      "written": "SRP8-011",
+      "code": "SRP8-011",
+      "text_before": "",
+      "text_after": "Taillights",
+      "corrected_to": null,
+      "final": "SRP8-011"
+    },
+    {
+      "written": "SRP-124",
+      "code": "SRP8-124",
+      "text_before": "",
+      "text_after": "Hydrogen Energy System",
+      "corrected_to": null,
+      "final": "SRP8-124"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-006"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-014",
+        "evidence": "SRP8-014: Regen Braking"
+      },
+      {
+        "code": "SRP8-017",
+        "evidence": "SRP8-017: Auxiliary Power Distribution"
+      },
+      {
+        "code": "SRP8-026",
+        "evidence": "SRP8-026: Pedals"
+      },
+      {
+        "code": "SRP8-099",
+        "evidence": "SRP8-099: Traction Control"
+      },
+      {
+        "code": "SRP8-124",
+        "evidence": "SRP-124: Hydrogen Energy System"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-014",
+      "via": "regex",
+      "evidence": "SRP8-014: Regen Braking"
+    },
+    {
+      "code": "SRP8-017",
+      "via": "regex",
+      "evidence": "SRP8-017: Auxiliary Power Distribution"
+    },
+    {
+      "code": "SRP8-026",
+      "via": "regex",
+      "evidence": "SRP8-026: Pedals"
+    },
+    {
+      "code": "SRP8-099",
+      "via": "regex",
+      "evidence": "SRP8-099: Traction Control"
+    },
+    {
+      "code": "SRP8-124",
+      "via": "regex",
+      "evidence": "SRP-124: Hydrogen Energy System"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 43.1
+}

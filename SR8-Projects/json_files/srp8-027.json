@@ -1,0 +1,11 @@
+{
+  "project_id": "SRP8-027",
+  "project_name": "Ceiling",
+  "primary_department": "Interior",
+  "secondary_department": "Chassis & Bodywork",
+  "adrs": [
+    "ADR-11",
+    "ADR-21",
+    "ADR-42"
+  ]
+}

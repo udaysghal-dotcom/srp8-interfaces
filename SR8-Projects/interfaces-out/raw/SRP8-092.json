@@ -1,0 +1,278 @@
+{
+  "project_id": "SRP8-092",
+  "project_name": "Auxiliary Systems Logic",
+  "source_file": "srp8-092-text.txt",
+  "text_sha256": "434110eb6dc5018de6af69beb96a31bae28c68965f6abc2c055bf9215c836ddb",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-111",
+      "code": "SRP8-111",
+      "text_before": "",
+      "text_after": "Door Locking",
+      "corrected_to": null,
+      "final": "SRP8-111"
+    },
+    {
+      "written": "SRP8-011",
+      "code": "SRP8-011",
+      "text_before": "",
+      "text_after": "Taillights",
+      "corrected_to": null,
+      "final": "SRP8-011"
+    },
+    {
+      "written": "SRP8-012",
+      "code": "SRP8-012",
+      "text_before": "",
+      "text_after": "Headlights",
+      "corrected_to": null,
+      "final": "SRP8-012"
+    },
+    {
+      "written": "SRP8-013",
+      "code": "SRP8-013",
+      "text_before": "",
+      "text_after": "Indicators",
+      "corrected_to": null,
+      "final": "SRP8-013"
+    },
+    {
+      "written": "SRP8-014",
+      "code": "SRP8-014",
+      "text_before": "",
+      "text_after": "Regen Braking",
+      "corrected_to": null,
+      "final": "SRP8-014"
+    },
+    {
+      "written": "SRP8-015",
+      "code": "SRP8-015",
+      "text_before": "",
+      "text_after": "Cruise Control",
+      "corrected_to": null,
+      "final": "SRP8-015"
+    },
+    {
+      "written": "SRP8-024",
+      "code": "SRP8-024",
+      "text_before": "",
+      "text_after": "Rear Vision System",
+      "corrected_to": null,
+      "final": "SRP8-024"
+    },
+    {
+      "written": "SRP8-025",
+      "code": "SRP8-025",
+      "text_before": "",
+      "text_after": "Side Vision System",
+      "corrected_to": null,
+      "final": "SRP8-025"
+    },
+    {
+      "written": "SRP8-028",
+      "code": "SRP8-028",
+      "text_before": "",
+      "text_after": "Central Display",
+      "corrected_to": null,
+      "final": "SRP8-028"
+    },
+    {
+      "written": "SRP8-029",
+      "code": "SRP8-029",
+      "text_before": "",
+      "text_after": "Driver Display",
+      "corrected_to": null,
+      "final": "SRP8-029"
+    },
+    {
+      "written": "SRP8-057",
+      "code": "SRP8-057",
+      "text_before": "",
+      "text_after": "Horn",
+      "corrected_to": null,
+      "final": "SRP8-057"
+    },
+    {
+      "written": "SRP8-060",
+      "code": "SRP8-060",
+      "text_before": "",
+      "text_after": "Fatigue Monitoring System",
+      "corrected_to": null,
+      "final": "SRP8-060"
+    },
+    {
+      "written": "SRP8-063",
+      "code": "SRP8-063",
+      "text_before": "",
+      "text_after": "In Car Radio",
+      "corrected_to": null,
+      "final": "SRP8-063"
+    },
+    {
+      "written": "SRP8-093",
+      "code": "SRP8-093",
+      "text_before": "",
+      "text_after": "Air Conditioning",
+      "corrected_to": null,
+      "final": "SRP8-093"
+    },
+    {
+      "written": "SRP8-084",
+      "code": "SRP8-084",
+      "text_before": "",
+      "text_after": "Audio",
+      "corrected_to": null,
+      "final": "SRP8-084"
+    },
+    {
+      "written": "SRP8-095",
+      "code": "SRP8-095",
+      "text_before": "",
+      "text_after": "Blind Spot Monitoring",
+      "corrected_to": null,
+      "final": "SRP8-095"
+    },
+    {
+      "written": "SRP8-082",
+      "code": "SRP8-082",
+      "text_before": "",
+      "text_after": "Windscreen Wipers",
+      "corrected_to": null,
+      "final": "SRP8-082"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-015",
+    "SRP8-060",
+    "SRP8-063",
+    "SRP8-095"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-111",
+        "evidence": "SRP8-111"
+      },
+      {
+        "code": "SRP8-011",
+        "evidence": "SRP8-011"
+      },
+      {
+        "code": "SRP8-012",
+        "evidence": "SRP8-012"
+      },
+      {
+        "code": "SRP8-013",
+        "evidence": "SRP8-013"
+      },
+      {
+        "code": "SRP8-014",
+        "evidence": "SRP8-014"
+      },
+      {
+        "code": "SRP8-024",
+        "evidence": "SRP8-024"
+      },
+      {
+        "code": "SRP8-025",
+        "evidence": "SRP8-025"
+      },
+      {
+        "code": "SRP8-028",
+        "evidence": "SRP8-028"
+      },
+      {
+        "code": "SRP8-029",
+        "evidence": "SRP8-029"
+      },
+      {
+        "code": "SRP8-057",
+        "evidence": "SRP8-057"
+      },
+      {
+        "code": "SRP8-082",
+        "evidence": "SRP8-082"
+      },
+      {
+        "code": "SRP8-084",
+        "evidence": "SRP8-084"
+      },
+      {
+        "code": "SRP8-093",
+        "evidence": "SRP8-093"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-011",
+      "via": "regex",
+      "evidence": "SRP8-011"
+    },
+    {
+      "code": "SRP8-012",
+      "via": "regex",
+      "evidence": "SRP8-012"
+    },
+    {
+      "code": "SRP8-013",
+      "via": "regex",
+      "evidence": "SRP8-013"
+    },
+    {
+      "code": "SRP8-014",
+      "via": "regex",
+      "evidence": "SRP8-014"
+    },
+    {
+      "code": "SRP8-024",
+      "via": "regex",
+      "evidence": "SRP8-024"
+    },
+    {
+      "code": "SRP8-025",
+      "via": "regex",
+      "evidence": "SRP8-025"
+    },
+    {
+      "code": "SRP8-028",
+      "via": "regex",
+      "evidence": "SRP8-028"
+    },
+    {
+      "code": "SRP8-029",
+      "via": "regex",
+      "evidence": "SRP8-029"
+    },
+    {
+      "code": "SRP8-057",
+      "via": "regex",
+      "evidence": "SRP8-057"
+    },
+    {
+      "code": "SRP8-082",
+      "via": "regex",
+      "evidence": "SRP8-082"
+    },
+    {
+      "code": "SRP8-084",
+      "via": "regex",
+      "evidence": "SRP8-084"
+    },
+    {
+      "code": "SRP8-093",
+      "via": "regex",
+      "evidence": "SRP8-093"
+    },
+    {
+      "code": "SRP8-111",
+      "via": "regex",
+      "evidence": "SRP8-111"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 57.7
+}

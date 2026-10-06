@@ -1,0 +1,14 @@
+2.3.1 Project / System Interfaces 
+
+Assembly 
+
+Requirement 
+
+SRP-005: Bonnet 
+
+The headlights may be removed through the bonnet as last resort 
+
+SRP-167: Front Clamshell 
+
+The headlights must fit within the cutout provided by the front clamshell and should be removable through the clamshell 
+

@@ -1,0 +1,10 @@
+{
+  "project_id": "SRP8-170",
+  "project_name": "Rear Quarters",
+  "primary_department": "Chassis & Bodywork",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-92",
+    "ADR-43"
+  ]
+}

@@ -1,0 +1,17 @@
+
+SRP064 – Wiring Harness 
+
+Responsible for routing and terminating the 6 AWG power leads from the main distribution block; installation of fuse per 2.1.2.1; routing of the USB-C cable from A1 to A2; RCA cable from A2 to A3; RCA cable from A3 to A4; and speaker wire from A3/A4 to respective drivers. All wiring shall be routed, secured, and labelled before the audio system is commissioned. This is a blocking dependancy, audio system cannot be installed without wiring being complete. 
+
+SRP001 – Interior 
+
+Responsible for providing the speaker cutouts and subwoofer mounting aperture per the dimensions in 2.3.2 before speaker/sub installation. Audio systems cannot be mechanically installed without these cutouts. 
+
+SRP018 – Energy Control System 
+
+Must confirm that the vehicle 12V DC-DC converter has capacity for 50A additional load and that the battery/alternator load schedule is updated to include the audio system draw. 
+
+SRP188 – Computer 
+
+The audio source (A1) depends on the onboard computer providing USB-C audio output. Confirm that the OS audio device is set to output PCM at 24-bit / 96 kHz per 2.1.1.1 (the SMSL SU-1 supports higher rates and DSD, but multi-channel/DSD modes are not required or used in this design). 
+

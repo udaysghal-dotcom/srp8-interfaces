@@ -1,0 +1,129 @@
+
+Project 
+
+What crosses the interface 
+
+Contract state 
+
+Compatibility evidence 
+
+SRP8-061 Telemetry / Embedded (vehicle feed) 
+
+Every VehicleTelemetry field: pack, hydrogen, solar, powertrain, cabin, tyre pressures, drive state, readiness, faults 
+
+Proposed DDS topics in the register; not agreed 
+
+Facade seam tested (13 tests). Integration is one class implementing TelemetrySource; nothing else changes. 
+
+Central Computing / Embedded (compute) 
+
+Jetson (Thor variant TBC), Linux, GPU for compositing and the local model, audio in/out, GPIO for cluster controls 
+
+Board not yet available to TSS 
+
+Memory budget in 4.1.1: about 12–16 GB before the language model. Compute contention is the binding constraint and is unmeasured. 
+
+SRP8-028 Central Display panel (Interior) 
+
+GMSL3 video, touch (USB HID), backlight control 
+
+Panel specified, not delivered 
+
+Layout is fixed at the panel's 1920 × 720; touch targets sized for a 10.25" panel. 
+
+SRP8-029 Driver Display panel (Interior) 
+
+GMSL3 video, backlight gated on ignition 
+
+As above 
+
+Same geometry. Cold-glance target depends on this interface. 
+
+SRP8-055 Sensors 
+
+Wheel-speed signal and the calibration that makes indicated speed legal (+4 km/h bound) 
+
+Not agreed 
+
+ADR 18/03 cl. 5.3 is satisfied by this signal, not by the rendering. 
+
+SRP8-175 Vehicle States 
+
+Readiness, drive state, fault classification (amber/red), active-mode-on-exit 
+
+Not agreed 
+
+Decides the top of the cluster and every takeover. 
+
+SRP8-101 Trip Energy Prediction 
+
+Combined range across battery and hydrogen 
+
+Not agreed 
+
+Headline energy figure; trust rules in CL-05. 
+
+SRP8-011 / 012 / 013 Lamps 
+
+Lamp-circuit state and bulb-failure state for the ADR 13/00 tell-tales 
+
+Not agreed; bulb-failure signal is a new ask on 013 
+
+A tell-tale that mirrors the switch does not comply with cl. 6.5.8. 
+
+SRP8-022 Steering Wheel PCB 
+
+Two inputs: mode cycle, night panel 
+
+Not agreed 
+
+If the PCB does not carry them the cluster loses its only input. 
+
+SRP8-034 Front Seatbelts 
+
+Buckle switch per front seat; audible path owned there 
+
+Not agreed 
+
+Cluster owns the visual reminder and escalation logic. 
+
+SRP8-039 AVAS 
+
+Sound selection command if offered; no mute 
+
+Not agreed 
+
+Prohibition verified in Settings (2.2.3.2). 
+
+SRP8-024 / 025 Cameras 
+
+Rear and side feeds, only if routed to a display 
+
+Decision pending: supplement or replace mirrors 
+
+If replace, the rendering screen becomes a regulated monitor (ADR 14/03). 
+
+Voice daemon (internal) 
+
+JSON lines over stdio: wake, partial, final, health, generation counter 
+
+Stable; owned here 
+
+voice_silence_test; daemon restart with backoff; byte-compile in CI. 
+
+GraphHopper, Photon (internal) 
+
+HTTP on loopback: /route, /api 
+
+Stable; pinned versions 11.0 and 0.7.4 
+
+navigation_route_service_test (10); 38 replayed Photon responses. 
+
+Language model 
+
+OpenAI-compatible chat completion (local) or Gemini generateContent (dev) 
+
+Provider selected by SR8_LLM in .env 
+
+Both paths exercised; unfence() handles a model that wraps JSON in a fence. 
+

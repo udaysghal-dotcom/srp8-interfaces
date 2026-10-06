@@ -1,0 +1,64 @@
+{
+  "project_id": "SRP8-192",
+  "project_name": "Interior Floor Lining",
+  "source_file": "SRP8-192-text.txt",
+  "text_sha256": "ceec20709765858322749af3e35a6b10de9f120551a95834e1e04fc96ede6f12",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-036",
+        "evidence": "the Front Seat Mount"
+      },
+      {
+        "code": "SRP8-026",
+        "evidence": "Pedals"
+      },
+      {
+        "code": "SRP8-065",
+        "evidence": "Occupant Cell"
+      },
+      {
+        "code": "SRP8-085",
+        "evidence": "Noise, Vibration and Harshness"
+      },
+      {
+        "code": "SRP8-173",
+        "evidence": "Underbody"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-026",
+      "via": "name",
+      "evidence": "Pedals"
+    },
+    {
+      "code": "SRP8-036",
+      "via": "name",
+      "evidence": "the Front Seat Mount"
+    },
+    {
+      "code": "SRP8-065",
+      "via": "name",
+      "evidence": "Occupant Cell"
+    },
+    {
+      "code": "SRP8-085",
+      "via": "name",
+      "evidence": "Noise, Vibration and Harshness"
+    },
+    {
+      "code": "SRP8-173",
+      "via": "name",
+      "evidence": "Underbody"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 26.8
+}

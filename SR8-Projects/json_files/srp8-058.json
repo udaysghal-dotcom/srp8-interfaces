@@ -1,0 +1,9 @@
+{
+  "project_id": "SRP8-058",
+  "project_name": "Drive Control Systems",
+  "primary_department": "Embedded Systems",
+  "secondary_department": "Powertrain",
+  "adrs": [
+    "ADR-109"
+  ]
+}

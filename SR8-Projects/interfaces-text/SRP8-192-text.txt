@@ -1,0 +1,19 @@
+2.3.1 Project/System Interfaces 
+
+The CAD design for the interior floor lining must be in the Master Assembly to ensure that it will be compatible with other interior parts and fit correctly. It will interact with five existing SR8 projects, namely: the Front Seat Mount, Pedals, Occupant Cell, Noise, Vibration and Harshness, Interior Layout, and Underbody. It must also accommodate running wiring in the interior and ensure that it does not inhibit any other system.  
+
+Structural/Mechanical Integration 
+
+Interaction with NVH layer, occupant cell, seat mounts, and interior floor. The interior floor lining + sound dampening layer must be securely attached to the interior floor without interfering with wiring, fasteners or mounting points of other interior components. The material should ideally fit perfectly into the contours of the vehicle, otherwise must be pre-cut to fit existing contours. This ensures a seamless fit without excess bulk or loose ends.   
+
+Thermal and Electrical Interaction 
+
+Interaction with electrical cables and wiring. The interior floor lining should be non-conductive, flame retardant, and high-temperature resistant. Materials should not overlap and interfere with wiring/cables. 
+
+Acoustic Performance & Cabin-flow Interaction 
+
+Interaction with HVAC (Heating, ventilation and air conditioning) and speaker system. Though the material will have acoustic properties, it should not interfere with audio and should allow for optimal sound clarity inside the cabin. It should be placed in non-airflow obstruction zones to maintain cabin ventilation.  
+
+Safety Interaction 
+
+Interaction with crash structures and emergency exits. The material should maintain crumple zone functionality, ensuring materials compress without interfering with energy absorption. Additionally, it should adhere to international safety standards listed above (fire safety, toxicity, thermal resistance, humidity resistance, vibration resistance, water absorption).  

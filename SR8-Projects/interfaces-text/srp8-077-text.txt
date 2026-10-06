@@ -1,0 +1,25 @@
+
+Assembly 
+
+Requirement 
+
+SRP8-014: Regen Braking 
+
+The central stop lamp must be illuminated when a certain magnitude of deceleration is produced by the regenerative braking 
+
+SRP8-011: Taillights 
+
+The central stop lamp must illuminate in conjunction with the brake lights within the taillights 
+
+SRP8-017: Auxiliary Power Distribution 
+
+The central stop lamp will be powered by the auxiliary power distribution 
+
+SRP8-026: Pedals 
+
+The central stop lamp must be illuminated when the driver suppresses the brake pedal 
+
+SRP8-099: Traction Control 
+
+The central stop lamp must be illuminated if the traction control system deems necessary to apply braking force 
+

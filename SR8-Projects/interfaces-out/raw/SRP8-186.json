@@ -1,0 +1,102 @@
+{
+  "project_id": "SRP8-186",
+  "project_name": "Hydrogen Control System",
+  "source_file": "SRP8-186-text.txt",
+  "text_sha256": "dfaaa9b21902da60d0f01cd74f07d8bf5ff9afa5fcbb3e56e1ed0da3d5bb37de",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-124",
+      "code": "SRP8-124",
+      "text_before": "",
+      "text_after": "Hydrogen Energy System",
+      "corrected_to": null,
+      "final": "SRP8-124"
+    },
+    {
+      "written": "SRP8-124",
+      "code": "SRP8-124",
+      "text_before": "The Hydrogen Control System directly interfaces with",
+      "text_after": "to receive real-time sensor data from the hydrogen energy system, including pres",
+      "corrected_to": null,
+      "final": "SRP8-124"
+    },
+    {
+      "written": "SRP8-186",
+      "code": "SRP8-186",
+      "text_before": "ture, and flow measurements on both the anode and cathode sides of the fuel cell",
+      "text_after": "also sends control signals to actuators such as mass-flow controllers, purge val",
+      "corrected_to": null,
+      "final": "SRP8-186"
+    },
+    {
+      "written": "SRP8-182",
+      "code": "SRP8-182",
+      "text_before": "",
+      "text_after": "Hydrogen Power Electronics System",
+      "corrected_to": null,
+      "final": "SRP8-182"
+    },
+    {
+      "written": "SRP8-186",
+      "code": "SRP8-186",
+      "text_before": "",
+      "text_after": "interfaces with",
+      "corrected_to": null,
+      "final": "SRP8-186"
+    },
+    {
+      "written": "SRP8-182",
+      "code": "SRP8-182",
+      "text_before": "interfaces with",
+      "text_after": "to manage current draw from the fuel cell through the DC-DC converter. During st",
+      "corrected_to": null,
+      "final": "SRP8-182"
+    },
+    {
+      "written": "SRP8-186",
+      "code": "SRP8-186",
+      "text_before": "tion, feedback is used to regulate power output. In fault or abnormal conditions",
+      "text_after": "commands",
+      "corrected_to": null,
+      "final": "SRP8-186"
+    },
+    {
+      "written": "SRP8-182",
+      "code": "SRP8-182",
+      "text_before": "commands",
+      "text_after": "to reduce or disable current draw as part of a protective shutdown sequence",
+      "corrected_to": null,
+      "final": "SRP8-182"
+    }
+  ],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-124",
+        "evidence": "directly interfaces with SRP8-124 to receive real-time sensor data"
+      },
+      {
+        "code": "SRP8-182",
+        "evidence": "SRP8-186 interfaces with SRP8-182 to manage current draw"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-124",
+      "via": "regex",
+      "evidence": "directly interfaces with SRP8-124 to receive real-time sensor data"
+    },
+    {
+      "code": "SRP8-182",
+      "via": "regex",
+      "evidence": "SRP8-186 interfaces with SRP8-182 to manage current draw"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 23.4
+}

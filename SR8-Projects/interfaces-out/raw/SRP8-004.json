@@ -1,0 +1,73 @@
+{
+  "project_id": "SRP8-004",
+  "project_name": "Boot",
+  "source_file": "srp8-004-text.txt",
+  "text_sha256": "550b668b25c9dc5f95c66ea55a4ddabc61f32002d9de1e0d80d85885887ae3fe",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP-006",
+      "code": "SRP8-006",
+      "text_before": "",
+      "text_after": "Exterior surfaces (Project is frozen now",
+      "corrected_to": null,
+      "final": "SRP8-006"
+    },
+    {
+      "written": "SRP-011",
+      "code": "SRP8-011",
+      "text_before": "",
+      "text_after": "Taillights (Need CAD for recess geometry as the taillights are mounted to the li",
+      "corrected_to": null,
+      "final": "SRP8-011"
+    },
+    {
+      "written": "SRP-020",
+      "code": "SRP8-020",
+      "text_before": "",
+      "text_after": "Solar (Panel configuration and recessing depth, margin, is needed for detailed d",
+      "corrected_to": null,
+      "final": "SRP8-020"
+    },
+    {
+      "written": "SRP-122",
+      "code": "SRP8-122",
+      "text_before": "",
+      "text_after": "Body Panels (sealing against rear support structure",
+      "corrected_to": null,
+      "final": "SRP8-122"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-006",
+    "SRP8-122"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-011",
+        "evidence": "SRP-011 – Taillights (Need CAD for recess geometry"
+      },
+      {
+        "code": "SRP8-020",
+        "evidence": "SRP-020 – Solar (Panel configuration and recessing depth"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-011",
+      "via": "regex",
+      "evidence": "SRP-011 – Taillights (Need CAD for recess geometry"
+    },
+    {
+      "code": "SRP8-020",
+      "via": "regex",
+      "evidence": "SRP-020 – Solar (Panel configuration and recessing depth"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 18.8
+}

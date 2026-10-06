@@ -1,0 +1,10 @@
+{
+  "project_id": "SRP8-172",
+  "project_name": "Rear Support Structure",
+  "primary_department": "Chassis & Bodywork",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-61",
+    "ADR-92"
+  ]
+}

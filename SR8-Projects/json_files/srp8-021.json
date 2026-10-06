@@ -1,0 +1,9 @@
+{
+  "project_id": "SRP8-021",
+  "project_name": "Charging",
+  "primary_department": "Energy Systems",
+  "secondary_department": "Chassis & Bodywork",
+  "adrs": [
+    "ADR-109"
+  ]
+}

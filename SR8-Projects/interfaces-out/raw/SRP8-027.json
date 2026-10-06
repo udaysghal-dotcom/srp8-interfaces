@@ -1,0 +1,46 @@
+{
+  "project_id": "SRP8-027",
+  "project_name": "Ceiling",
+  "source_file": "srp8-027-text.txt",
+  "text_sha256": "6e62b34850c0f3550d0783aa713a8f9e5b3ab03540519c1de62e772c4fdcf59d",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-065",
+        "evidence": "headliner interfaces directly with the occupant cell"
+      },
+      {
+        "code": "SRP8-024",
+        "evidence": "mounting provisions for the high voltage cut off as well as the rear vision system"
+      },
+      {
+        "code": "SRP8-020",
+        "evidence": "The roof solar subsystem may interface with the ceiling"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-020",
+      "via": "name",
+      "evidence": "The roof solar subsystem may interface with the ceiling"
+    },
+    {
+      "code": "SRP8-024",
+      "via": "name",
+      "evidence": "mounting provisions for the high voltage cut off as well as the rear vision system"
+    },
+    {
+      "code": "SRP8-065",
+      "via": "name",
+      "evidence": "headliner interfaces directly with the occupant cell"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 20.0
+}

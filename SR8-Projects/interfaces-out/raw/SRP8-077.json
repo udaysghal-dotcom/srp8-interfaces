@@ -1,0 +1,105 @@
+{
+  "project_id": "SRP8-077",
+  "project_name": "Central Stop Lamp",
+  "source_file": "srp8-077-text.txt",
+  "text_sha256": "392f6c6b498b1b12c50b79d32966111cca2701c21364718dfa8a26f7793fd09a",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-014",
+      "code": "SRP8-014",
+      "text_before": "",
+      "text_after": "Regen Braking",
+      "corrected_to": null,
+      "final": "SRP8-014"
+    },
+    {
+      "written": "SRP8-011",
+      "code": "SRP8-011",
+      "text_before": "",
+      "text_after": "Taillights",
+      "corrected_to": null,
+      "final": "SRP8-011"
+    },
+    {
+      "written": "SRP8-017",
+      "code": "SRP8-017",
+      "text_before": "",
+      "text_after": "Auxiliary Power Distribution",
+      "corrected_to": null,
+      "final": "SRP8-017"
+    },
+    {
+      "written": "SRP8-026",
+      "code": "SRP8-026",
+      "text_before": "",
+      "text_after": "Pedals",
+      "corrected_to": null,
+      "final": "SRP8-026"
+    },
+    {
+      "written": "SRP8-099",
+      "code": "SRP8-099",
+      "text_before": "",
+      "text_after": "Traction Control",
+      "corrected_to": null,
+      "final": "SRP8-099"
+    }
+  ],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-011",
+        "evidence": "The central stop lamp must illuminate in conjunction with the brake lights"
+      },
+      {
+        "code": "SRP8-014",
+        "evidence": "illuminated when a certain magnitude of deceleration is produced by the regenerative braking"
+      },
+      {
+        "code": "SRP8-017",
+        "evidence": "The central stop lamp will be powered by the auxiliary power distribution"
+      },
+      {
+        "code": "SRP8-026",
+        "evidence": "The central stop lamp must be illuminated when the driver suppresses the brake pedal"
+      },
+      {
+        "code": "SRP8-099",
+        "evidence": "illuminated if the traction control system deems necessary to apply braking force"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-011",
+      "via": "regex",
+      "evidence": "The central stop lamp must illuminate in conjunction with the brake lights"
+    },
+    {
+      "code": "SRP8-014",
+      "via": "regex",
+      "evidence": "illuminated when a certain magnitude of deceleration is produced by the regenerative braking"
+    },
+    {
+      "code": "SRP8-017",
+      "via": "regex",
+      "evidence": "The central stop lamp will be powered by the auxiliary power distribution"
+    },
+    {
+      "code": "SRP8-026",
+      "via": "regex",
+      "evidence": "The central stop lamp must be illuminated when the driver suppresses the brake pedal"
+    },
+    {
+      "code": "SRP8-099",
+      "via": "regex",
+      "evidence": "illuminated if the traction control system deems necessary to apply braking force"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 30.9
+}

@@ -1,0 +1,81 @@
+{
+  "project_id": "SRP8-005",
+  "project_name": "Bonnet",
+  "source_file": "srp8-005-text.txt",
+  "text_sha256": "ff4c8b243c51a830fbb665d2bb3bc507858c1105051f3d7b70e26061405dfe75",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-065",
+      "code": "SRP8-065",
+      "text_before": "Project interfaces are with",
+      "text_after": "Occupant Cell for mounting of the hinge",
+      "corrected_to": null,
+      "final": "SRP8-065"
+    },
+    {
+      "written": "SRP8-020",
+      "code": "SRP8-020",
+      "text_before": "The Bonnet Solar Panel",
+      "text_after": "that is bonded to the bonnet where there needs to be a bond surface, holes for t",
+      "corrected_to": null,
+      "final": "SRP8-020"
+    },
+    {
+      "written": "SRP8-067",
+      "code": "SRP8-067",
+      "text_before": "There needs to be space in the front support structure",
+      "text_after": "Front Clam Shell",
+      "corrected_to": null,
+      "final": "SRP8-067"
+    },
+    {
+      "written": "SRP8-066",
+      "code": "SRP8-066",
+      "text_before": "Front Clam Shell",
+      "text_after": "Front Crash Structures) to mount the physical latch where the striker is on the ",
+      "corrected_to": null,
+      "final": "SRP8-066"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-067"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-065",
+        "evidence": "Project interfaces are with SRP8-065 Occupant Cell"
+      },
+      {
+        "code": "SRP8-020",
+        "evidence": "The Bonnet Solar Panel (SRP8-020) that is bonded to the bonnet"
+      },
+      {
+        "code": "SRP8-066",
+        "evidence": "SRP8-066 Front Crash Structures"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-020",
+      "via": "regex",
+      "evidence": "The Bonnet Solar Panel (SRP8-020) that is bonded to the bonnet"
+    },
+    {
+      "code": "SRP8-065",
+      "via": "regex",
+      "evidence": "Project interfaces are with SRP8-065 Occupant Cell"
+    },
+    {
+      "code": "SRP8-066",
+      "via": "regex",
+      "evidence": "SRP8-066 Front Crash Structures"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 24.3
+}

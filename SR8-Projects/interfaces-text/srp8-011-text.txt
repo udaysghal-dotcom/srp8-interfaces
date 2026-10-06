@@ -1,0 +1,41 @@
+2.3.1 Project/System Interfaces 
+
+Assembly 
+
+Requirement 
+
+SRP8-014: Regen Braking 
+
+The central stop lamp must be illuminated when a certain magnitude of deceleration is produced by the regenerative braking 
+
+SRP8-017: Auxiliary Power Distribution 
+
+The central stop lamp will be powered by the 12V power critical bus. 
+
+SRP8-026: Pedals 
+
+The central stop lamp must be illuminated when the driver suppresses the brake pedal 
+
+SRP8-099: Traction Control 
+
+The central stop lamp must be illuminated if the traction control system deems necessary to apply braking force 
+
+
+2.3.2 Mounting Points / Areas / Routing 
+
+Assembly 
+
+Requirement 
+
+SRP8-006: Exterior Surfaces 
+
+The central stop lamp must be designed to integrate smoothly with the car’s exterior surface 
+
+SRP8-011: Taillights 
+
+The central stop lamp must illuminate in conjunction with the brake lights within the taillights 
+
+SRP-124: Hydrogen Energy System 
+
+With the hydrogen system placed right below the central stop lamp, it must be ensured that there is no interference with the lamp’s wiring or function. 
+

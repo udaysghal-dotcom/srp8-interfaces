@@ -1,0 +1,10 @@
+{
+  "project_id": "SRP8-013",
+  "project_name": "Indicators",
+  "primary_department": "Embedded Systems",
+  "secondary_department": "Chassis & Bodywork",
+  "adrs": [
+    "ADR-13",
+    "ADR-06"
+  ]
+}

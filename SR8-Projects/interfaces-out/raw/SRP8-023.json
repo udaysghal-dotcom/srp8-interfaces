@@ -1,0 +1,72 @@
+{
+  "project_id": "SRP8-023",
+  "project_name": "Interior Lights",
+  "source_file": "srp8-023-text.txt",
+  "text_sha256": "fbe54daacce5174c9c47e4034679adf737cb3a772b51f1d56edcab31438f61c1",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP-003",
+      "code": "SRP8-003",
+      "text_before": "",
+      "text_after": "Windscreen",
+      "corrected_to": null,
+      "final": "SRP8-003"
+    },
+    {
+      "written": "SRP-023",
+      "code": "SRP8-023",
+      "text_before": "",
+      "text_after": "Interior Lights",
+      "corrected_to": null,
+      "final": "SRP8-023"
+    },
+    {
+      "written": "SRP-027",
+      "code": "SRP8-027",
+      "text_before": "",
+      "text_after": "Ceiling",
+      "corrected_to": null,
+      "final": "SRP8-027"
+    },
+    {
+      "written": "SRP-107",
+      "code": "SRP8-107",
+      "text_before": "",
+      "text_after": "Interior Layout",
+      "corrected_to": null,
+      "final": "SRP8-107"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-107"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-003",
+        "evidence": "SRP-003 Windscreen"
+      },
+      {
+        "code": "SRP8-027",
+        "evidence": "SRP-027 Ceiling"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-003",
+      "via": "regex",
+      "evidence": "SRP-003 Windscreen"
+    },
+    {
+      "code": "SRP8-027",
+      "via": "regex",
+      "evidence": "SRP-027 Ceiling"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 17.5
+}

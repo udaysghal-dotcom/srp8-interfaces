@@ -1,0 +1,116 @@
+{
+  "project_id": "SRP8-002",
+  "project_name": "Door Handles",
+  "source_file": "srp8-002-text.txt",
+  "text_sha256": "e09602bcf8cdff4d71aa1d38a0f5d483aa2ac698062728b4e9f3108dc5d53812",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP-006",
+      "code": "SRP8-006",
+      "text_before": "Exterior surfaces",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-006"
+    },
+    {
+      "written": "SRP-001",
+      "code": "SRP8-001",
+      "text_before": "Doors",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-001"
+    },
+    {
+      "written": "SRP-065",
+      "code": "SRP8-065",
+      "text_before": "Occupant Cell",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-065"
+    },
+    {
+      "written": "SRP-092",
+      "code": "SRP8-092",
+      "text_before": "Auxiliary Systems Logic",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-092"
+    },
+    {
+      "written": "SRP-122",
+      "code": "SRP8-122",
+      "text_before": "Body Panels",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-122"
+    },
+    {
+      "written": "SRP-111",
+      "code": "SRP8-111",
+      "text_before": "Central Locking",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-111"
+    },
+    {
+      "written": "SRP-102",
+      "code": "SRP8-102",
+      "text_before": "Sunswift Phone App",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-102"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-006",
+    "SRP8-102",
+    "SRP8-122"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-001",
+        "evidence": "Doors SRP-001"
+      },
+      {
+        "code": "SRP8-065",
+        "evidence": "Occupant Cell SRP-065"
+      },
+      {
+        "code": "SRP8-092",
+        "evidence": "Auxiliary Systems Logic SRP-092"
+      },
+      {
+        "code": "SRP8-111",
+        "evidence": "Central Locking SRP-111"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-001",
+      "via": "regex",
+      "evidence": "Doors SRP-001"
+    },
+    {
+      "code": "SRP8-065",
+      "via": "regex",
+      "evidence": "Occupant Cell SRP-065"
+    },
+    {
+      "code": "SRP8-092",
+      "via": "regex",
+      "evidence": "Auxiliary Systems Logic SRP-092"
+    },
+    {
+      "code": "SRP8-111",
+      "via": "regex",
+      "evidence": "Central Locking SRP-111"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 40.7
+}

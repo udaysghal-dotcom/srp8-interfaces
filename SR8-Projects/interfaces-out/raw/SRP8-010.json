@@ -1,0 +1,73 @@
+{
+  "project_id": "SRP8-010",
+  "project_name": "Ventilation",
+  "source_file": "srp8-010-text.txt",
+  "text_sha256": "15f32e7b56ab1a555be5ad72f4dd9c3a5c46df72e52de8bb423be90b7c14dd05",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-005",
+        "evidence": "Cooling of bonnet"
+      },
+      {
+        "code": "SRP8-016",
+        "evidence": "battery"
+      },
+      {
+        "code": "SRP8-038",
+        "evidence": "Motor Cooling"
+      },
+      {
+        "code": "SRP8-045",
+        "evidence": "front brakes"
+      },
+      {
+        "code": "SRP8-093",
+        "evidence": "Air conditioning function"
+      },
+      {
+        "code": "SRP8-083",
+        "evidence": "Active Aero"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-005",
+      "via": "name",
+      "evidence": "Cooling of bonnet"
+    },
+    {
+      "code": "SRP8-016",
+      "via": "name",
+      "evidence": "battery"
+    },
+    {
+      "code": "SRP8-038",
+      "via": "name",
+      "evidence": "Motor Cooling"
+    },
+    {
+      "code": "SRP8-045",
+      "via": "name",
+      "evidence": "front brakes"
+    },
+    {
+      "code": "SRP8-083",
+      "via": "name",
+      "evidence": "Active Aero"
+    },
+    {
+      "code": "SRP8-093",
+      "via": "name",
+      "evidence": "Air conditioning function"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 30.1
+}

@@ -1,0 +1,10 @@
+{
+  "project_id": "SRP8-018",
+  "project_name": "Energy Control",
+  "primary_department": "Energy Systems",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-90",
+    "ADR-90"
+  ]
+}

@@ -1,0 +1,15 @@
+Interface 1-3: Cooling of bonnet, exterior surfaces and battery will not be done through the ventilation system as they are not directly related to this project. 
+
+Interface 4:  Battery and Motor Cooling are a byproduct of a successful ventilation system due to the positive airflow resulting in condenser and radiator cooling which is directly related to cooling of BAT and PWT.  
+
+Interface 5: front brakes will be cooled through the diffusion from the rear section. 
+
+Interface 6: Not relevant to the ventilation project. 
+
+Interface 7: Junction box is not relevant to the ventilation project. 
+
+Interface 8: Air conditioning function is related to condenser cooling and thus relevant to the ventilation project. 
+
+Interface 9: Perf Ops can be measured through MFR of front diffuser section. 
+
+Interface 10: Active Aero directly related to the inlet flow rate and demand. 

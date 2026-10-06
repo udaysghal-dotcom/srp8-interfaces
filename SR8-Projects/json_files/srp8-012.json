@@ -1,0 +1,13 @@
+{
+  "project_id": "SRP8-012",
+  "project_name": "Headlights",
+  "primary_department": "Embedded Systems",
+  "secondary_department": "Chassis & Bodywork",
+  "adrs": [
+    "ADR-13",
+    "ADR-76",
+    "ADR-46",
+    "ADR-92",
+    "ADR-06"
+  ]
+}

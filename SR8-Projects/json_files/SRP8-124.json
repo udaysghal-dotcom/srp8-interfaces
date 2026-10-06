@@ -1,0 +1,10 @@
+{
+  "project_id": "SRP8-124",
+  "project_name": "Hydrogen Energy System",
+  "primary_department": "Alternative Energies",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-109",
+    "ADR-109"
+  ]
+}

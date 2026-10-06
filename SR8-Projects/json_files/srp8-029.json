@@ -1,0 +1,14 @@
+{
+  "project_id": "SRP8-029",
+  "project_name": "Driver Display",
+  "primary_department": "Interior",
+  "secondary_department": "Embedded Systems",
+  "adrs": [
+    "ADR-42",
+    "ADR-18",
+    "ADR-18",
+    "ADR-31",
+    "ADR-90",
+    "ADR-90"
+  ]
+}

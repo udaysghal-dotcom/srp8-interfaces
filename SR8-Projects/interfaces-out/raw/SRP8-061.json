@@ -1,0 +1,56 @@
+{
+  "project_id": "SRP8-061",
+  "project_name": "Telemetry",
+  "source_file": "srp8-061-text.txt",
+  "text_sha256": "84148d24b8bb185311b7e94dcab1b02e7921d536f502e0d87b132a4f63a56563",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-054",
+      "code": "SRP8-054",
+      "text_before": "Performance Optimisation System",
+      "text_after": "To provide real-time data for performance analysis",
+      "corrected_to": null,
+      "final": "SRP8-054"
+    },
+    {
+      "written": "SRP8-102",
+      "code": "SRP8-102",
+      "text_before": "Sunswift Phone App",
+      "text_after": "To provide real-time data visualisation and control for consumers",
+      "corrected_to": null,
+      "final": "SRP8-102"
+    },
+    {
+      "written": "SRP8-059",
+      "code": "SRP8-059",
+      "text_before": "Sensors",
+      "text_after": "Physical sensors on the vehicle that the telemetry aims to interface with, and r",
+      "corrected_to": null,
+      "final": "SRP8-059"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-054",
+    "SRP8-102"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-059",
+        "evidence": "Sensors (SRP8-059): Physical sensors on the vehicle"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-059",
+      "via": "regex",
+      "evidence": "Sensors (SRP8-059): Physical sensors on the vehicle"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 15.5
+}

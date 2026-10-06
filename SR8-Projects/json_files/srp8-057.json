@@ -1,0 +1,11 @@
+{
+  "project_id": "SRP8-057",
+  "project_name": "Horn",
+  "primary_department": "Embedded Systems",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-94",
+    "ADR-02",
+    "ADR-02"
+  ]
+}

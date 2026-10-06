@@ -1,0 +1,5 @@
+Performance Optimisation System (SRP8-054): To provide real-time data for performance analysis. 
+
+Sunswift Phone App (SRP8-102): To provide real-time data visualisation and control for consumers. 
+
+Sensors (SRP8-059): Physical sensors on the vehicle that the telemetry aims to interface with, and receive information from publishers 

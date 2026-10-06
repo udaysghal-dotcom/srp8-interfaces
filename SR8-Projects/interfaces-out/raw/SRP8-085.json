@@ -1,0 +1,73 @@
+{
+  "project_id": "SRP8-085",
+  "project_name": "NVH",
+  "source_file": "srp8-085-text.txt",
+  "text_sha256": "11035f7e42a3a0aca02a1e69f4500f47c46c740b12cfa53451bc3f5b84c72e50",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-065",
+        "evidence": "occupation cell"
+      },
+      {
+        "code": "SRP8-192",
+        "evidence": "interior floor"
+      },
+      {
+        "code": "SRP8-010",
+        "evidence": "HVAC (Heating, ventilation and air conditioning)"
+      },
+      {
+        "code": "SRP8-084",
+        "evidence": "audio"
+      },
+      {
+        "code": "SRP8-066",
+        "evidence": "crash structures"
+      },
+      {
+        "code": "SRP8-064",
+        "evidence": "wiring"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-010",
+      "via": "name",
+      "evidence": "HVAC (Heating, ventilation and air conditioning)"
+    },
+    {
+      "code": "SRP8-064",
+      "via": "name",
+      "evidence": "wiring"
+    },
+    {
+      "code": "SRP8-065",
+      "via": "name",
+      "evidence": "occupation cell"
+    },
+    {
+      "code": "SRP8-066",
+      "via": "name",
+      "evidence": "crash structures"
+    },
+    {
+      "code": "SRP8-084",
+      "via": "name",
+      "evidence": "audio"
+    },
+    {
+      "code": "SRP8-192",
+      "via": "name",
+      "evidence": "interior floor"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 28.8
+}

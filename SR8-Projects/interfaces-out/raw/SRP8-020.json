@@ -1,0 +1,132 @@
+{
+  "project_id": "SRP8-020",
+  "project_name": "Solar Array",
+  "source_file": "srp8-020-text.txt",
+  "text_sha256": "ab5f6bf2af4477d2cf23f460f592f4eb6365447098f310043f8200d6b0565356",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP-004",
+      "code": "SRP8-004",
+      "text_before": "Boot",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-004"
+    },
+    {
+      "written": "SRP-005",
+      "code": "SRP8-005",
+      "text_before": "Bonnet",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-005"
+    },
+    {
+      "written": "SRP-006",
+      "code": "SRP8-006",
+      "text_before": "Exterior Design",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-006"
+    },
+    {
+      "written": "SRP-019",
+      "code": "SRP8-019",
+      "text_before": "MPPTs",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-019"
+    },
+    {
+      "written": "SRP-027",
+      "code": "SRP8-027",
+      "text_before": "Ceiling",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-027"
+    },
+    {
+      "written": "SRP-017",
+      "code": "SRP8-017",
+      "text_before": "ECS",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-017"
+    },
+    {
+      "written": "SRP-018",
+      "code": "SRP8-018",
+      "text_before": "AUXBAT",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-018"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-006"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-004",
+        "evidence": "Boot SRP-004"
+      },
+      {
+        "code": "SRP8-005",
+        "evidence": "Bonnet SRP-005"
+      },
+      {
+        "code": "SRP8-019",
+        "evidence": "MPPTs SRP-019"
+      },
+      {
+        "code": "SRP8-027",
+        "evidence": "Ceiling SRP-027"
+      },
+      {
+        "code": "SRP8-017",
+        "evidence": "ECS SRP-017"
+      },
+      {
+        "code": "SRP8-018",
+        "evidence": "AUXBAT SRP-018"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-004",
+      "via": "regex",
+      "evidence": "Boot SRP-004"
+    },
+    {
+      "code": "SRP8-005",
+      "via": "regex",
+      "evidence": "Bonnet SRP-005"
+    },
+    {
+      "code": "SRP8-017",
+      "via": "regex",
+      "evidence": "ECS SRP-017"
+    },
+    {
+      "code": "SRP8-018",
+      "via": "regex",
+      "evidence": "AUXBAT SRP-018"
+    },
+    {
+      "code": "SRP8-019",
+      "via": "regex",
+      "evidence": "MPPTs SRP-019"
+    },
+    {
+      "code": "SRP8-027",
+      "via": "regex",
+      "evidence": "Ceiling SRP-027"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 32.9
+}

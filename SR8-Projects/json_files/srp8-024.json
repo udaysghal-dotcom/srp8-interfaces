@@ -1,0 +1,9 @@
+{
+  "project_id": "SRP8-024",
+  "project_name": "Rear Vision System",
+  "primary_department": "Interior",
+  "secondary_department": "Chassis & Bodywork",
+  "adrs": [
+    "ADR-14"
+  ]
+}

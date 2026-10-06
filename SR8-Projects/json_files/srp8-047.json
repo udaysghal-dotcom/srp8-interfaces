@@ -1,0 +1,9 @@
+{
+  "project_id": "SRP8-047",
+  "project_name": "Handbrake",
+  "primary_department": "Vehicle Dynamics",
+  "secondary_department": "Interior",
+  "adrs": [
+    "ADR-31"
+  ]
+}

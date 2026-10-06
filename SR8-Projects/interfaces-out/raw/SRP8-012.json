@@ -1,0 +1,54 @@
+{
+  "project_id": "SRP8-012",
+  "project_name": "Headlights",
+  "source_file": "srp8-012-text.txt",
+  "text_sha256": "2f6dc84da4a2b131c721dba7ce99ded485f9ceaa4017b5a69c86aa2412840db3",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP-005",
+      "code": "SRP8-005",
+      "text_before": "",
+      "text_after": "Bonnet",
+      "corrected_to": null,
+      "final": "SRP8-005"
+    },
+    {
+      "written": "SRP-167",
+      "code": "SRP8-167",
+      "text_before": "",
+      "text_after": "Front Clamshell",
+      "corrected_to": null,
+      "final": "SRP8-167"
+    }
+  ],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-005",
+        "evidence": "SRP-005: Bonnet"
+      },
+      {
+        "code": "SRP8-167",
+        "evidence": "SRP-167: Front Clamshell"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-005",
+      "via": "regex",
+      "evidence": "SRP-005: Bonnet"
+    },
+    {
+      "code": "SRP8-167",
+      "via": "regex",
+      "evidence": "SRP-167: Front Clamshell"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 18.6
+}

@@ -1,0 +1,28 @@
+{
+  "project_id": "SRP8-129",
+  "project_name": "Embedded Low Level Code",
+  "source_file": "SRP8-129-text.txt",
+  "text_sha256": "a7d936ad99b2bbe98ffff5bcc51ece46fde50c9b3b6cef2d3d61ffddd0377f81",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP-104",
+      "code": "SRP8-104",
+      "text_before": "The project",
+      "text_after": "Over the Air Flashing) directly relates to this project since many dependencies ",
+      "corrected_to": null,
+      "final": "SRP8-104"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-104"
+  ],
+  "gemma_raw": {
+    "interfaces": []
+  },
+  "accepted": [],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 13.2
+}

@@ -1,0 +1,67 @@
+
+Project 
+
+Description 
+
+Department 
+
+Exterior surfaces SRP-006 
+
+Doors must be flush with exterior surfaces 
+
+CNB 
+
+Door Handles SRP-002 
+
+Door handles must latch onto the door and fit into the chassis. They must also have the same exterior surface   
+
+CNB 
+
+Occupant Cell SRP-065  
+
+Occupancy cell must have dimensions of the door in order to simulate a side impact crash.  
+
+CNB 
+
+Auxillary Systems Logic SRP-092 
+
+Connect motors for electric windows and for central locking 
+
+EMB 
+
+Electric Windows SRP-112 
+
+Window and electric window mechanism needs to be housed in the door shells  
+
+CNB 
+
+Body Panels SRP-122 
+
+The doors match body panels  
+
+CNB 
+
+Noise Vibration and Harshness SRP-085 
+
+Design of sound insulation and (if applicable) active noise cancellation. Lots of road noise comes from rubber seals between door and door panels 
+
+INT 
+
+Central Locking SRP-111 
+
+Door lock mechanism must integrate into door and be able to be controlled mechanically and electrically 
+
+EMB 
+
+Sunswift Phone App SRP-102 
+
+Control aspects of the doors like locking, self-opening, and electric windows remotely from an app 
+
+TSS 
+
+Audio SRP-084 
+
+Door speakers must be mounted to the inner shell through the door card 
+
+INT 
+

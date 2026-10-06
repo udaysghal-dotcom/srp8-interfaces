@@ -1,0 +1,275 @@
+{
+  "project_id": "SRP8-059",
+  "project_name": "Sensors",
+  "source_file": "srp8-059-text.txt",
+  "text_sha256": "87c9f7eaa1277526ad8061a26ba9ae5d05de1ff3d062f535e5dcf09229de16a6",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-001",
+      "code": "SRP8-001",
+      "text_before": "",
+      "text_after": "Doors",
+      "corrected_to": null,
+      "final": "SRP8-001"
+    },
+    {
+      "written": "SRP8-002",
+      "code": "SRP8-002",
+      "text_before": "",
+      "text_after": "Door Handles",
+      "corrected_to": null,
+      "final": "SRP8-002"
+    },
+    {
+      "written": "SRP8-011",
+      "code": "SRP8-011",
+      "text_before": "",
+      "text_after": "Taillights",
+      "corrected_to": null,
+      "final": "SRP8-011"
+    },
+    {
+      "written": "SRP8-012",
+      "code": "SRP8-012",
+      "text_before": "",
+      "text_after": "Headlights",
+      "corrected_to": null,
+      "final": "SRP8-012"
+    },
+    {
+      "written": "SRP8-022",
+      "code": "SRP8-022",
+      "text_before": "",
+      "text_after": "Steering Wheel",
+      "corrected_to": null,
+      "final": "SRP8-022"
+    },
+    {
+      "written": "SRP8-048",
+      "code": "SRP8-048",
+      "text_before": "",
+      "text_after": "Steering Column",
+      "corrected_to": null,
+      "final": "SRP8-048"
+    },
+    {
+      "written": "SRP8-034",
+      "code": "SRP8-034",
+      "text_before": "",
+      "text_after": "Front Seatbelts",
+      "corrected_to": null,
+      "final": "SRP8-034"
+    },
+    {
+      "written": "SRP8-038",
+      "code": "SRP8-038",
+      "text_before": "",
+      "text_after": "Motor",
+      "corrected_to": null,
+      "final": "SRP8-038"
+    },
+    {
+      "written": "SRP8-043",
+      "code": "SRP8-043",
+      "text_before": "",
+      "text_after": "Front Suspension",
+      "corrected_to": null,
+      "final": "SRP8-043"
+    },
+    {
+      "written": "SRP8-044",
+      "code": "SRP8-044",
+      "text_before": "",
+      "text_after": "Rear Suspension",
+      "corrected_to": null,
+      "final": "SRP8-044"
+    },
+    {
+      "written": "SRP8-050",
+      "code": "SRP8-050",
+      "text_before": "",
+      "text_after": "Front Wheels",
+      "corrected_to": null,
+      "final": "SRP8-050"
+    },
+    {
+      "written": "SRP8-051",
+      "code": "SRP8-051",
+      "text_before": "",
+      "text_after": "Rear Wheels",
+      "corrected_to": null,
+      "final": "SRP8-051"
+    },
+    {
+      "written": "SRP8-115",
+      "code": "SRP8-115",
+      "text_before": "",
+      "text_after": "Tyre Pressure Monitoring System",
+      "corrected_to": null,
+      "final": "SRP8-115"
+    },
+    {
+      "written": "SRP8-167",
+      "code": "SRP8-167",
+      "text_before": "",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-167"
+    },
+    {
+      "written": "SRP8-170",
+      "code": "SRP8-170",
+      "text_before": "",
+      "text_after": "Inertial Measurement Unit",
+      "corrected_to": null,
+      "final": "SRP8-170"
+    }
+  ],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-001",
+        "evidence": "SRP8-001 \n\nDoors"
+      },
+      {
+        "code": "SRP8-002",
+        "evidence": "SRP8-002 \n\nDoor Handles"
+      },
+      {
+        "code": "SRP8-011",
+        "evidence": "SRP8-011 \n\nTaillights"
+      },
+      {
+        "code": "SRP8-012",
+        "evidence": "SRP8-012 \n\nHeadlights"
+      },
+      {
+        "code": "SRP8-022",
+        "evidence": "SRP8-022 \n\nSteering Wheel"
+      },
+      {
+        "code": "SRP8-048",
+        "evidence": "SRP8-048 \n\nSteering Column"
+      },
+      {
+        "code": "SRP8-034",
+        "evidence": "SRP8-034 \n\nFront Seatbelts"
+      },
+      {
+        "code": "SRP8-038",
+        "evidence": "SRP8-038 \n\nMotor"
+      },
+      {
+        "code": "SRP8-043",
+        "evidence": "SRP8-043 \n\nFront Suspension"
+      },
+      {
+        "code": "SRP8-044",
+        "evidence": "SRP8-044 \n\nRear Suspension"
+      },
+      {
+        "code": "SRP8-050",
+        "evidence": "SRP8-050 \n\nFront Wheels"
+      },
+      {
+        "code": "SRP8-051",
+        "evidence": "SRP8-051 \n\nRear Wheels"
+      },
+      {
+        "code": "SRP8-115",
+        "evidence": "SRP8-115 \n\nTyre Pressure Monitoring System"
+      },
+      {
+        "code": "SRP8-167",
+        "evidence": "SRP8-167"
+      },
+      {
+        "code": "SRP8-170",
+        "evidence": "SRP8-170"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-001",
+      "via": "regex",
+      "evidence": "SRP8-001 \n\nDoors"
+    },
+    {
+      "code": "SRP8-002",
+      "via": "regex",
+      "evidence": "SRP8-002 \n\nDoor Handles"
+    },
+    {
+      "code": "SRP8-011",
+      "via": "regex",
+      "evidence": "SRP8-011 \n\nTaillights"
+    },
+    {
+      "code": "SRP8-012",
+      "via": "regex",
+      "evidence": "SRP8-012 \n\nHeadlights"
+    },
+    {
+      "code": "SRP8-022",
+      "via": "regex",
+      "evidence": "SRP8-022 \n\nSteering Wheel"
+    },
+    {
+      "code": "SRP8-034",
+      "via": "regex",
+      "evidence": "SRP8-034 \n\nFront Seatbelts"
+    },
+    {
+      "code": "SRP8-038",
+      "via": "regex",
+      "evidence": "SRP8-038 \n\nMotor"
+    },
+    {
+      "code": "SRP8-043",
+      "via": "regex",
+      "evidence": "SRP8-043 \n\nFront Suspension"
+    },
+    {
+      "code": "SRP8-044",
+      "via": "regex",
+      "evidence": "SRP8-044 \n\nRear Suspension"
+    },
+    {
+      "code": "SRP8-048",
+      "via": "regex",
+      "evidence": "SRP8-048 \n\nSteering Column"
+    },
+    {
+      "code": "SRP8-050",
+      "via": "regex",
+      "evidence": "SRP8-050 \n\nFront Wheels"
+    },
+    {
+      "code": "SRP8-051",
+      "via": "regex",
+      "evidence": "SRP8-051 \n\nRear Wheels"
+    },
+    {
+      "code": "SRP8-115",
+      "via": "regex",
+      "evidence": "SRP8-115 \n\nTyre Pressure Monitoring System"
+    },
+    {
+      "code": "SRP8-167",
+      "via": "regex",
+      "evidence": "SRP8-167"
+    },
+    {
+      "code": "SRP8-170",
+      "via": "regex",
+      "evidence": "SRP8-170"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 63.7
+}

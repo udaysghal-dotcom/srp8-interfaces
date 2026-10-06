@@ -1,0 +1,285 @@
+{
+  "project_id": "SRP8-167",
+  "project_name": "Front Structure",
+  "source_file": "SRP8-167-text.txt",
+  "text_sha256": "b8f4036c84c1f1035dbc6c5610ccdb0a2700c2f86a43e38c7f449fb3eea4cb2e",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-005",
+      "code": "SRP8-005",
+      "text_before": "",
+      "text_after": "Bonnet",
+      "corrected_to": null,
+      "final": "SRP8-005"
+    },
+    {
+      "written": "SRP8-012",
+      "code": "SRP8-012",
+      "text_before": "",
+      "text_after": "Headlights",
+      "corrected_to": null,
+      "final": "SRP8-012"
+    },
+    {
+      "written": "SRP8-013",
+      "code": "SRP8-013",
+      "text_before": "",
+      "text_after": "Indicators",
+      "corrected_to": null,
+      "final": "SRP8-013"
+    },
+    {
+      "written": "SRP8-043",
+      "code": "SRP8-043",
+      "text_before": "",
+      "text_after": "Front Suspension",
+      "corrected_to": null,
+      "final": "SRP8-043"
+    },
+    {
+      "written": "SRP8-045",
+      "code": "SRP8-045",
+      "text_before": "",
+      "text_after": "Front Brakes",
+      "corrected_to": null,
+      "final": "SRP8-045"
+    },
+    {
+      "written": "SRP8-049",
+      "code": "SRP8-049",
+      "text_before": "",
+      "text_after": "Steering Rack",
+      "corrected_to": null,
+      "final": "SRP8-049"
+    },
+    {
+      "written": "SRP8-065",
+      "code": "SRP8-065",
+      "text_before": "",
+      "text_after": "Occupant Cell",
+      "corrected_to": null,
+      "final": "SRP8-065"
+    },
+    {
+      "written": "SRP8-066",
+      "code": "SRP8-066",
+      "text_before": "",
+      "text_after": "Crash Structures",
+      "corrected_to": null,
+      "final": "SRP8-066"
+    },
+    {
+      "written": "SRP8-083",
+      "code": "SRP8-083",
+      "text_before": "",
+      "text_after": "Active Aero",
+      "corrected_to": null,
+      "final": "SRP8-083"
+    },
+    {
+      "written": "SRP8-001",
+      "code": "SRP8-001",
+      "text_before": "",
+      "text_after": "Doors",
+      "corrected_to": null,
+      "final": "SRP8-001"
+    },
+    {
+      "written": "SRP8-003",
+      "code": "SRP8-003",
+      "text_before": "",
+      "text_after": "Windscreen",
+      "corrected_to": null,
+      "final": "SRP8-003"
+    },
+    {
+      "written": "SRP8-004",
+      "code": "SRP8-004",
+      "text_before": "",
+      "text_after": "Boot",
+      "corrected_to": null,
+      "final": "SRP8-004"
+    },
+    {
+      "written": "SRP8 – 006",
+      "code": "SRP8-006",
+      "text_before": "",
+      "text_after": "Exterior Surfaces",
+      "corrected_to": null,
+      "final": "SRP8-006"
+    },
+    {
+      "written": "SRP8-010",
+      "code": "SRP8-010",
+      "text_before": "",
+      "text_after": "Ventilation",
+      "corrected_to": null,
+      "final": "SRP8-010"
+    },
+    {
+      "written": "SRP8-020",
+      "code": "SRP8-020",
+      "text_before": "",
+      "text_after": "Solar Array",
+      "corrected_to": null,
+      "final": "SRP8-020"
+    },
+    {
+      "written": "SRP8-021",
+      "code": "SRP8-021",
+      "text_before": "",
+      "text_after": "Charging",
+      "corrected_to": null,
+      "final": "SRP8-021"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-006"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-005",
+        "evidence": "Bonnet overlaps or aligns with fenders for aerodynamics"
+      },
+      {
+        "code": "SRP8-012",
+        "evidence": "Headlights mount onto or align with the fenders"
+      },
+      {
+        "code": "SRP8-013",
+        "evidence": "Indicators positioned on or near fenders for visibility"
+      },
+      {
+        "code": "SRP8-043",
+        "evidence": "Suspension components pass near or within fender openings"
+      },
+      {
+        "code": "SRP8-045",
+        "evidence": "Front brakes positioned near fender openings, influencing design"
+      },
+      {
+        "code": "SRP8-049",
+        "evidence": "Front wheels directly interface with fender openings"
+      },
+      {
+        "code": "SRP8-065",
+        "evidence": "Occupant cell structure dictates fender mounting points"
+      },
+      {
+        "code": "SRP8-066",
+        "evidence": "Crash structures integrate with fender areas for safety"
+      },
+      {
+        "code": "SRP8-083",
+        "evidence": "Active aero components impact fender design for airflow control"
+      },
+      {
+        "code": "SRP8-001",
+        "evidence": "Body panels must match"
+      },
+      {
+        "code": "SRP8-003",
+        "evidence": "Windscreen must be attached onto body panels"
+      },
+      {
+        "code": "SRP8-004",
+        "evidence": "Must match and attach securely"
+      },
+      {
+        "code": "SRP8-010",
+        "evidence": "Body panels must account for ventilation holes"
+      },
+      {
+        "code": "SRP8-020",
+        "evidence": "Body panel must account for solar array"
+      },
+      {
+        "code": "SRP8-021",
+        "evidence": "Body panel (fenders) must house charging flap and assembly"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-001",
+      "via": "regex",
+      "evidence": "Body panels must match"
+    },
+    {
+      "code": "SRP8-003",
+      "via": "regex",
+      "evidence": "Windscreen must be attached onto body panels"
+    },
+    {
+      "code": "SRP8-004",
+      "via": "regex",
+      "evidence": "Must match and attach securely"
+    },
+    {
+      "code": "SRP8-005",
+      "via": "regex",
+      "evidence": "Bonnet overlaps or aligns with fenders for aerodynamics"
+    },
+    {
+      "code": "SRP8-010",
+      "via": "regex",
+      "evidence": "Body panels must account for ventilation holes"
+    },
+    {
+      "code": "SRP8-012",
+      "via": "regex",
+      "evidence": "Headlights mount onto or align with the fenders"
+    },
+    {
+      "code": "SRP8-013",
+      "via": "regex",
+      "evidence": "Indicators positioned on or near fenders for visibility"
+    },
+    {
+      "code": "SRP8-020",
+      "via": "regex",
+      "evidence": "Body panel must account for solar array"
+    },
+    {
+      "code": "SRP8-021",
+      "via": "regex",
+      "evidence": "Body panel (fenders) must house charging flap and assembly"
+    },
+    {
+      "code": "SRP8-043",
+      "via": "regex",
+      "evidence": "Suspension components pass near or within fender openings"
+    },
+    {
+      "code": "SRP8-045",
+      "via": "regex",
+      "evidence": "Front brakes positioned near fender openings, influencing design"
+    },
+    {
+      "code": "SRP8-049",
+      "via": "regex",
+      "evidence": "Front wheels directly interface with fender openings"
+    },
+    {
+      "code": "SRP8-065",
+      "via": "regex",
+      "evidence": "Occupant cell structure dictates fender mounting points"
+    },
+    {
+      "code": "SRP8-066",
+      "via": "regex",
+      "evidence": "Crash structures integrate with fender areas for safety"
+    },
+    {
+      "code": "SRP8-083",
+      "via": "regex",
+      "evidence": "Active aero components impact fender design for airflow control"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 61.6
+}

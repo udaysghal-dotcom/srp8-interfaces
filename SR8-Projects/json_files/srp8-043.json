@@ -1,0 +1,9 @@
+{
+  "project_id": "SRP8-043",
+  "project_name": "Front Suspension",
+  "primary_department": "Vehicle Dynamics",
+  "secondary_department": "Chassis & Bodywork",
+  "adrs": [
+    "ADR-90"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "project_id": "SRP8-005",
+  "project_name": "Bonnet",
+  "primary_department": "Chassis & Bodywork",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-42",
+    "ADR-92"
+  ]
+}

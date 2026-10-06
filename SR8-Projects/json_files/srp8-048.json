@@ -1,0 +1,10 @@
+{
+  "project_id": "SRP8-048",
+  "project_name": "Steering Column",
+  "primary_department": "Vehicle Dynamics",
+  "secondary_department": "Chassis & Bodywork",
+  "adrs": [
+    "ADR-10",
+    "ADR-90"
+  ]
+}

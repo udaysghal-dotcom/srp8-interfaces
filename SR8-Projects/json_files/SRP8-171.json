@@ -1,0 +1,12 @@
+{
+  "project_id": "SRP8-171",
+  "project_name": "Rear Bumper",
+  "primary_department": "Chassis & Bodywork",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-13",
+    "ADR-47",
+    "ADR-43",
+    "ADR-43"
+  ]
+}

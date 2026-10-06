@@ -1,0 +1,268 @@
+{
+  "project_id": "SRP8-037",
+  "project_name": "Dashboard",
+  "source_file": "srp8-037-text.txt",
+  "text_sha256": "14dc7189a73fd2d66484cdedf3c8183e3e9692ebc1898de1c9c49326ddd885d1",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-001",
+      "code": "SRP8-001",
+      "text_before": "",
+      "text_after": "Doors",
+      "corrected_to": null,
+      "final": "SRP8-001"
+    },
+    {
+      "written": "SRP8-003",
+      "code": "SRP8-003",
+      "text_before": "",
+      "text_after": "Windscreen",
+      "corrected_to": null,
+      "final": "SRP8-003"
+    },
+    {
+      "written": "SRP8-010",
+      "code": "SRP8-010",
+      "text_before": "",
+      "text_after": "Ventilation",
+      "corrected_to": null,
+      "final": "SRP8-010"
+    },
+    {
+      "written": "SRP8-022",
+      "code": "SRP8-022",
+      "text_before": "",
+      "text_after": "Steering Wheel",
+      "corrected_to": null,
+      "final": "SRP8-022"
+    },
+    {
+      "written": "SRP8-023",
+      "code": "SRP8-023",
+      "text_before": "",
+      "text_after": "Interior Lights",
+      "corrected_to": null,
+      "final": "SRP8-023"
+    },
+    {
+      "written": "SRP8-024",
+      "code": "SRP8-024",
+      "text_before": "",
+      "text_after": "Rear Vision",
+      "corrected_to": null,
+      "final": "SRP8-024"
+    },
+    {
+      "written": "SRP8-025",
+      "code": "SRP8-025",
+      "text_before": "",
+      "text_after": "Side Vision",
+      "corrected_to": null,
+      "final": "SRP8-025"
+    },
+    {
+      "written": "SRP8-028",
+      "code": "SRP8-028",
+      "text_before": "",
+      "text_after": "Central Display",
+      "corrected_to": null,
+      "final": "SRP8-028"
+    },
+    {
+      "written": "SRP8-029",
+      "code": "SRP8-029",
+      "text_before": "",
+      "text_after": "Driver Display",
+      "corrected_to": null,
+      "final": "SRP8-029"
+    },
+    {
+      "written": "SRP8-032",
+      "code": "SRP8-032",
+      "text_before": "",
+      "text_after": "Front Seats",
+      "corrected_to": null,
+      "final": "SRP8-032"
+    },
+    {
+      "written": "SRP8-048",
+      "code": "SRP8-048",
+      "text_before": "",
+      "text_after": "Steering Column",
+      "corrected_to": null,
+      "final": "SRP8-048"
+    },
+    {
+      "written": "SRP8 – 055",
+      "code": "SRP8-055",
+      "text_before": "",
+      "text_after": "Internal Embedded Network",
+      "corrected_to": null,
+      "final": "SRP8-055"
+    },
+    {
+      "written": "SRP8-062",
+      "code": "SRP8-062",
+      "text_before": "",
+      "text_after": "ADAS",
+      "corrected_to": null,
+      "final": "SRP8-062"
+    },
+    {
+      "written": "SRP8-065",
+      "code": "SRP8-065",
+      "text_before": "",
+      "text_after": "Occupant Cell",
+      "corrected_to": null,
+      "final": "SRP8-065"
+    },
+    {
+      "written": "SRP8-093",
+      "code": "SRP8-093",
+      "text_before": "",
+      "text_after": "Air Conditioning",
+      "corrected_to": null,
+      "final": "SRP8-093"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-062"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-001",
+        "evidence": "SRP8-001 \n\n Doors"
+      },
+      {
+        "code": "SRP8-003",
+        "evidence": "Windscreen project members should be aware of the effects"
+      },
+      {
+        "code": "SRP8-010",
+        "evidence": "SRP8-010 \n\n Ventilation"
+      },
+      {
+        "code": "SRP8-022",
+        "evidence": "See steering column"
+      },
+      {
+        "code": "SRP8-023",
+        "evidence": "Wiring must be run from dashboard to ceiling console"
+      },
+      {
+        "code": "SRP8-024",
+        "evidence": "Wiring plan must be known to if there is a need"
+      },
+      {
+        "code": "SRP8-025",
+        "evidence": "See Rear Vision"
+      },
+      {
+        "code": "SRP8-028",
+        "evidence": "Wiring plan must be known to accommodate for connectivity"
+      },
+      {
+        "code": "SRP8-029",
+        "evidence": "Need to know wiring plans/ sizes of internal components"
+      },
+      {
+        "code": "SRP8-032",
+        "evidence": "Location + h-point needed for ergonomic testing"
+      },
+      {
+        "code": "SRP8-048",
+        "evidence": "Need to know exact location and angle of steering column"
+      },
+      {
+        "code": "SRP8-055",
+        "evidence": "Wiring plan must be known to accommodate for connectivity"
+      },
+      {
+        "code": "SRP8-065",
+        "evidence": "Requires approval for welding spots to fasten the cross car beam"
+      },
+      {
+        "code": "SRP8-093",
+        "evidence": "Prelim Air Conditioning document says vent routing is up to interior."
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-001",
+      "via": "regex",
+      "evidence": "SRP8-001 \n\n Doors"
+    },
+    {
+      "code": "SRP8-003",
+      "via": "regex",
+      "evidence": "Windscreen project members should be aware of the effects"
+    },
+    {
+      "code": "SRP8-010",
+      "via": "regex",
+      "evidence": "SRP8-010 \n\n Ventilation"
+    },
+    {
+      "code": "SRP8-022",
+      "via": "regex",
+      "evidence": "See steering column"
+    },
+    {
+      "code": "SRP8-023",
+      "via": "regex",
+      "evidence": "Wiring must be run from dashboard to ceiling console"
+    },
+    {
+      "code": "SRP8-024",
+      "via": "regex",
+      "evidence": "Wiring plan must be known to if there is a need"
+    },
+    {
+      "code": "SRP8-025",
+      "via": "regex",
+      "evidence": "See Rear Vision"
+    },
+    {
+      "code": "SRP8-028",
+      "via": "regex",
+      "evidence": "Wiring plan must be known to accommodate for connectivity"
+    },
+    {
+      "code": "SRP8-029",
+      "via": "regex",
+      "evidence": "Need to know wiring plans/ sizes of internal components"
+    },
+    {
+      "code": "SRP8-032",
+      "via": "regex",
+      "evidence": "Location + h-point needed for ergonomic testing"
+    },
+    {
+      "code": "SRP8-048",
+      "via": "regex",
+      "evidence": "Need to know exact location and angle of steering column"
+    },
+    {
+      "code": "SRP8-055",
+      "via": "regex",
+      "evidence": "Wiring plan must be known to accommodate for connectivity"
+    },
+    {
+      "code": "SRP8-065",
+      "via": "regex",
+      "evidence": "Requires approval for welding spots to fasten the cross car beam"
+    },
+    {
+      "code": "SRP8-093",
+      "via": "regex",
+      "evidence": "Prelim Air Conditioning document says vent routing is up to interior."
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 56.5
+}

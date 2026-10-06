@@ -1,0 +1,9 @@
+{
+  "project_id": "SRP8-056",
+  "project_name": "Embedded Testbed",
+  "primary_department": "Embedded Systems",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-109"
+  ]
+}

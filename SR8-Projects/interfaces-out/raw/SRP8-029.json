@@ -1,0 +1,160 @@
+{
+  "project_id": "SRP8-029",
+  "project_name": "Driver Display",
+  "source_file": "srp8-029-text.txt",
+  "text_sha256": "9e06efe1f98f3299c3515cf0defe007ae186477d5ae5848c2f1c17180a2f9ea0",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-037",
+      "code": "SRP8-037",
+      "text_before": "",
+      "text_after": "Dashboard",
+      "corrected_to": null,
+      "final": "SRP8-037"
+    },
+    {
+      "written": "SRP-028",
+      "code": "SRP8-028",
+      "text_before": "",
+      "text_after": "Central Display",
+      "corrected_to": null,
+      "final": "SRP8-028"
+    },
+    {
+      "written": "SRP-060",
+      "code": "SRP8-060",
+      "text_before": "",
+      "text_after": "FMS",
+      "corrected_to": null,
+      "final": "SRP8-060"
+    },
+    {
+      "written": "SRP8-062",
+      "code": "SRP8-062",
+      "text_before": "",
+      "text_after": "ADAS",
+      "corrected_to": null,
+      "final": "SRP8-062"
+    },
+    {
+      "written": "SRP8-059",
+      "code": "SRP8-059",
+      "text_before": "",
+      "text_after": "Sensors",
+      "corrected_to": null,
+      "final": "SRP8-059"
+    },
+    {
+      "written": "SRP8-095",
+      "code": "SRP8-095",
+      "text_before": "",
+      "text_after": "Blind Spot Monitoring",
+      "corrected_to": null,
+      "final": "SRP8-095"
+    },
+    {
+      "written": "SRP8-015",
+      "code": "SRP8-015",
+      "text_before": "",
+      "text_after": "Cruise Control",
+      "corrected_to": null,
+      "final": "SRP8-015"
+    },
+    {
+      "written": "SRP8-108",
+      "code": "SRP8-108",
+      "text_before": "",
+      "text_after": "HMI",
+      "corrected_to": null,
+      "final": "SRP8-108"
+    },
+    {
+      "written": "SRP8-055",
+      "code": "SRP8-055",
+      "text_before": "",
+      "text_after": "Internal Embedded Network",
+      "corrected_to": null,
+      "final": "SRP8-055"
+    },
+    {
+      "written": "SRP8-016",
+      "code": "SRP8-016",
+      "text_before": "",
+      "text_after": "Battery",
+      "corrected_to": null,
+      "final": "SRP8-016"
+    },
+    {
+      "written": "SRP8-121",
+      "code": "SRP8-121",
+      "text_before": "",
+      "text_after": "Cybersecurity",
+      "corrected_to": null,
+      "final": "SRP8-121"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-015",
+    "SRP8-060",
+    "SRP8-062",
+    "SRP8-095",
+    "SRP8-108",
+    "SRP8-121"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-037",
+        "evidence": "The driver display may be attached or integrated into the dashboard."
+      },
+      {
+        "code": "SRP8-028",
+        "evidence": "The information on the driver display will be relayed from the central display."
+      },
+      {
+        "code": "SRP8-059",
+        "evidence": "Sensor data will be displayed on driver display for vehicle systems data"
+      },
+      {
+        "code": "SRP8-055",
+        "evidence": "Facilitates communication between various vehicle systems to show information on the driver display."
+      },
+      {
+        "code": "SRP8-016",
+        "evidence": "Driver display could show battery charge status and range estimates."
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-016",
+      "via": "regex",
+      "evidence": "Driver display could show battery charge status and range estimates."
+    },
+    {
+      "code": "SRP8-028",
+      "via": "regex",
+      "evidence": "The information on the driver display will be relayed from the central display."
+    },
+    {
+      "code": "SRP8-037",
+      "via": "regex",
+      "evidence": "The driver display may be attached or integrated into the dashboard."
+    },
+    {
+      "code": "SRP8-055",
+      "via": "regex",
+      "evidence": "Facilitates communication between various vehicle systems to show information on the driver display."
+    },
+    {
+      "code": "SRP8-059",
+      "via": "regex",
+      "evidence": "Sensor data will be displayed on driver display for vehicle systems data"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 32.4
+}

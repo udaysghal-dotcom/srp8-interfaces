@@ -1,0 +1,73 @@
+{
+  "project_id": "SRP8-112",
+  "project_name": "Electric Windows",
+  "source_file": "srp8-112-text.txt",
+  "text_sha256": "62b622ac121d22758cbe764b41da523c2fd4680b4039c33bb5df06926d45ff81",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-001",
+      "code": "SRP8-001",
+      "text_before": "",
+      "text_after": "Doors: the electric window mechanism must interface with the door card and door ",
+      "corrected_to": null,
+      "final": "SRP8-001"
+    },
+    {
+      "written": "SRP8-002",
+      "code": "SRP8-002",
+      "text_before": "",
+      "text_after": "Door Handles: the door handles will occupy space inside the door alongside the e",
+      "corrected_to": null,
+      "final": "SRP8-002"
+    },
+    {
+      "written": "SRP8-006",
+      "code": "SRP8-006",
+      "text_before": "",
+      "text_after": "Exterior Design: the design of the windows must align with the exterior design o",
+      "corrected_to": null,
+      "final": "SRP8-006"
+    },
+    {
+      "written": "SRP8-107",
+      "code": "SRP8-107",
+      "text_before": "",
+      "text_after": "Interior Layout: wiring routing to the interior window button is not technically",
+      "corrected_to": null,
+      "final": "SRP8-107"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-006",
+    "SRP8-107"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-001",
+        "evidence": "SRP8-001 – Doors: the electric window mechanism must interface with the door card"
+      },
+      {
+        "code": "SRP8-002",
+        "evidence": "SRP8-002 – Door Handles: the door handles will occupy space inside the door"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-001",
+      "via": "regex",
+      "evidence": "SRP8-001 – Doors: the electric window mechanism must interface with the door card"
+    },
+    {
+      "code": "SRP8-002",
+      "via": "regex",
+      "evidence": "SRP8-002 – Door Handles: the door handles will occupy space inside the door"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 22.0
+}

@@ -1,0 +1,88 @@
+{
+  "project_id": "SRP8-133",
+  "project_name": "Hydrogen Fuel Cell",
+  "source_file": "SRP8-133-text.txt",
+  "text_sha256": "b3bfbda49f57c277c950d0ae2b3ed4e4bf50e015a9919fd8c58d7722ed2d524f",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP8-124",
+      "code": "SRP8-124",
+      "text_before": "",
+      "text_after": "Hydrogen Energy System",
+      "corrected_to": null,
+      "final": "SRP8-124"
+    },
+    {
+      "written": "SRP8-131",
+      "code": "SRP8-131",
+      "text_before": "",
+      "text_after": "Hydrogen Pressure Vessel",
+      "corrected_to": null,
+      "final": "SRP8-131"
+    },
+    {
+      "written": "SRP8-179",
+      "code": "SRP8-179",
+      "text_before": "",
+      "text_after": "Air Flow and Venting",
+      "corrected_to": null,
+      "final": "SRP8-179"
+    },
+    {
+      "written": "SRP8-182",
+      "code": "SRP8-182",
+      "text_before": "",
+      "text_after": "Hydrogen Electrical System",
+      "corrected_to": null,
+      "final": "SRP8-182"
+    }
+  ],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-124",
+        "evidence": "SRP8-124 Hydrogen Energy System:"
+      },
+      {
+        "code": "SRP8-131",
+        "evidence": "SRP8-131 Hydrogen Pressure Vessel:"
+      },
+      {
+        "code": "SRP8-179",
+        "evidence": "SRP8-179 Air Flow and Venting:"
+      },
+      {
+        "code": "SRP8-182",
+        "evidence": "SRP8-182 Hydrogen Electrical System:"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-124",
+      "via": "regex",
+      "evidence": "SRP8-124 Hydrogen Energy System:"
+    },
+    {
+      "code": "SRP8-131",
+      "via": "regex",
+      "evidence": "SRP8-131 Hydrogen Pressure Vessel:"
+    },
+    {
+      "code": "SRP8-179",
+      "via": "regex",
+      "evidence": "SRP8-179 Air Flow and Venting:"
+    },
+    {
+      "code": "SRP8-182",
+      "via": "regex",
+      "evidence": "SRP8-182 Hydrogen Electrical System:"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 28.1
+}

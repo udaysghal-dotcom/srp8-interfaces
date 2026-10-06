@@ -1,0 +1,10 @@
+{
+  "project_id": "SRP8-167",
+  "project_name": "Front Structure",
+  "primary_department": "Chassis & Bodywork",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-92",
+    "ADR-43"
+  ]
+}

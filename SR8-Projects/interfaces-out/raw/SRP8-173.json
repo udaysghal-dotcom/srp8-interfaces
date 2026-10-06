@@ -1,0 +1,149 @@
+{
+  "project_id": "SRP8-173",
+  "project_name": "Underbody",
+  "source_file": "SRP8-173-text.txt",
+  "text_sha256": "9ca5e0d54f80abb90b07bd9b433fb702a5740862d435796a969273fd6359e8de",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP-066",
+      "code": "SRP8-066",
+      "text_before": "Exterior surfaces",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-066"
+    },
+    {
+      "written": "SRP-001",
+      "code": "SRP8-001",
+      "text_before": "Door",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-001"
+    },
+    {
+      "written": "SRP-004",
+      "code": "SRP8-004",
+      "text_before": "Boot",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-004"
+    },
+    {
+      "written": "SRP-122",
+      "code": "SRP8-122",
+      "text_before": "Body panels",
+      "text_after": "SUPERSEDED",
+      "corrected_to": null,
+      "final": "SRP8-122"
+    },
+    {
+      "written": "SRP-021",
+      "code": "SRP8-021",
+      "text_before": "Onboard Charging",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-021"
+    },
+    {
+      "written": "SRP8-059",
+      "code": "SRP8-059",
+      "text_before": "Sensors",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-059"
+    },
+    {
+      "written": "SRP8-112",
+      "code": "SRP8-112",
+      "text_before": "Door locking",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-112"
+    },
+    {
+      "written": "SRP8-002",
+      "code": "SRP8-002",
+      "text_before": "Door Handles",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-002"
+    }
+  ],
+  "unknown_dropped": [
+    "SRP8-122"
+  ],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-066",
+        "evidence": "Exterior surfaces SRP-066"
+      },
+      {
+        "code": "SRP8-001",
+        "evidence": "Door SRP-001"
+      },
+      {
+        "code": "SRP8-004",
+        "evidence": "Boot SRP-004"
+      },
+      {
+        "code": "SRP8-021",
+        "evidence": "Onboard Charging SRP-021"
+      },
+      {
+        "code": "SRP8-059",
+        "evidence": "Sensors SRP8-059"
+      },
+      {
+        "code": "SRP8-112",
+        "evidence": "Door locking SRP8-112"
+      },
+      {
+        "code": "SRP8-002",
+        "evidence": "Door Handles SRP8-002"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-001",
+      "via": "regex",
+      "evidence": "Door SRP-001"
+    },
+    {
+      "code": "SRP8-002",
+      "via": "regex",
+      "evidence": "Door Handles SRP8-002"
+    },
+    {
+      "code": "SRP8-004",
+      "via": "regex",
+      "evidence": "Boot SRP-004"
+    },
+    {
+      "code": "SRP8-021",
+      "via": "regex",
+      "evidence": "Onboard Charging SRP-021"
+    },
+    {
+      "code": "SRP8-059",
+      "via": "regex",
+      "evidence": "Sensors SRP8-059"
+    },
+    {
+      "code": "SRP8-066",
+      "via": "regex",
+      "evidence": "Exterior surfaces SRP-066"
+    },
+    {
+      "code": "SRP8-112",
+      "via": "regex",
+      "evidence": "Door locking SRP8-112"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 34.7
+}

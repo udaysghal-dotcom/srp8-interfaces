@@ -1,0 +1,73 @@
+{
+  "project_id": "SRP8-018",
+  "project_name": "Energy Control",
+  "source_file": "srp8-018-text.txt",
+  "text_sha256": "b5c004a2ca1acd3dc95876c809b86b49f4207f4f1f6150aa6dd4bd7db2d77dc8",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-016",
+        "evidence": "Main battery voltage is routed through the rest of SR8"
+      },
+      {
+        "code": "SRP8-019",
+        "evidence": "We are dependent upon MPPT parameters in designing the protections"
+      },
+      {
+        "code": "SRP8-133",
+        "evidence": "We are dependent upon Hydrogen's electrical parameters"
+      },
+      {
+        "code": "SRP8-055",
+        "evidence": "We are dependent upon the design of the UEN"
+      },
+      {
+        "code": "SRP8-021",
+        "evidence": "Charging will be routed through the ECS"
+      },
+      {
+        "code": "SRP8-175",
+        "evidence": "ECS is dependent on vehicle states project"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-016",
+      "via": "name",
+      "evidence": "Main battery voltage is routed through the rest of SR8"
+    },
+    {
+      "code": "SRP8-019",
+      "via": "name",
+      "evidence": "We are dependent upon MPPT parameters in designing the protections"
+    },
+    {
+      "code": "SRP8-021",
+      "via": "name",
+      "evidence": "Charging will be routed through the ECS"
+    },
+    {
+      "code": "SRP8-055",
+      "via": "name",
+      "evidence": "We are dependent upon the design of the UEN"
+    },
+    {
+      "code": "SRP8-133",
+      "via": "name",
+      "evidence": "We are dependent upon Hydrogen's electrical parameters"
+    },
+    {
+      "code": "SRP8-175",
+      "via": "name",
+      "evidence": "ECS is dependent on vehicle states project"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 32.9
+}

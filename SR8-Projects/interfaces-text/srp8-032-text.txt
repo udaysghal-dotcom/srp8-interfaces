@@ -1,0 +1,40 @@
+
+Interface (Direct) 
+
+Description 
+
+Tapping Plates 
+
+The tapping plates are to be permanently bonded to the inside of the rear seat skin. Accounting for the small hole cut for the bolt, the adhesive surface will be 1910 mm2 
+
+Seat Mounts 
+
+The seat mounts be bolted to the seats via the tapping plates. M8 bolts will be used for this connection. A more detailed overview of this mounting is to be covered in the SRP8-036 detailed design report. 
+
+ 
+
+Table 2.2 – Indirect Interfaces 
+
+Interface (Indirect) 
+
+Description 
+
+Seat Belts 
+
+While the seatbelts do not directly interface with the seats, their positioning with respect to the seats is paramount. The details of this interface are pending the conclusion of the seats project, and will be completed concurrently with the seat mounts project. 
+
+Pedals 
+
+The pedal position and seat position are both chosen to increase the user height that can fit in the car while meeting ergonomics requirements. This is covered in the pedals and seat mount detailed design reports. 
+
+Steering Wheel 
+
+The driver side seat indirectly interfaces with the steering wheel. Similarly to pedals, the position of the seat is set just increase the user height that can operate the wheel within ergonomic requirements. 
+
+Centre console and Dash controls 
+
+The seat must be positioned such that the driver seat and passenger seat can easily access controls placed on the dashboard and centre console. 
+
+Door card controls 
+
+The seat must be positioned such that the driver seat and passenger seat occupants can access their respective door card controls. 

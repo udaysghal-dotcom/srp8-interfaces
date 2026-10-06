@@ -1,0 +1,46 @@
+{
+  "project_id": "SRP8-017",
+  "project_name": "Auxillary Power Distribution",
+  "source_file": "srp8-017-text.txt",
+  "text_sha256": "514969225c4e20250adf4d9833c31f11d0a8fac4479fe6098c2cbbd3ccb0cfac",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-189",
+        "evidence": "Auxiliary Battery ↔ DC-DC"
+      },
+      {
+        "code": "SRP8-133",
+        "evidence": "receiving power from the hydrogen fuel cell source"
+      },
+      {
+        "code": "SRP8-020",
+        "evidence": "receiving power from the solar system"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-020",
+      "via": "name",
+      "evidence": "receiving power from the solar system"
+    },
+    {
+      "code": "SRP8-133",
+      "via": "name",
+      "evidence": "receiving power from the hydrogen fuel cell source"
+    },
+    {
+      "code": "SRP8-189",
+      "via": "name",
+      "evidence": "Auxiliary Battery ↔ DC-DC"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 23.5
+}

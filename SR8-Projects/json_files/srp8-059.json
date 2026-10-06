@@ -1,0 +1,9 @@
+{
+  "project_id": "SRP8-059",
+  "project_name": "Sensors",
+  "primary_department": "Embedded Systems",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-109"
+  ]
+}

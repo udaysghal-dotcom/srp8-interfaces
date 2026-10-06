@@ -1,0 +1,88 @@
+{
+  "project_id": "SRP8-016",
+  "project_name": "Battery",
+  "source_file": "srp8-016-text.txt",
+  "text_sha256": "3f79fecd3b0ddadecf4090dc258e7c5981f997c2051bcd7a45f1c431294eb984",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP-017",
+      "code": "SRP8-017",
+      "text_before": "Auxiliary Battery",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-017"
+    },
+    {
+      "written": "SRP-018",
+      "code": "SRP8-018",
+      "text_before": "Electronic Control System",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-018"
+    },
+    {
+      "written": "SRP-094",
+      "code": "SRP8-094",
+      "text_before": "Thermal Management",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-094"
+    },
+    {
+      "written": "SRP-021",
+      "code": "SRP8-021",
+      "text_before": "Charging",
+      "text_after": "",
+      "corrected_to": null,
+      "final": "SRP8-021"
+    }
+  ],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-017",
+        "evidence": "Auxiliary Battery (SRP-017)"
+      },
+      {
+        "code": "SRP8-018",
+        "evidence": "Electronic Control System (SRP-018)"
+      },
+      {
+        "code": "SRP8-094",
+        "evidence": "Thermal Management (SRP-094)"
+      },
+      {
+        "code": "SRP8-021",
+        "evidence": "Charging (SRP-021)"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-017",
+      "via": "regex",
+      "evidence": "Auxiliary Battery (SRP-017)"
+    },
+    {
+      "code": "SRP8-018",
+      "via": "regex",
+      "evidence": "Electronic Control System (SRP-018)"
+    },
+    {
+      "code": "SRP8-021",
+      "via": "regex",
+      "evidence": "Charging (SRP-021)"
+    },
+    {
+      "code": "SRP8-094",
+      "via": "regex",
+      "evidence": "Thermal Management (SRP-094)"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 25.8
+}

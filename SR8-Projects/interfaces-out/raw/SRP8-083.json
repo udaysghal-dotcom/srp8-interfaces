@@ -1,0 +1,88 @@
+{
+  "project_id": "SRP8-083",
+  "project_name": "Active Aero",
+  "source_file": "srp8-083-text.txt",
+  "text_sha256": "b8d99c582679cc58da2d628632e823b23a4075f4b9032a31c8cda6738190a60a",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [
+    {
+      "written": "SRP064",
+      "code": "SRP8-064",
+      "text_before": "",
+      "text_after": "Wiring Harness",
+      "corrected_to": null,
+      "final": "SRP8-064"
+    },
+    {
+      "written": "SRP001",
+      "code": "SRP8-001",
+      "text_before": "",
+      "text_after": "Interior",
+      "corrected_to": null,
+      "final": "SRP8-001"
+    },
+    {
+      "written": "SRP018",
+      "code": "SRP8-018",
+      "text_before": "",
+      "text_after": "Energy Control System",
+      "corrected_to": null,
+      "final": "SRP8-018"
+    },
+    {
+      "written": "SRP188",
+      "code": "SRP8-188",
+      "text_before": "",
+      "text_after": "Computer",
+      "corrected_to": null,
+      "final": "SRP8-188"
+    }
+  ],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-064",
+        "evidence": "SRP064 – Wiring Harness"
+      },
+      {
+        "code": "SRP8-001",
+        "evidence": "SRP001 – Interior"
+      },
+      {
+        "code": "SRP8-018",
+        "evidence": "SRP018 – Energy Control System"
+      },
+      {
+        "code": "SRP8-188",
+        "evidence": "SRP188 – Computer"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-001",
+      "via": "regex",
+      "evidence": "SRP001 – Interior"
+    },
+    {
+      "code": "SRP8-018",
+      "via": "regex",
+      "evidence": "SRP018 – Energy Control System"
+    },
+    {
+      "code": "SRP8-064",
+      "via": "regex",
+      "evidence": "SRP064 – Wiring Harness"
+    },
+    {
+      "code": "SRP8-188",
+      "via": "regex",
+      "evidence": "SRP188 – Computer"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 26.3
+}

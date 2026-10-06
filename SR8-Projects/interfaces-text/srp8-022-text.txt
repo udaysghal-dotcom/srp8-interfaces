@@ -1,0 +1,181 @@
+1.4 Project Interfaces 
+
+Project code 
+
+Project name / description 
+
+Description of interface  
+
+Project lead 
+
+Systems liaison 
+
+SRP8-011 
+
+Tailights  
+
+The control of this function will be placed on the steering wheel (button/switch/etc) 
+
+Vinson Cai, Lachie Mackenzie 
+
+Manan Rathi 
+
+SRP8-012 
+
+Headlights 
+
+The control of this function will be placed on the steering wheel (button/switch/etc) 
+
+Lachie Mackenzie, Hamish Hunter 
+
+Manan Rathi 
+
+SRP8-013 
+
+Indicators  
+
+The control of this function will be placed on the steering wheel (button/switch/etc) 
+
+Trisha Chari, Lachie Mackenzie 
+
+Manan Rathi 
+
+SRP8-014 
+
+Regen Braking  
+
+The control of this function will be placed on the steering wheel (button/switch/etc) 
+
+James Wainwright 
+
+Shourya Saklecha 
+
+SRP8-015 
+
+Cruise Control 
+
+The control of this function will be placed on the steering wheel (button/switch/etc) 
+
+Callum Berry, Jacob Rawung 
+
+Manan Rathi 
+
+SRP8-017 
+
+Auxillary Power Distribution 
+
+Will power the subfunctions placed on the steering wheel/lighting 
+
+Alex KV 
+
+Vaishnavi Nanda Kumar 
+
+SRP8-026 
+
+Pedals 
+
+Must be positioned to allows adequate spacing for the knee 
+
+Shirley Wan 
+
+Naveen Thayyil 
+
+SRP8-029 
+
+Driver Display 
+
+Must be visible even with the steering wheel placed infront of it 
+
+TBC 
+
+Manan Rathi 
+
+SRP8-032 
+
+Front Seats 
+
+Must be positioned to allows adequate spacing for the passenger 
+
+Sebastian Williams 
+
+Naveen Thayyil 
+
+SRP8-037 
+
+Dashboard 
+
+The steering wheel will be placed near the dashboard 
+
+Yaheng Li 
+
+Indiana Brown 
+
+SRP8-048 
+
+Steering Column  
+
+The movement of the steering wheel will is. The input for this system 
+
+Zach Andrews 
+
+Diresh Roshan 
+
+SRP8-049 
+
+Steering Rack 
+
+The movement of the steering wheel will is. The input for this system 
+
+ 
+
+Zach Andrews 
+
+Diresh Roshan 
+
+SRP8-057 
+
+Horn 
+
+The control of this function will be placed on the steering wheel (button/switch/etc) 
+
+Sebastian Moore 
+
+Vaishnavi Nanda Kumar 
+
+SRP8-082 
+
+Windscreen Wipers 
+
+The control of this function will be placed on the steering wheel (button/switch/etc) 
+
+ 
+
+Indiana Brown 
+
+SRP8-084 
+
+Audio 
+
+The control of this function will be placed on the steering wheel (button/switch/etc) 
+
+Sebastian Williams 
+
+Naveen Thayyil 
+
+SRP8-098 
+
+Automated Parking 
+
+The control of this function will be placed on the steering wheel (button?) 
+
+Hank Liu 
+
+Vaishnavi Nanda Kumar 
+
+065 
+
+Occupant cell 
+
+ 
+
+Aditya Bansal 

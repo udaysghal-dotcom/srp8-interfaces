@@ -1,0 +1,73 @@
+{
+  "project_id": "SRP8-172",
+  "project_name": "Rear Support Structure",
+  "source_file": "SRP8-172-text.txt",
+  "text_sha256": "b209814a80fc9cdd016cb393e16d2ab96b0103ea70c0e8b6b3f564a8e37025e0",
+  "prompt_version": "1",
+  "model": "gemma4:12b",
+  "candidates": [],
+  "unknown_dropped": [],
+  "gemma_raw": {
+    "interfaces": [
+      {
+        "code": "SRP8-004",
+        "evidence": "Boot (hinges)"
+      },
+      {
+        "code": "SRP8-170",
+        "evidence": "Rear quarters"
+      },
+      {
+        "code": "SRP8-176",
+        "evidence": "Rear crash structure"
+      },
+      {
+        "code": "SRP8-133",
+        "evidence": "ALT hydrogen assembly"
+      },
+      {
+        "code": "SRP8-086",
+        "evidence": "PWT gearboxes"
+      },
+      {
+        "code": "SRP8-089",
+        "evidence": "VD rear wishbones and uprights"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "code": "SRP8-004",
+      "via": "name",
+      "evidence": "Boot (hinges)"
+    },
+    {
+      "code": "SRP8-086",
+      "via": "name",
+      "evidence": "PWT gearboxes"
+    },
+    {
+      "code": "SRP8-089",
+      "via": "name",
+      "evidence": "VD rear wishbones and uprights"
+    },
+    {
+      "code": "SRP8-133",
+      "via": "name",
+      "evidence": "ALT hydrogen assembly"
+    },
+    {
+      "code": "SRP8-170",
+      "via": "name",
+      "evidence": "Rear quarters"
+    },
+    {
+      "code": "SRP8-176",
+      "via": "name",
+      "evidence": "Rear crash structure"
+    }
+  ],
+  "rejected_regex": [],
+  "rejected_gemma": [],
+  "seconds": 22.5
+}

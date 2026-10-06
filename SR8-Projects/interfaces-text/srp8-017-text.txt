@@ -1,0 +1,11 @@
+1.3 Project Interfaces 
+
+Auxiliary Battery ↔ DC-DC ↔ High Voltage System — enables bidirectional power transfer between the high-voltage traction system and the auxiliary battery. 
+
+Auxiliary Battery ↔ Electrical Control System (48V) — responsible for safely distributing 48V power to vehicle loads (TMS & embedded electronics) and receiving power from the solar system. 
+
+Auxiliary Battery ↔ DC-DC ↔ 12V Bus — steps down auxiliary battery voltage to supply the vehicle's 12V electrical bus, while also receiving power from the hydrogen fuel cell source.  
+
+Auxiliary Battery ↔ 48V Trickle Charger — provides a low-current 48V charge path to maintain the auxiliary battery state of charge during periods of inactivity.  
+
+AUX BMS ↔ CAN 2.0A Bus — manages and transmits SOC, SOH, and battery diagnostics to the vehicle's CAN2.0A communication network. 

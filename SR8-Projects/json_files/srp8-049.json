@@ -1,0 +1,10 @@
+{
+  "project_id": "SRP8-049",
+  "project_name": "Steering Rack",
+  "primary_department": "Vehicle Dynamics",
+  "secondary_department": "Chassis & Bodywork",
+  "adrs": [
+    "ADR-90",
+    "ADR-43"
+  ]
+}

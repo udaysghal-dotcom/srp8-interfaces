@@ -1,0 +1,61 @@
+
+Project 
+
+Description 
+
+Department 
+
+Exterior surfaces SRP-066 
+
+(PROJECT COMPLETE) 
+
+Rear quarters must be flush with exterior surfaces 
+
+CNB 
+
+Door SRP-001 
+
+(ENTIRE ASSEMBLY) 
+
+The rear quarters will he interacting the doors when it is closed 
+
+CNB 
+
+Boot SRP-004  
+
+The boot hinges will be mounted directly to the rear quarters. 
+
+CNB 
+
+Body panels SRP-122 (SUPERSEDED) 
+
+The rear quarters must match the surrounding body panels  
+
+CNB 
+
+Onboard Charging SRP-021 
+
+(POST PROCESSING) 
+
+Charging port to be situated on LHS rear quarter to accommodate kerbside parking 
+
+ENS 
+
+Sensors SRP8-059 
+
+ 
+
+(sonar, positioning, irradiance) 
+
+Several sensors (no-description) are to be situated alongside the front and side profiles of the car. Exact locations are yet to be confirmed. 
+
+EMB 
+
+Door locking SRP8-112 | Door Handles SRP8-002 
+
+(POST PROCESSING) 
+
+Rear quarter must provide sufficient space for locking and latch assemblies) 
+
+C&B / 
+

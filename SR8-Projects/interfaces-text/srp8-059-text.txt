@@ -1,0 +1,78 @@
+
+SRP8-001 
+
+Doors 
+
+Sensors to detect like if someone’s arm is being pinched for the windows  
+
+Sensors to detect if the door is closed or open  
+
+SRP8-002 
+
+Door Handles 
+
+SRP8-011 
+
+Taillights 
+
+Sensor to activate automatically during night, such as an ambient light sensor.  
+
+SRP8-012 
+
+Headlights 
+
+SRP8-022 
+
+Steering Wheel 
+
+Steering angle sensor. 
+
+SRP8-048 
+
+Steering Column 
+
+SRP8-034 
+
+Front Seatbelts 
+
+Sensor to detect if the seatbelts are fastened. 
+
+SRP8-038 
+
+Motor 
+
+Implementation of motor speed sensor. 
+
+SRP8-043 
+
+Front Suspension 
+
+Suspension depth sensors. 
+
+SRP8-044 
+
+Rear Suspension 
+
+SRP8-050 
+
+Front Wheels 
+
+Wheel speed encoders to read RPM data for telemetry purposes. 
+
+SRP8-051 
+
+Rear Wheels 
+
+SRP8-115 
+
+Tyre Pressure Monitoring System 
+
+Sensors to measure tyre pressure. 
+
+SRP8-167 
+SRP8-170 
+
+Inertial Measurement Unit 
+
+Sensors with 6 DoF, used to measure angular velocity and linear acceleration 
+

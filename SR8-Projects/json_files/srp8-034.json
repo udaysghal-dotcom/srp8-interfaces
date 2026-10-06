@@ -1,0 +1,12 @@
+{
+  "project_id": "SRP8-034",
+  "project_name": "Front Seatbelts",
+  "primary_department": "Interior",
+  "secondary_department": null,
+  "adrs": [
+    "ADR-04",
+    "ADR-05",
+    "ADR-69",
+    "ADR-42"
+  ]
+}

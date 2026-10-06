@@ -1,0 +1,11 @@
+{
+  "project_id": "SRP8-111",
+  "project_name": "Central Locking",
+  "primary_department": "Embedded Systems",
+  "secondary_department": "Vehicle Dynamics",
+  "adrs": [
+    "ADR-25",
+    "ADR-42",
+    "ADR-02"
+  ]
+}

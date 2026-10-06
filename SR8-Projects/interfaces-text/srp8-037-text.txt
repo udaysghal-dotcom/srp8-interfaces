@@ -1,0 +1,112 @@
+Project Number 
+
+Project Name 
+
+Interface Requirements 
+
+SRP8-001 
+
+Doors 
+
+n/a  
+
+SRP8-003 
+
+Windscreen 
+
+Windscreen project members should be aware of the effects of the weight/mounting of the dashboard to the chassis near the windscreen, and potential bending/ fracture dangers.  
+
+SRP8-010 
+
+Ventilation 
+
+n/a 
+
+SRP8-022 
+
+Steering Wheel 
+
+See steering column 
+
+SRP8-023 
+
+Interior Lights 
+
+Wiring must be run from dashboard to ceiling console, as well as holes left in the dashboard to allow space for dashboard lights and pedal lights.  
+
+SRP8-024 
+
+Rear Vision 
+
+Wiring plan must be known to if there is a need to accommodate holes for wiring to be run from dashboard to rear vision for driver display.  
+
+SRP8-025 
+
+Side Vision 
+
+See Rear Vision 
+
+SRP8-028 
+
+Central Display 
+
+Wiring plan must be known to accommodate for connectivity between central display and driver display 
+
+SRP8-029 
+
+Driver Display 
+
+Need to know wiring plans/ sizes of internal components and their specific configurations so that  
+
+SRP8-032 
+
+Front Seats 
+
+Location + h-point needed for ergonomic testing  
+
+SRP8-048 
+
+Steering Column 
+
+Need to know exact location and angle of steering column so that enough space is allocated for it, and an appropriate housing can be designed for it to be integrated into the dashboard 
+
+ 
+
+SRP8 – 055 
+
+Internal Embedded Network 
+
+Wiring plan must be known to accommodate for connectivity  
+
+SRP8-062 
+
+ADAS 
+
+n/a 
+
+ 
+
+SRP8-065 
+
+Occupant Cell 
+
+Requires approval for welding spots to fasten the cross car beam to the sides and front of the OC 
+
+SRP8-093 
+
+Air Conditioning 
+
+Prelim Air Conditioning document says vent routing is up to interior. 
+
+The recirculation inlet and all the outlet vents are integrated into the front of the dashboard (close to the driver) for interior air conditioning. Larger components such as the blower, evaporator and condenser will be supported by a shelf on the inside of the dashboard structure/skeleton according to their vent configurations.  
+
+Additionally, vent sizes and specifications need to be confirmed to reserve spaces for holes into the dashboard to allow the airvents to function. 
+
+ 
+
+ 
+
+ 
+
+(Approximate Air Vent Routing) 
+

@@ -1,0 +1,15 @@
+Structural/Mechanical Integration 
+
+Interaction with chassis, interior door panels, occupation cell and interior floor. Sound dampening materials must be securely attached to the floor of the interior without interfering with wiring, fasteners or mounting points of other interior components. Materials must be pre-cut to fit existing interior contours, ensuring a seamless fit without excess bulk or loose-ends. Adhesive strips, Velcro or clips will be used for fastening material, allowing for easy replacement and minimises the impact on other interior components. 
+
+Acoustic Performance & Cabin-flow Interaction 
+
+Interaction with HVAC (Heating, ventilation and air conditioning) & speaker system. Sound dampening materials must be placed in non-airflow obstruction zones to maintain cabin ventilation. Sound dampening should also not interfere with audio and should allow for optimal sound clarity inside the cabin. Perforations can be used to improve airflow whilst also reducing noise.  
+
+Thermal and Electrical Interaction 
+
+Interaction with electrical cables and wiring. Sound dampening materials must be non-conductive, and heat resistant at high temperatures. Materials should not overlap wiring/cabling. 
+
+Safety Interaction 
+
+Interaction with crash structures, airbags and emergency exits. Sound dampening material should not interfere with airbag deployment zones. Material should maintain crumple zone functionality, ensuring materials compress without interfering with energy adsorption. 

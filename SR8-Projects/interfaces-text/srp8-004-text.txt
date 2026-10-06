@@ -1,0 +1,9 @@
+1.4 Project Interfaces 
+
+SRP-006 - Exterior surfaces (Project is frozen now) 
+
+SRP-011 – Taillights (Need CAD for recess geometry as the taillights are mounted to the lip of the boot panel) 
+
+SRP-020 – Solar (Panel configuration and recessing depth, margin, is needed for detailed design) 
+
+SRP-122 – Body Panels (sealing against rear support structure) 
