@@ -20,12 +20,16 @@ Once every project has a result, ``write`` makes links symmetric, applies the
 overrides and gives each project JSON an ``"interfaces"`` array. Every command
 refreshes the review report at ``interfaces-out/report.md``.
 
+``text-clear`` asks for confirmation, then empties every ``.txt`` file in
+``interfaces-text``. The files stay in the folder.
+
 Usage:
     python3 extract_interfaces.py status
     python3 extract_interfaces.py run SRP8-186 [SRP8-130 ...] [--force]
     python3 extract_interfaces.py next [--count 3]
     python3 extract_interfaces.py report
     python3 extract_interfaces.py write
+    python3 extract_interfaces.py text-clear
 """
 
 from __future__ import annotations
@@ -711,6 +715,44 @@ def command_write(context: Context, args: argparse.Namespace) -> None:
     print(f"Wrote report to {REPORT_PATH}")
 
 
+def text_files_in_dir() -> list[Path]:
+    if not TEXT_DIR.is_dir():
+        return []
+    return sorted(
+        path
+        for path in TEXT_DIR.iterdir()
+        if path.is_file() and not path.name.startswith(".") and path.suffix.lower() == ".txt"
+    )
+
+
+def confirm_text_clear() -> bool:
+    """Return True only when the user answers y. n cancels. Anything else is asked again."""
+    while True:
+        try:
+            answer = input("Clear the contents of every text file in interfaces-text? [y/n] ").strip().lower()
+        except EOFError:
+            print()
+            print("Cancelled.")
+            return False
+        if answer == "y":
+            return True
+        if answer == "n":
+            print("Cancelled.")
+            return False
+        print("Please answer y or n.")
+
+
+def command_text_clear(context: Context, args: argparse.Namespace) -> None:
+    files = text_files_in_dir()
+    if not confirm_text_clear():
+        return
+    for path in files:
+        path.write_text("", encoding="utf-8")
+        print(f"Cleared {path.name}")
+    print(f"Cleared {len(files)} text file(s) in {TEXT_DIR.name}. The files were kept.")
+    cache_empty_projects(context.registry, context.text_files)
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     commands = parser.add_subparsers(dest="command", required=True)
@@ -734,6 +776,10 @@ def parse_args() -> argparse.Namespace:
     commands.add_parser(
         "write", help="Symmetrise, apply overrides and write interfaces into json_files (needs every project done)"
     ).set_defaults(handler=command_write)
+    commands.add_parser(
+        "text-clear",
+        help="Empty every text file in interfaces-text after confirmation (files are kept)",
+    ).set_defaults(handler=command_text_clear)
     return parser.parse_args()
 
 
