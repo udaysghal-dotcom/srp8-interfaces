@@ -3,5 +3,9 @@
   "project_name": "Thermal Management Control System",
   "primary_department": "Embedded Systems",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-016",
+    "SRP8-018"
+  ]
 }

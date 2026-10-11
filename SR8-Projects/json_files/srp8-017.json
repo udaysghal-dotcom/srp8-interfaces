@@ -3,5 +3,16 @@
   "project_name": "Auxillary Power Distribution",
   "primary_department": "Energy Systems",
   "secondary_department": "Energy Systems",
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-011",
+    "SRP8-018",
+    "SRP8-020",
+    "SRP8-022",
+    "SRP8-026",
+    "SRP8-059",
+    "SRP8-077",
+    "SRP8-133",
+    "SRP8-189"
+  ]
 }

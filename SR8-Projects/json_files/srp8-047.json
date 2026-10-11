@@ -5,5 +5,8 @@
   "secondary_department": "Interior",
   "adrs": [
     "ADR-31"
+  ],
+  "interfaces": [
+    "SRP8-130"
   ]
 }

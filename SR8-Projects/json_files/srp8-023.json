@@ -3,5 +3,11 @@
   "project_name": "Interior Lights",
   "primary_department": "Interior",
   "secondary_department": "Embedded Systems",
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-003",
+    "SRP8-027",
+    "SRP8-037",
+    "SRP8-130"
+  ]
 }

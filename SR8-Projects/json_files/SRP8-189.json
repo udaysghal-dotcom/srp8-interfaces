@@ -3,5 +3,10 @@
   "project_name": "Bidirectional DCDC",
   "primary_department": "Energy Systems",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-016",
+    "SRP8-017",
+    "SRP8-018"
+  ]
 }

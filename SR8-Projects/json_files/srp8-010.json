@@ -3,5 +3,13 @@
   "project_name": "Ventilation",
   "primary_department": "Chassis & Bodywork",
   "secondary_department": "Energy Systems",
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-037",
+    "SRP8-066",
+    "SRP8-083",
+    "SRP8-093",
+    "SRP8-094",
+    "SRP8-167"
+  ]
 }

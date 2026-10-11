@@ -3,5 +3,10 @@
   "project_name": "Telemetry",
   "primary_department": "Technical Support Systems",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-059",
+    "SRP8-130",
+    "SRP8-132"
+  ]
 }

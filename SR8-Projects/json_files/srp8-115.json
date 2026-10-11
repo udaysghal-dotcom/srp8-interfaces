@@ -3,5 +3,11 @@
   "project_name": "Tyre Pressure Monitoring System",
   "primary_department": "Vehicle Dynamics",
   "secondary_department": "Embedded Systems",
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-050",
+    "SRP8-051",
+    "SRP8-059",
+    "SRP8-130"
+  ]
 }

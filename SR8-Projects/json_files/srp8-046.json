@@ -6,5 +6,11 @@
   "adrs": [
     "ADR-31",
     "ADR-42"
+  ],
+  "interfaces": [
+    "SRP8-026",
+    "SRP8-059",
+    "SRP8-089",
+    "SRP8-099"
   ]
 }

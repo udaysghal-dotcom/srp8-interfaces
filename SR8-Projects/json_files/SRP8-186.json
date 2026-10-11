@@ -3,5 +3,9 @@
   "project_name": "Hydrogen Control System",
   "primary_department": "Embedded Systems",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-124",
+    "SRP8-182"
+  ]
 }

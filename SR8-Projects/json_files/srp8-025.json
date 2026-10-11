@@ -3,5 +3,11 @@
   "project_name": "Side Vision System",
   "primary_department": "Interior",
   "secondary_department": "Chassis & Bodywork",
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-037",
+    "SRP8-092",
+    "SRP8-130",
+    "SRP8-132"
+  ]
 }

@@ -3,5 +3,8 @@
   "project_name": "Trip Energy Prediction",
   "primary_department": "Technical Support Systems",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-132"
+  ]
 }

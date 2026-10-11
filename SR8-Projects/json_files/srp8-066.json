@@ -3,5 +3,14 @@
   "project_name": "Front Crash Structures",
   "primary_department": "Chassis & Bodywork",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-005",
+    "SRP8-010",
+    "SRP8-012",
+    "SRP8-065",
+    "SRP8-167",
+    "SRP8-170",
+    "SRP8-173"
+  ]
 }

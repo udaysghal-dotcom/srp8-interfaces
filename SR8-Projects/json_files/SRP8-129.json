@@ -3,5 +3,10 @@
   "project_name": "Embedded Low Level Code",
   "primary_department": "Embedded Systems",
   "secondary_department": "Vehicle Dynamics",
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-050",
+    "SRP8-055",
+    "SRP8-056"
+  ]
 }

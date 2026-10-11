@@ -3,5 +3,10 @@
   "project_name": "MPPTs",
   "primary_department": "Energy Systems",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-018",
+    "SRP8-020",
+    "SRP8-130"
+  ]
 }

@@ -3,5 +3,22 @@
   "project_name": "Auxiliary Systems Logic",
   "primary_department": "Embedded Systems",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-001",
+    "SRP8-002",
+    "SRP8-011",
+    "SRP8-012",
+    "SRP8-013",
+    "SRP8-014",
+    "SRP8-024",
+    "SRP8-025",
+    "SRP8-028",
+    "SRP8-029",
+    "SRP8-057",
+    "SRP8-082",
+    "SRP8-084",
+    "SRP8-093",
+    "SRP8-111"
+  ]
 }

@@ -5,5 +5,11 @@
   "secondary_department": "Powertrain",
   "adrs": [
     "ADR-109"
+  ],
+  "interfaces": [
+    "SRP8-014",
+    "SRP8-039",
+    "SRP8-099",
+    "SRP8-130"
   ]
 }

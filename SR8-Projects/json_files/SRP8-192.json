@@ -3,5 +3,6 @@
   "project_name": "Interior Floor Lining",
   "primary_department": "Interior",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": []
 }

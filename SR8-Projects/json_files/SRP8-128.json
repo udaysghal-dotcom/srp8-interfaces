@@ -3,5 +3,8 @@
   "project_name": "ABS Brakes",
   "primary_department": "Embedded Systems",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-130"
+  ]
 }

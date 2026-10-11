@@ -3,5 +3,10 @@
   "project_name": "Hydrogen Power Electronics System",
   "primary_department": "Energy Systems",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-133",
+    "SRP8-172",
+    "SRP8-186"
+  ]
 }

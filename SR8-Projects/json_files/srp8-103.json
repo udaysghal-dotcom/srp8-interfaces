@@ -3,5 +3,6 @@
   "project_name": "Embedded Standard Low Level Circuitry",
   "primary_department": "Embedded Systems",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": []
 }

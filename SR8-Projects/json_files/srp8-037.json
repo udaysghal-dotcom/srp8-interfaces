@@ -5,5 +5,21 @@
   "secondary_department": null,
   "adrs": [
     "ADR-21"
+  ],
+  "interfaces": [
+    "SRP8-001",
+    "SRP8-003",
+    "SRP8-010",
+    "SRP8-022",
+    "SRP8-023",
+    "SRP8-024",
+    "SRP8-025",
+    "SRP8-028",
+    "SRP8-029",
+    "SRP8-032",
+    "SRP8-048",
+    "SRP8-055",
+    "SRP8-065",
+    "SRP8-093"
   ]
 }

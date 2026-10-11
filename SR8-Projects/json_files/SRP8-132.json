@@ -3,5 +3,23 @@
   "project_name": "Infotainment",
   "primary_department": "Technical Support Systems",
   "secondary_department": "Embedded Systems",
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-011",
+    "SRP8-012",
+    "SRP8-013",
+    "SRP8-022",
+    "SRP8-024",
+    "SRP8-025",
+    "SRP8-028",
+    "SRP8-029",
+    "SRP8-034",
+    "SRP8-039",
+    "SRP8-055",
+    "SRP8-061",
+    "SRP8-083",
+    "SRP8-101",
+    "SRP8-130",
+    "SRP8-175"
+  ]
 }

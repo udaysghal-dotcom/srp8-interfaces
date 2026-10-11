@@ -5,5 +5,17 @@
   "secondary_department": "Chassis & Bodywork",
   "adrs": [
     "ADR-109"
+  ],
+  "interfaces": [
+    "SRP8-014",
+    "SRP8-018",
+    "SRP8-021",
+    "SRP8-029",
+    "SRP8-038",
+    "SRP8-039",
+    "SRP8-065",
+    "SRP8-094",
+    "SRP8-187",
+    "SRP8-189"
   ]
 }

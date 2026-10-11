@@ -3,5 +3,9 @@
   "project_name": "Rear Suspension",
   "primary_department": "Vehicle Dynamics",
   "secondary_department": "Chassis & Bodywork",
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-059",
+    "SRP8-172"
+  ]
 }

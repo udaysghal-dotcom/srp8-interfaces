@@ -3,5 +3,12 @@
   "project_name": "Rear Uprights",
   "primary_department": "Vehicle Dynamics",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-043",
+    "SRP8-046",
+    "SRP8-051",
+    "SRP8-086",
+    "SRP8-172"
+  ]
 }

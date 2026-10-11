@@ -3,5 +3,8 @@
   "project_name": "Computer",
   "primary_department": "Embedded Systems",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-084"
+  ]
 }

@@ -3,5 +3,14 @@
   "project_name": "Audio",
   "primary_department": "Embedded Systems",
   "secondary_department": "Interior",
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-001",
+    "SRP8-018",
+    "SRP8-022",
+    "SRP8-064",
+    "SRP8-092",
+    "SRP8-130",
+    "SRP8-188"
+  ]
 }

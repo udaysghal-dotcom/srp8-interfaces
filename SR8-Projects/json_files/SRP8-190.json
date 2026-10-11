@@ -3,5 +3,8 @@
   "project_name": "Centre Console",
   "primary_department": "Interior",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-032"
+  ]
 }

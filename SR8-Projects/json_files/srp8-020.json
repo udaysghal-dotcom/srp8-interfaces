@@ -3,5 +3,14 @@
   "project_name": "Solar Array",
   "primary_department": "Energy Systems",
   "secondary_department": "Chassis & Bodywork",
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-004",
+    "SRP8-005",
+    "SRP8-017",
+    "SRP8-018",
+    "SRP8-019",
+    "SRP8-027",
+    "SRP8-167"
+  ]
 }

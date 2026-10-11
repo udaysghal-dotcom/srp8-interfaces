@@ -8,5 +8,8 @@
     "ADR-47",
     "ADR-43",
     "ADR-43"
+  ],
+  "interfaces": [
+    "SRP8-174"
   ]
 }

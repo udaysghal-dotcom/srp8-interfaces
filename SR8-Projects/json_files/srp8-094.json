@@ -3,5 +3,16 @@
   "project_name": "Thermal management",
   "primary_department": "Chassis & Bodywork",
   "secondary_department": null,
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-010",
+    "SRP8-016",
+    "SRP8-021",
+    "SRP8-038",
+    "SRP8-039",
+    "SRP8-065",
+    "SRP8-083",
+    "SRP8-093",
+    "SRP8-130"
+  ]
 }

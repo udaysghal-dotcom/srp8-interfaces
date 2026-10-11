@@ -5,5 +5,34 @@
   "secondary_department": null,
   "adrs": [
     "ADR-109"
+  ],
+  "interfaces": [
+    "SRP8-001",
+    "SRP8-002",
+    "SRP8-011",
+    "SRP8-012",
+    "SRP8-017",
+    "SRP8-022",
+    "SRP8-026",
+    "SRP8-029",
+    "SRP8-032",
+    "SRP8-034",
+    "SRP8-038",
+    "SRP8-043",
+    "SRP8-044",
+    "SRP8-045",
+    "SRP8-046",
+    "SRP8-048",
+    "SRP8-050",
+    "SRP8-051",
+    "SRP8-061",
+    "SRP8-082",
+    "SRP8-083",
+    "SRP8-093",
+    "SRP8-099",
+    "SRP8-115",
+    "SRP8-130",
+    "SRP8-170",
+    "SRP8-173"
   ]
 }

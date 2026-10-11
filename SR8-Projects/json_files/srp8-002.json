@@ -5,5 +5,17 @@
   "secondary_department": null,
   "adrs": [
     "ADR-92"
+  ],
+  "interfaces": [
+    "SRP8-001",
+    "SRP8-032",
+    "SRP8-059",
+    "SRP8-065",
+    "SRP8-092",
+    "SRP8-111",
+    "SRP8-112",
+    "SRP8-130",
+    "SRP8-170",
+    "SRP8-173"
   ]
 }

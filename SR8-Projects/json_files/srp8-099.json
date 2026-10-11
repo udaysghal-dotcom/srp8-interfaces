@@ -3,5 +3,17 @@
   "project_name": "Traction Control",
   "primary_department": "Embedded Systems",
   "secondary_department": "Powertrain",
-  "adrs": []
+  "adrs": [],
+  "interfaces": [
+    "SRP8-011",
+    "SRP8-029",
+    "SRP8-045",
+    "SRP8-046",
+    "SRP8-050",
+    "SRP8-051",
+    "SRP8-058",
+    "SRP8-059",
+    "SRP8-077",
+    "SRP8-130"
+  ]
 }
